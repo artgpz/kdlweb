@@ -1,0 +1,24 @@
+packages:
+    - "apps/*"
+    - "packages/*"
+allowBuilds:
+    "@tailwindcss/oxide": false
+    esbuild: false
+    core-js: true
+    simple-git-hooks: true
+    "@parcel/watcher": true
+    cypress: true
+    djlint: true
+autoInstallPeers: true
+minimumReleaseAge: 1440
+blockExoticSubdeps: true
+
+# packageConfigs:
+#   public:
+#     engineStrict: true
+#   playground:
+#     engineStrict: true
+#   indacas:
+#     engineStrict: true
+#   "@indacas/ui":
+#     engineStrict: true

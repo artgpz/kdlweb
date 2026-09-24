@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}/"
+
+---
+
+{{ content | safe }}
+
+<ul class="list">
+  {%- for project in paginatedProjects -%}
+    <li>
+      <a href="{{ project.page.url }}">
+        <figure>
+          {%- if (project.data.feature.image) -%}
+            <img src="{{ project.data.feature.image }}"
+                 alt="{{ project.data.feature.description }}">
+          {%- else -%}
+            <img src="{{ config.paths.placeholderImage }}"
+                 alt="A blurred background featuring a swirl of blue and green hues, evoking a soft serene atmosphere. Adapted from Freepik" />
+          {%- endif -%}
+          <figcaption>{{ project.data.feature.description }}</figcaption>
+        </figure>
+      </a>
+
+      <section>
+        <a href="{{ project.page.url }}">
+          {% set showTitle = true %}
+          {%- include "partials/project.njk" -%}
+        </a>
+      </section>
+    </li>
+  {%- endfor -%}
+</ul>
+{% set label = "Projects" %}
+{% include "partials/pagination.njk" %}

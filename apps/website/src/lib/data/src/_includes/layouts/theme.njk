@@ -1,0 +1,49 @@
+---
+layout: layouts/base.njk
+---
+
+{% from "kdl/components/image/macros.njk" import imageMacro %}
+
+{% set assetsPath = config.paths.assets %}
+
+<section>
+  {% if obj.feature and obj.feature.image %}{{ imageMacro(obj.feature) }}{% endif %}
+
+  <div id="overview">
+    <p>{{ content | safe }}</p>
+  </div>
+
+  {% set themeProjects = collections.projects | getThemeProjects(obj.tags) %}
+  {% if themeProjects.length > 0 %}
+    <h2>Projects</h2>
+    <ul class="list">
+      {% for project in themeProjects %}
+        <li>
+          {% if project.data.image %}
+            <a href="{% route project.slug, 'Projects' %}">
+              {% set feature = {
+                              image: project.data.image,
+                              title: project.data.image.title,
+                              description: project.data.image.description
+                            } %}
+              {{ imageMacro(feature) }}
+            </a>
+          {%- else -%}
+            <figure class="kdl-image">
+              <img src="{{ config.paths.placeholderImage }}"
+                   alt="A blurred background featuring a swirl of blue and green hues, evoking a soft serene atmosphere. Adapted from Freepik" />
+            </figure>
+          {% endif %}
+          <section>
+            <a href="{% route project.data.slug, 'Projects' %}">
+              {% set level = 3 %}
+              {% set project = project %}
+              {% set showTitle = true %}
+              {%- include "partials/project.njk" -%}
+            </a>
+          </section>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</section>

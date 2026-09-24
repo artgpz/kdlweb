@@ -1,0 +1,20 @@
+{%- if showTitle %}
+  <h {%- if level -%}{{- level -}}{%- else -%}2{%- endif -%}>
+  {{- project.data.title | safe -}}
+  </h {%- if level -%}{{- level -}}{%- else -%}2{%- endif -%}>
+{%- endif -%}
+
+{% if project.data.departments.length > 0 %}
+  <p>
+    {%- for department in project.data.departments %}
+      {% set organisation = department %}
+      {% include "partials/organisation.njk" %}
+      {%- if not loop.last -%},
+      {% endif -%}
+    {% endfor %}
+  </p>
+{% endif %}
+{% if project.data.foundingDate %}
+  {% set obj = project.data %}
+  <p>{% include "partials/dates.njk" %}</p>
+{% endif %}

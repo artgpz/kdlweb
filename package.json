@@ -31,9 +31,10 @@
 		"format:njk": "djlint frontend/src --reformat --profile=nunjucks --extension=njk",
 		"etl:clickup": "npm run -w etl clickup-to-md -- 1004",
 		"frontend:test": "start-server-and-test frontend:dev http://localhost:8080 cy:run",
-		"frontend:dev": "npm run -w frontend dev",
+		"frontend:dev": "pnpm run dev",
 		"cy": "cypress open",
-		"cy:run": "cypress run"
+		"cy:run": "cypress run",
+		"dev": "pnpm run --parallel dev"
 	},
 	"devDependencies": {
 		"@babel/eslint-parser": "^7.18.2",
