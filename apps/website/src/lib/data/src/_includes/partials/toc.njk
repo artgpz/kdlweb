@@ -1,7 +1,0 @@
-{% set toc = content | asToc(tocTags) %}
-{%- if toc -%}
-  <aside>
-    <h2>Table of contents</h2>
-    {{ toc | safe }}
-  </aside>
-{%- endif -%}
