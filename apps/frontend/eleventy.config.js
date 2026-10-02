@@ -1,7 +1,8 @@
 import markdownItImplicitFigures from "markdown-it-image-figures";
 import mermaidPlugin from "@kevingimbel/eleventy-plugin-mermaid";
 import pluginEleventyNavigation from "@11ty/eleventy-navigation";
-import kdlFilters from "kdl-components/src/kdl/filters.js";
+import kdlFilters from "@kdl/components/src/kdl/filters.js";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from "markdown-it-attrs";
@@ -19,7 +20,8 @@ import seoConfig from "./src/_data/config.js";
 dotenv.config();
 
 export default (eleventyConfig) => {
-	const kdlComponentsPath = "../../packages/kdl-components/src/";
+	const kdlComponentsPath = "../../packages/kdl-components/src";
+	// const kdlComponentsPath = "@kdl/components/src/";
 	const nunjucksEnvironment = new Nunjucks.Environment([
 		new Nunjucks.FileSystemLoader(kdlComponentsPath),
 		new Nunjucks.FileSystemLoader("./src/_includes"),
@@ -29,9 +31,11 @@ export default (eleventyConfig) => {
 
 	eleventyConfig.setTemplateFormats(["html", "njk", "md"]);
 	eleventyConfig.addPassthroughCopy({
-		[`${kdlComponentsPath}/kdl/assets`]: "/assets",
+		[`${kdlComponentsPath}/kdl/assets/stylesheets`]: "/assets/stylesheets",
 		"../node_modules/reveal.js/dist": "assets/reveal/",
 		"../node_modules/reveal.js/dist/plugin": "assets/reveal/plugin",
+		"../../docs/assets/images": "assets/images",
+		"../../docs/assets/videos": "assets/videos",
 		public: "/",
 	});
 
@@ -40,6 +44,10 @@ export default (eleventyConfig) => {
 	eleventyConfig.addPlugin(mermaidPlugin);
 	eleventyConfig.addPlugin(pluginSEO, seoConfig);
 	eleventyConfig.addPlugin(pluginTOC);
+	// NOTE: enable later
+	// eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+	// 	formats: ["avif", "webp", "svg"],
+	// });
 
 	eleventyConfig.setLibrary(
 		"md",
@@ -214,7 +222,7 @@ export default (eleventyConfig) => {
 		dir: {
 			input: "src",
 			includes: "_includes",
-			output: "_site",
+			output: "../../_site",
 		},
 	};
 };
