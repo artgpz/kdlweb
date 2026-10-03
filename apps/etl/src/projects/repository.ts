@@ -1,0 +1,289 @@
+import axios from 'axios'
+import yaml from 'yaml'
+import type {
+  FoldersResponse,
+  ListsResponse,
+  SpacesResponse,
+  Task,
+  TaskMetadata,
+  TaskResponse
+} from './types.ts'
+import { existsSync } from 'fs'
+import { join } from 'node:path'
+import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { batchMap, sleep } from '../utils/index.ts'
+
+export const createClient = ({ apiUrl, apiKey }: { apiUrl: string; apiKey: string }) =>
+  axios.create({
+    baseURL: apiUrl,
+    headers: {
+      Authorization: apiKey,
+      'Content-Type': 'application/json',
+      accept: 'application/json'
+    }
+  })
+
+export const IProjectsRepository = {
+  getSpaceByTeamId: async ({
+    apiKey,
+    apiUrl,
+    teamId
+  }: {
+    apiKey: string
+    apiUrl: string
+    teamId: string
+  }) => {
+    try {
+      const { data } = await createClient({ apiKey, apiUrl }).get<SpacesResponse>(
+        `/team/${teamId}/space`
+      )
+      return data
+    } catch (_err) {
+      console.log(_err)
+      return { spaces: [] }
+    }
+  },
+  getFoldersBySpaceId: async ({
+    apiKey,
+    apiUrl,
+    spaceId
+  }: {
+    apiKey: string
+    apiUrl: string
+    spaceId: string
+  }) => {
+    try {
+      const { data } = await createClient({ apiKey, apiUrl }).get<FoldersResponse>(
+        `/space/${spaceId}/folder?archived=true`
+      )
+      return data
+    } catch (_err) {
+      console.log(_err)
+      return { folders: [] }
+    }
+  },
+  getListsByFolderId: async ({
+    apiKey,
+    apiUrl,
+    folderId
+  }: {
+    apiKey: string
+    apiUrl: string
+    folderId: string
+  }) => {
+    try {
+      const { data } = await createClient({ apiKey, apiUrl }).get<ListsResponse>(
+        `/folder/${folderId}/list`
+      )
+      return data
+    } catch (_err) {
+      console.log(_err)
+      return { lists: [] }
+    }
+  },
+  getTasksByListId: async ({
+    apiKey,
+    apiUrl,
+    listId,
+    customItemId
+  }: {
+    apiKey: string
+    apiUrl: string
+    listId: string
+    customItemId: string
+  }) => {
+    try {
+      const { data } = await createClient({ apiKey, apiUrl }).get<TaskResponse>(
+        `/list/${listId}/task?custom_items[]=${customItemId}&include_closed=true`
+      )
+      return data
+    } catch (_err) {
+      console.log(_err)
+      return { tasks: [], last_page: true }
+    }
+  },
+
+  listTasksByTeamId: async ({
+    apiKey,
+    apiUrl,
+    teamId,
+    customItemId
+  }: {
+    apiKey: string
+    apiUrl: string
+    teamId: string
+    customItemId: string
+  }) => {
+    const tasks = []
+    let page = 0
+    let isLastPage = false
+    while (!isLastPage) {
+      const taskResponse = await createClient({ apiKey, apiUrl }).get<TaskResponse>(
+        `/team/${teamId}/task?custom_items[]=${customItemId}&page=${page}`
+      )
+
+      tasks.push(...taskResponse.data.tasks)
+
+      if (taskResponse.data.last_page || taskResponse.data.tasks.length === 0) {
+        isLastPage = true
+        break
+      }
+
+      page++
+    }
+    return tasks
+  },
+  listArchivedTasksByTeamId: async ({
+    apiKey,
+    apiUrl,
+    teamId,
+    customItemId
+  }: {
+    apiKey: string
+    apiUrl: string
+    teamId: string
+    customItemId: string
+  }) => {
+    try {
+      const client = createClient({ apiKey, apiUrl })
+      console.log(`Fetching archived data - item ${customItemId}`)
+      const spaces = await client.get<SpacesResponse>(`/team/${teamId}/space`)
+      console.log(`Spaces: ${spaces.data.spaces.length}`)
+      const folders = await Promise.all(
+        spaces.data.spaces.map((space) =>
+          client
+            .get<FoldersResponse>(`/space/${space.id}/folder?archived=true`)
+            .then((res) => res.data.folders)
+        )
+      ).then((res) => res.flatMap((folders) => folders.map((folder) => folder.id)))
+      console.log(`Folders: ${folders.length}`)
+      const batchedFolders = batchMap(folders, 50)
+      let foldersBatch = 0
+      let lists: string[] = []
+
+      for (const folders of batchedFolders) {
+        console.log(`Fetching lists of folder batch ${foldersBatch} of ${batchedFolders.length}`)
+        const res = await Promise.allSettled(
+          folders.map((id) => client.get<ListsResponse>(`/folder/${id}/list`))
+        ).then((res) =>
+          res.flatMap((res) =>
+            res.status === 'fulfilled' ? res.value.data.lists.map((res) => res.id) : ''
+          )
+        )
+        lists = [...lists, ...res]
+        await sleep(3000)
+        foldersBatch++
+      }
+      console.log(`Lists: ${lists.length}`)
+      const batchedLists = batchMap(lists, 50)
+      let batch = 0
+      let results: Task[] = []
+      for (const lists of batchedLists) {
+        console.log(`Fetching tasks of list batch ${batch} of ${batchedLists.length}`)
+
+        // TODO: add generator fn
+        // let page = 0
+        // let isLastPage = false
+
+        const res = await Promise.all(
+          lists.map((id) =>
+            client.get<TaskResponse>(
+              `/list/${id}/task?custom_items[]=${customItemId}&include_closed=true`
+            )
+          )
+        ).then((res) => res.flatMap((r) => r.data.tasks))
+        results = [...results, ...res]
+        await sleep(3000)
+        batch++
+      }
+      console.log(`Tasks ${results.length}`)
+      return results
+    } catch (error) {
+      console.timeEnd(`fetchArchived`)
+      console.log(error)
+      return []
+    }
+  },
+
+  getTaskById: async ({ id, apiKey, apiUrl }: { id: string; apiKey: string; apiUrl: string }) => {
+    try {
+      const { data } = await createClient({ apiKey, apiUrl }).get<Task>(`/task/${id}`)
+      return data
+    } catch (_err) {
+      console.log(_err)
+      return null
+    }
+  },
+  getTaskFromFile: ({
+    dir,
+    filename
+  }: {
+    dir: string
+    filename: string
+  }): { content: string | null; metadata: TaskMetadata } => {
+    const projectsDir = join(dir, 'projects')
+    const file = join(projectsDir, filename)
+    if (!existsSync(projectsDir)) {
+      return {
+        content: null,
+        metadata: {}
+      }
+    }
+    if (!existsSync(file)) {
+      return {
+        content: null,
+        metadata: {}
+      }
+    }
+    const content = readFileSync(file, 'utf8')
+    const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/)
+    if (match) {
+      return {
+        content: content,
+        metadata: yaml.parse(match[1]) as TaskMetadata
+      }
+    }
+    return {
+      content: null,
+      metadata: {}
+    }
+  },
+  getTasksFromDir: ({
+    dir
+  }: {
+    dir: string
+  }): { content: string | null; metadata: TaskMetadata }[] => {
+    if (!existsSync(dir)) {
+      return []
+    }
+    const files = readdirSync(dir)
+      .filter((f) => f.endsWith('.md'))
+      .map((file) => {
+        const content = readFileSync(join(dir, file), 'utf8')
+        const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/)
+        if (match) {
+          return {
+            content: content,
+            metadata: yaml.parse(match[1]) as TaskMetadata
+          }
+        }
+        return {
+          content: null,
+          metadata: {}
+        }
+      })
+
+    return files
+  },
+  writeFile: ({ dir, filename, content }: { dir: string; filename: string; content: string }) => {
+    if (!existsSync(dir)) {
+      mkdirSync(dir, { recursive: true })
+    }
+    writeFileSync(join(dir, filename), content)
+    return {
+      message: 'ok'
+    }
+  }
+}
+
+export const getProjectsRepository = () => IProjectsRepository
