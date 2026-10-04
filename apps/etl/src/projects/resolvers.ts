@@ -4,18 +4,7 @@ import type { Member, Task, Space, TaskMetadata } from './types.ts'
 import { IProjectsRepository } from './repository.ts'
 import yaml from 'yaml'
 import { formatMarkdown } from '../utils/markdown.ts'
-
-/**
- * Convert string to slug
- */
-function slugify(text: string) {
-  return text
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[^\w\s-]/g, '')
-    .replace(/[\s_-]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-}
+import { slugify } from '../utils/index.ts'
 
 export const projectsConvertToYamlResolver = async ({
   project,

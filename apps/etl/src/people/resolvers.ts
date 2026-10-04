@@ -1,18 +1,5 @@
-// import slugify from "@sindresorhus/slugify";
 import yaml from 'yaml'
 import { formatMarkdown } from '../utils/markdown.ts'
-
-/**
- * Convert string to slug
- */
-function slugify(text: string) {
-  return text
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[^\w\s-]/g, '')
-    .replace(/[\s_-]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-}
 
 export const peopleConvertToYamlResolver = async ({
   person

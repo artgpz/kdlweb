@@ -44,7 +44,7 @@ export const projectsSyncIdFileUseCase = async ({
     let existing: { id: string }[] = []
     const output = storageModule.readFile({ dir, filename: PROJECTS_IDS_FILENAME })
     if (output) {
-      existing = JSON.parse(output)
+      existing = JSON.parse(output.toString())
     }
     const ids = Array.from(
       new Set([
@@ -76,7 +76,7 @@ export const projectGenerateMarkdownFromIdsUseCase = async ({
     const file = storageModule.readFile({ dir, filename: PROJECTS_IDS_FILENAME })
     let projects: { id: string }[] = []
     if (file) {
-      projects = JSON.parse(file)
+      projects = JSON.parse(file.toString())
     }
     const batchedTasks = batchMap(projects, 50)
     let batchCount = 0
