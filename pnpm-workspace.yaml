@@ -22,3 +22,5 @@ blockExoticSubdeps: true
 #     engineStrict: true
 #   "@indacas/ui":
 #     engineStrict: true
+minimumReleaseAgeExclude:
+  - prettier-plugin-nunjucks@0.2.3
