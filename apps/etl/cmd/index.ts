@@ -46,7 +46,7 @@ const main = async () => {
   const args = handleArgs({
     '--action': {
       required: true,
-      options: ['sync', 'write', 'sync-orgs', 'sync-people'],
+      options: ['sync', 'write-projects', 'write-orgs', 'write-people'],
       message: `You need to provide an --action.`
     },
     '--dest': {
@@ -65,7 +65,7 @@ const main = async () => {
       customItemId: args['--item-id']
     })
   }
-  if (args['--action'] === 'write') {
+  if (args['--action'] === 'write-projects') {
     await projectsGenerateMarkdownFromIdsController({
       teamId,
       apiKey,
@@ -73,7 +73,7 @@ const main = async () => {
       dir: args['--dest']
     })
   }
-  if (args['--action'] === 'sync-orgs') {
+  if (args['--action'] === 'write-orgs') {
     await organisationsSyncFromProjectsIdsFileController({
       teamId,
       apiKey,
@@ -81,7 +81,7 @@ const main = async () => {
       dir: args['--dest']
     })
   }
-  if (args['--action'] === 'sync-people') {
+  if (args['--action'] === 'write-people') {
     await projectsGeneratePeopleFromDirController({ dir: args['--dest'] })
   }
   console.log(`Action: ${args['--action']}`)

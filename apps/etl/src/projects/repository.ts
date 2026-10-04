@@ -160,9 +160,9 @@ export const IProjectsRepository = {
       const batchedFolders = batchMap(folders, 50)
       let foldersBatch = 0
       let lists: string[] = []
-
+      console.log(`Fetching lists of folder`)
       for (const folders of batchedFolders) {
-        console.log(`Fetching lists of folder batch ${foldersBatch} of ${batchedFolders.length}`)
+        console.log(`Batch ${foldersBatch + 1} of ${batchedFolders.length}`)
         const res = await Promise.allSettled(
           folders.map((id) => client.get<ListsResponse>(`/folder/${id}/list`))
         ).then((res) =>
@@ -178,9 +178,9 @@ export const IProjectsRepository = {
       const batchedLists = batchMap(lists, 50)
       let batch = 0
       let results: Task[] = []
+      console.log(`Fetching tasks of list`)
       for (const lists of batchedLists) {
-        console.log(`Fetching tasks of list batch ${batch} of ${batchedLists.length}`)
-
+        console.log(`Batch ${batch + 1} of ${batchedLists.length}`)
         // TODO: add generator fn
         // let page = 0
         // let isLastPage = false
@@ -196,10 +196,9 @@ export const IProjectsRepository = {
         await sleep(3000)
         batch++
       }
-      console.log(`Tasks ${results.length}`)
+      console.log(`Archived tasks: ${results.length}`)
       return results
     } catch (error) {
-      console.timeEnd(`fetchArchived`)
       console.log(error)
       return []
     }
