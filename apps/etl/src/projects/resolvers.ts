@@ -233,6 +233,7 @@ export const getMembers = ({ data }: { data: Task }) => {
   const plField = data.custom_fields.find((field) => field.name === 'PL')
   const clField = data.custom_fields.find((field) => field.name === 'CL')
   const researchersField = data.custom_fields.find((field) => field.name === 'Researchers')
+
   const otherMembers = [
     ...parseMemberStr({ str: plField?.value, roleName: 'Principal investigator' }),
     ...parseMemberStr({ str: clField?.value, roleName: 'Co-Investigator' }),
@@ -316,26 +317,35 @@ export const getMembers = ({ data }: { data: Task }) => {
 
 const parseMemberStr = ({ str, roleName }: { str?: string | string[]; roleName: string }) => {
   if (typeof str === 'string') {
-    return str.split('],').map((pl) => {
-      const [name, inOrganisation] = pl.split('[')
+    const first_name = str.slice(0, str.indexOf('['))
+    const later_names = str.match(/\][^[]*?\[/g)
+    const names = [first_name, ...(later_names ?? [])].map((str) =>
+      str.replaceAll(']', '').replaceAll('[', '').replaceAll(',', '').trim()
+    )
+    const orgs =
+      str.match(/\[[^[]*?\]/g)?.map((str) => str.replaceAll(']', '').replaceAll('[', '').trim()) ??
+      []
+    if (names.length !== orgs.length) return []
+
+    const results = names.reduce((acc, el, idx) => {
+      const name = el
       const member: Member = {
-        name: name.replace(',', '').trim(),
-        slug: slugify(name.replace(',', '').trim()),
+        name: name,
+        slug: slugify(name),
         roleName
       }
 
-      const organisationName = inOrganisation?.replace(']', '').trim()
+      const organisationName = orgs[idx]
       if (organisationName) {
         member.inOrganisation = {
           name: organisationName,
           slug: slugify(organisationName)
         }
       }
-      return member
-      // if (member.name && member.name !== "") {
-      // 	members.push(member);
-      // }
-    })
+      acc.push(member)
+      return acc
+    }, [] as Member[])
+    return results
   }
   return []
 }
@@ -353,7 +363,8 @@ const getAndConvertFunders = ({ data }: { data: Task }) => {
       slug: slugify(found?.label ?? '/')
     }
   })
-  return funders
+  // HACK: skip external
+  return funders.filter((dept) => dept.slug !== 'external')
 }
 
 /**
@@ -388,8 +399,8 @@ const getAndConvertDepartments = ({ data }: { data: Task }) => {
       }
     })
   }
-
-  return departments
+  // HACK: skip external
+  return departments.filter((dept) => dept.slug !== 'external')
 }
 
 export const projectsResolveFileName = ({
