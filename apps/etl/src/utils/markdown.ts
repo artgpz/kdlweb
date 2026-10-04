@@ -7,7 +7,7 @@ export const formatMarkdown = async ({ content }: { content: string }) => {
   try {
     const formatted = await prettier.format(content, {
       useTabs: true,
-      tabWidth: 4,
+      tabWidth: 2,
       singleQuote: false,
       trailingComma: 'all',
       arrowParens: 'always',
