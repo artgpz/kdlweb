@@ -4,10 +4,8 @@ import {
   projectsGeneratePeopleFromDirController,
   projectsSyncIdFileController
 } from '../src/projects/controllers.ts'
-// import { projectsSyncIdFileUseCase } from "../src/projects/update.js";
 
 type Args = '--action' | '--dest' | '--item-id'
-// type Args = "--action" | "--dest" | "--type" | "--item-id" | "--config-file";
 type Required = { required: true; message: string; options?: string[] }
 type Optional = { required: false }
 
@@ -37,14 +35,6 @@ export const handleArgs = (args: Record<Args, Optional | Required>) => {
   const results = Object.fromEntries(
     Object.entries(args).map((x: [Args, Optional | Required]) => getArg(...x))
   ) as Record<Args, string | undefined>
-  // const results = args.flatMap((arg) => {
-  // 	const entry = getArg(arg.key);
-  // 	if (!entry.value && arg.required) {
-  // 		console.log(`You need to specify a ${arg.key}, run with -h for help`);
-  // 		process.exit();
-  // 	}
-  // 	return entry;
-  // });
   return results
 }
 
@@ -64,12 +54,6 @@ const main = async () => {
       message: `You need to provide an --dest.`
     },
     '--item-id': { required: false }
-    // "--type": {
-    // 	required: true,
-    // 	options: ["active", "archived", "organisations"],
-    // 	message: `You need to provide a --type.`,
-    // },
-    // "--config-file": { required: false },
   })
 
   if (args['--action'] === 'sync') {
@@ -100,7 +84,7 @@ const main = async () => {
   if (args['--action'] === 'sync-people') {
     await projectsGeneratePeopleFromDirController({ dir: args['--dest'] })
   }
-
+  console.log(`Action: ${args['--action']}`)
   console.timeEnd('etl')
 }
 
