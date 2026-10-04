@@ -10,7 +10,7 @@ import pluginSEO from "eleventy-plugin-seo";
 import pluginTOC from "eleventy-plugin-toc";
 import markdownIt from "markdown-it";
 import Nunjucks from "nunjucks";
-import path from "node:path";
+import path, { resolve } from "node:path";
 import { execSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import sass from "sass";
@@ -36,6 +36,9 @@ export default (eleventyConfig) => {
 		"../node_modules/reveal.js/dist/plugin": "assets/reveal/plugin",
 		"../../docs/assets/images": "assets/images",
 		"../../docs/assets/videos": "assets/videos",
+		"./src/assets/fonts": "assets/fonts",
+		"./src/assets/icons": "assets/icons",
+		"./src/assets/stylesheets": "assets/stylesheets",
 		public: "/",
 	});
 
@@ -222,7 +225,7 @@ export default (eleventyConfig) => {
 		dir: {
 			input: "src",
 			includes: "_includes",
-			output: "../../_site",
+			output: resolve(import.meta.dirname, "../../_site"),
 		},
 	};
 };
