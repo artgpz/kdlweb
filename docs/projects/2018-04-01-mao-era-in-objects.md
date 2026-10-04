@@ -12,8 +12,7 @@ feature:
   image: /assets/images/projects/Mao Era--Mao Era in Objects home page picture
     grid.jpg
   title: Mao Era  Mao Era in Objects Home Page Picture Grid
-  description:
-    Rectangular grid of square images each relating to a common type of
+  description: Rectangular grid of square images each relating to a common type of
     object from Mao-era China.
   width: 1200
   height: 800

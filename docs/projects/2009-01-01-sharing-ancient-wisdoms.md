@@ -9,8 +9,7 @@ foundingDate: 2009-01-01
 dissolutionDate: 2013-12-31
 creativeWorkStatus: Maintained
 feature:
-  image:
-    /assets/images/projects/SAW--Greek wise men debating, 13th Century Arabic
+  image: /assets/images/projects/SAW--Greek wise men debating, 13th Century Arabic
     manuscript.jpg
   title: Greek Wise Men Debating, 13th Century Arabic Manuscript
   description: A vibrant 13th-century Arabic manuscript illustration depicting

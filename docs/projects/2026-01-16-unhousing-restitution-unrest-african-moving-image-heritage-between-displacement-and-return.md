@@ -14,8 +14,7 @@ creativeWorkStatus: Active
 feature:
   image: /assets/images/projects/UNRESTDerekLee.jpg
   title: Photo by Derek Lee
-  description:
-    An abandoned sofa sits in an empty, overgrown lot beside a damaged
+  description: An abandoned sofa sits in an empty, overgrown lot beside a damaged
     building, with construction machinery and industrial structures in the
     background.
   width: 1200

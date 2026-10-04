@@ -12,8 +12,7 @@ feature:
   image: /assets/images/projects/Encyclopedia
     Britannica--mohamed-marey-tZe9vB4EJ4Y-unsplash.jpg
   title: An open book, Photo by Mohamed Marey
-  description:
-    A close-up of an open book's fanned-out pages, creating a visually
+  description: A close-up of an open book's fanned-out pages, creating a visually
     striking pattern of curved, layered lines in warm tones.
   width: 1200
   height: 800

@@ -15,8 +15,7 @@ feature:
   image: /assets/images/projects/algorithmicjustice.jpg
   title: Elise Racine & The Bigger Picture / https://betterimagesofai.org /
     https://creativecommons.org/licenses/by/4.0/
-  description:
-    Black-and-white aerial view of a narrow city street flanked by tall
+  description: Black-and-white aerial view of a narrow city street flanked by tall
     buildings.
   width: 1200
   height: 800
