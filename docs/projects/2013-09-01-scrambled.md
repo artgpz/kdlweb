@@ -5,9 +5,9 @@ tags:
     - projects
 alternateName: SCRAMBLED
 slug: scrambled
-foundingDate: null
-dissolutionDate: null
-creativeWorkStatus: Maintained
+foundingDate: 2013-09-01
+dissolutionDate: 2018-06-30
+creativeWorkStatus: Post-project
 feature:
     image: /assets/images/projects/James Hook, Word from the missing, 1877 (oil on
         canvas).jpg
@@ -16,47 +16,57 @@ feature:
         while a woman collects driftwood near the beach.
     width: 1200
     height: 800
+keywords: []
 funders:
-    - name: Arts and Humanities Research Council
-      slug: ahrc
-    - name: Faculty of Arts and Humanities
-      slug: faculty-of-arts-and-humanities
+    - name: Arts and Humanities Research Council (AHRC)
+      slug: arts-and-humanities-research-council-ahrc
+    - name: KCL Faculty of Arts and Humanities
+      slug: kcl-faculty-of-arts-and-humanities
 departments:
     - name: Courtauld Institute of Art
       slug: courtauld-institute-of-art
     - name: FAH Department of Digital Humanities
       slug: ddh
+    - name: FAH Department of English
+      slug: fah-department-of-english
+    - name: King's College, London
+      slug: kings-college-london
 members:
+    - name: Brian Maher
+      slug: brian-maher
+      roleName: Research Software Engineer
+    - name: Samantha Callaghan
+      slug: samantha-callaghan
+      roleName: Research Software Analyst
+    - name: Miguel Vieira
+      slug: miguel-vieira
+      roleName: Research Software Engineer
+    - name: Carolin Arscott
+      slug: carolin-arscott
+      roleName: Principal investigator
+      inOrganisation:
+          name: Courtauld Institute of Art
+          slug: courtauld-institute-of-art
+    - name: Clare Pettitt
+      slug: clare-pettitt
+      roleName: Researcher
+      inOrganisation:
+          name: FAH Department of History
+          slug: fah-department-of-history
+    - name: Anne Chapman
+      slug: anne-chapman
+      roleName: Researcher
+      inOrganisation:
+          name: FAH Department of History
+          slug: fah-department-of-history
     - name: Natalie Hume
       slug: natalie-hume
       roleName: Researcher
       inOrganisation:
           name: Courtauld Institute of Art
           slug: courtauld-institute-of-art
-    - name: Katie Sambrook
-      slug: katie-sambrook
-      roleName: Researcher
-      inOrganisation:
-          name: Maughan Library, King's College London
-          slug: maughan-library-king-s-college-london
     - name: Mark Miodownik
       slug: mark-miodownik
-      roleName: Researcher
-      inOrganisation:
-          name: University College London
-          slug: ucl
-    - name: Paul Vetch
-      slug: paul-vetch
-      roleName: RSE team member
-      inOrganisation: null
-    - name: Frances Patman
-      slug: frances-patman
-      roleName: Researcher
-      inOrganisation:
-          name: King’s College London Archives
-          slug: king-s-college-london-archives
-    - name: Anne Chapman
-      slug: anne-chapman
       roleName: Researcher
       inOrganisation:
           name: FAH Department of History
@@ -67,23 +77,27 @@ members:
       inOrganisation:
           name: FAH Department of History
           slug: fah-department-of-history
-    - name: Brian Maher
-      slug: brian-maher
-      roleName: Research Software Engineer
-      inOrganisation: null
-    - name: Clare Pettitt
-      slug: clare-pettitt
+    - name: Frances Patman
+      slug: frances-patman
       roleName: Researcher
       inOrganisation:
-          name: FAH Department of English
-          slug: fah-department-of-english
-    - name: Carolin Arscott
-      slug: carolin-arscott
-      roleName: Principal investigator
+          name: FAH Department of History
+          slug: fah-department-of-history
+    - name: Katie Sambrook
+      slug: katie-sambrook
+      roleName: Researcher
       inOrganisation:
-          name: Courtauld Institute of Art
-          slug: courtauld-institute-of-art
-keywords: []
+          name: FAH Department of History
+          slug: fah-department-of-history
+    - name: Paul Vetch
+      slug: paul-vetch
+      roleName: Researcher
+      inOrganisation:
+          name: FAH Department of Digital Humanities
+          slug: fah-department-of-digital-humanities
+sla:
+    start: null
+    end: null
 urls:
     - name: Project URL
       url: https://scrambledmessages.ac.uk/
