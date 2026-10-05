@@ -1,4 +1,8 @@
-import { projectListActiveProjectsUseCase, projectListArchivedProjectsUseCase } from './get.ts'
+import {
+  projectListActiveProjectsUseCase,
+  projectListArchivedProjectsUseCase,
+  projectsEvaluateProjectsFromDirUseCase
+} from './get.ts'
 import {
   projectGenerateMarkdownActiveProjectsUseCase,
   projectGenerateMarkdownArchivedProjectsUseCase,
@@ -275,4 +279,13 @@ export const projectsGeneratePeopleFromDirController = async ({ dir }: { dir?: s
     peopleModule
   })
   return written
+}
+
+export const projectsEvaluateProjectsController = ({ dir }: { dir?: string }) => {
+  if (!dir) {
+    console.error(`You need to provide a Custom item ID`)
+    return
+  }
+  const projectsRepository = getProjectsRepository()
+  return projectsEvaluateProjectsFromDirUseCase({ dir, projectsRepository })
 }

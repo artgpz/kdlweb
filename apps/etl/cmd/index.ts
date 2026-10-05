@@ -1,5 +1,6 @@
 import { organisationsSyncFromProjectsIdsFileController } from '../src/organisations/controllers.ts'
 import {
+  projectsEvaluateProjectsController,
   projectsGenerateMarkdownFromIdsController,
   projectsGeneratePeopleFromDirController,
   projectsSyncIdFileController
@@ -46,7 +47,7 @@ const main = async () => {
   const args = handleArgs({
     '--action': {
       required: true,
-      options: ['sync', 'write-projects', 'write-orgs', 'write-people'],
+      options: ['sync', 'write-projects', 'write-orgs', 'write-people', 'evaluate'],
       message: `You need to provide an --action.`
     },
     '--dest': {
@@ -83,6 +84,12 @@ const main = async () => {
   }
   if (args['--action'] === 'write-people') {
     await projectsGeneratePeopleFromDirController({ dir: args['--dest'] })
+  }
+  if (args['--action'] === 'evaluate') {
+    const results = projectsEvaluateProjectsController({ dir: args['--dest'] })
+    if (results?.duplicates) {
+      console.log(JSON.stringify(results.duplicates, null, 2))
+    }
   }
   console.log(`Action: ${args['--action']}`)
   console.timeEnd('etl')

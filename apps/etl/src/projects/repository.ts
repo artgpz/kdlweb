@@ -274,6 +274,36 @@ export const IProjectsRepository = {
 
     return files
   },
+  getTasksFromDirWithFile: ({
+    dir
+  }: {
+    dir: string
+  }): { content: string | null; metadata: TaskMetadata; file: string | null }[] => {
+    const _dir = join(dir, `projects`)
+    if (!existsSync(_dir)) {
+      return []
+    }
+    const files = readdirSync(_dir)
+      .filter((f) => f.endsWith('.md'))
+      .map((file) => {
+        const content = readFileSync(join(_dir, file), 'utf8')
+        const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/)
+        if (match) {
+          return {
+            content: content,
+            metadata: yaml.parse(match[1]) as TaskMetadata,
+            file
+          }
+        }
+        return {
+          content: null,
+          metadata: {},
+          file: null
+        }
+      })
+
+    return files
+  },
   writeFile: ({ dir, filename, content }: { dir: string; filename: string; content: string }) => {
     if (!existsSync(dir)) {
       mkdirSync(dir, { recursive: true })

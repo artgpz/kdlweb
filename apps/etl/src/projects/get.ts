@@ -1,7 +1,7 @@
 import { IStorageFileSystem } from '../infrastructure/storage.ts'
 import { batchMap, sleep } from '../utils/index.ts'
 import { IProjectsRepository } from './repository.ts'
-import type { Task } from './types.ts'
+import type { Task, TaskMetadata } from './types.ts'
 
 const PROJECTS_IDS_FILENAME = 'projects.json'
 
@@ -193,5 +193,47 @@ export const projectsGetProjectsFromDirUseCase = ({
   projectsRepository: typeof IProjectsRepository
   dir: string
 }) => {
-  return projectsRepository.getTasksFromDir({ dir })
+  const projects = projectsRepository.getTasksFromDir({ dir })
+
+  return projects
+}
+
+export const projectsEvaluateProjectsFromDirUseCase = ({
+  projectsRepository,
+  dir
+}: {
+  projectsRepository: typeof IProjectsRepository
+  dir: string
+}) => {
+  return projectsRepository.getTasksFromDirWithFile({ dir }).reduce(
+    (acc, el) => {
+      const duplicates = acc.projects.filter(
+        (project) =>
+          project.file &&
+          el.file &&
+          project.metadata.slug &&
+          project.metadata.slug === el.metadata.slug
+      )
+      if (duplicates.length > 0) {
+        const dups = [...duplicates.map((x) => x.file), el.file]
+        // const dups = [
+        //   ...duplicates.map((x) => x.file?.match(/[0-9]{4}-[0-9]{2}-[0-9]{2}/i)?.join(', ')),
+        //   el.file?.match(/[0-9]{4}-[0-9]{2}-[0-9]{2}/i)?.join(', ')
+        // ]
+        acc.duplicates.push(`${el.metadata.title}: ${dups.join(' or ')}`)
+      }
+
+      acc.projects.push(el)
+      return acc
+    },
+    { duplicates: [], projects: [] } as {
+      duplicates: string[]
+      // duplicates: Record<string, (string | null)[]>[]
+      projects: {
+        content: string | null
+        metadata: TaskMetadata
+        file: string | null
+      }[]
+    }
+  )
 }
