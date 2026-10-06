@@ -1,11 +1,12 @@
 import js from "@eslint/js";
+import ts from "typescript-eslint";
 import cypress from "eslint-plugin-cypress";
 // const babelParser = require("@babel/eslint-parser");
 import globals from "globals";
 import prettierConfig from "eslint-config-prettier";
 import { defineConfig } from "eslint/config";
 
-export default defineConfig(
+export const config = defineConfig(
 	{
 		ignores: ["frontend/public/sla-acpp"],
 	},
