@@ -9,6 +9,7 @@ import markdownItAttrs from "markdown-it-attrs";
 import pluginSEO from "eleventy-plugin-seo";
 import pluginTOC from "eleventy-plugin-toc";
 import markdownIt from "markdown-it";
+import markdownItFootnote from "markdown-it-footnote";
 import Nunjucks from "nunjucks";
 import path, { resolve } from "node:path";
 import { execSync } from "node:child_process";
@@ -16,9 +17,11 @@ import { fileURLToPath } from "node:url";
 import sass from "sass";
 import dotenv from "dotenv";
 import seoConfig from "./src/_data/config.js";
+import embedEverything from "eleventy-plugin-embed-everything";
 
 dotenv.config();
 
+/** @param {import('@11ty/eleventy/UserConfig').default} eleventyConfig*/
 export default (eleventyConfig) => {
 	const kdlComponentsPath = "../../packages/kdl-components/src";
 	// const kdlComponentsPath = "@kdl/components/src/";
@@ -42,22 +45,41 @@ export default (eleventyConfig) => {
 		public: "/",
 	});
 
+	eleventyConfig.addPlugin(embedEverything);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(pluginEleventyNavigation);
 	eleventyConfig.addPlugin(mermaidPlugin);
 	eleventyConfig.addPlugin(pluginSEO, seoConfig);
 	eleventyConfig.addPlugin(pluginTOC);
 	// NOTE: enable later
-	// eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-	// 	formats: ["avif", "webp", "svg"],
-	// });
+	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+		formats: ["avif", "webp", "svg"],
+		// …
+
+		htmlOptions: {
+			imgAttributes: {
+				loading: "lazy",
+				decoding: "async",
+			},
+
+			// HTML attributes added to `<picture>` (omitted when <img> used)
+			pictureAttributes: {},
+
+			// Which source to use for `<img width height src>` attributes
+			fallback: "largest", // or "smallest"
+		},
+	});
 
 	eleventyConfig.setLibrary(
 		"md",
-		markdownIt({ html: true }).use(markdownItAnchor).use(markdownItAttrs).use(markdownItImplicitFigures, {
-			figcaption: true,
-			copyAttrs: "class",
-		}),
+		markdownIt({ html: true })
+			.use(markdownItAnchor)
+			.use(markdownItAttrs)
+			.use(markdownItFootnote)
+			.use(markdownItImplicitFigures, {
+				figcaption: true,
+				copyAttrs: "class",
+			}),
 	);
 
 	eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {

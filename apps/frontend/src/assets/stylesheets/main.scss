@@ -171,9 +171,11 @@ header {
 			a.logo {
 				img {
 					width: 8em;
+					height: 6rem;
 					text-align: right;
 					position: relative;
 					display: inline-block;
+					object-fit: contain;
 				} //img
 			} // a.logo
 		} //.kdl-container
@@ -490,7 +492,7 @@ main {
 		line-height: 1.5;
 	} //p
 	img {
-		width: 100%;
+		// width: 100%;
 	}
 
 	h1,
@@ -626,6 +628,7 @@ main {
 					width: 100%;
 					display: flex;
 					margin: 0 auto;
+					height: 100%;
 				} //img
 				figcaption {
 					text-align: center;
@@ -643,7 +646,7 @@ main {
 			}
 			.media-medium {
 				img {
-					max-width: 600px;
+					// max-width: 600px;
 					display: flex;
 					margin: 0 auto;
 				}
@@ -1975,6 +1978,7 @@ footer {
 				a.logo {
 					img {
 						width: 4em;
+						height: 6rem;
 						margin-right: -1em;
 					}
 				}
@@ -2235,3 +2239,8 @@ footer {
 		}
 	}
 } //@media (max-width: 1000px)
+//
+// picture > img {
+// 	width: 100%;
+// 	object-fit: contain;
+// }
