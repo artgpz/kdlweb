@@ -2,26 +2,26 @@
 title: "Scrambled Messages: The Telegraphic Imaginary 1857-1900"
 name: "Scrambled Messages: The Telegraphic Imaginary 1857-1900"
 tags:
-    - projects
+  - projects
 alternateName: SCRAMBLED
 slug: scrambled
 foundingDate: 2013-09-01
 dissolutionDate: 2018-06-30
 creativeWorkStatus: Post-project
 feature:
-    image: /assets/images/projects/James Hook, Word from the missing, 1877 (oil on
-        canvas).jpg
-    title: James Hook, Word From the Missing, 1877 (oil on Canvas)
-    description: An oil painting shows children discovering a message in a bottle,
-        while a woman collects driftwood near the beach.
-    width: 1200
-    height: 800
+  image: /assets/images/projects/James Hook, Word from the missing, 1877 (oil on
+    canvas).jpg
+  title: James Hook, Word From the Missing, 1877 (oil on Canvas)
+  description: An oil painting shows children discovering a message in a bottle,
+    while a woman collects driftwood near the beach.
+  width: 1200
+  height: 800
 keywords: []
 funders:
-    - name: Arts and Humanities Research Council (AHRC)
-      slug: arts-and-humanities-research-council-ahrc
-    - name: KCL Faculty of Arts and Humanities
-      slug: kcl-faculty-of-arts-and-humanities
+  - name: Arts and Humanities Research Council (AHRC)
+    slug: arts-and-humanities-research-council-ahrc
+  - name: KCL Faculty of Arts and Humanities
+    slug: kcl-faculty-of-arts-and-humanities
 departments:
     - name: Courtauld Institute of Art
       slug: courtauld-institute-of-art
@@ -96,13 +96,14 @@ members:
           name: FAH Department of Digital Humanities
           slug: fah-department-of-digital-humanities
 sla:
-    start: null
-    end: null
+  start: null
+  end: null
 urls:
-    - name: Project URL
-      url: https://scrambledmessages.ac.uk/
-    - name: UKRI URL
-      url: https://gtr.ukri.org/projects?ref=AH%2FJ013919%2F1
+  - name: Project URL
+    url: https://scrambledmessages.ac.uk/
+  - name: UKRI URL
+    url: https://gtr.ukri.org/projects?ref=AH%2FJ013919%2F1
+draft: false
 ---
 
 "Scrambled Messages: The Telegraphic Imaginary 1857-1900" investigates the cultural impact of telegraphic technology in Victorian society. Focused on the period of attempts to lay an Atlantic submarine cable, the project explores how challenges in telegraphy influenced new literary and artistic forms.

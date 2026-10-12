@@ -1,7 +1,8 @@
 ---
 title: Digital Research Academy
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: digital-research-academy
 foundingDate: null
 dissolutionDate: null

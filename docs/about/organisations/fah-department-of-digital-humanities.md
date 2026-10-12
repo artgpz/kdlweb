@@ -1,7 +1,9 @@
 ---
 title: FAH Department of Digital Humanities
 alternateName: null
-tags: [departments]
+tags:
+  - departments
+  - organisations
 slug: fah-department-of-digital-humanities
 foundingDate: null
 dissolutionDate: null

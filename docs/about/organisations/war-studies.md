@@ -1,7 +1,8 @@
 ---
 title: War Studies
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: war-studies
 foundingDate: null
 dissolutionDate: null

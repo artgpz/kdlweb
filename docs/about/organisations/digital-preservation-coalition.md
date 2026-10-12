@@ -1,8 +1,9 @@
 ---
 title: Digital Preservation Coalition
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: digital-preservation-coalition
 foundingDate: null
 dissolutionDate: null

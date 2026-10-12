@@ -1,7 +1,8 @@
 ---
 title: Dreaming Spires
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: dreaming-spires
 foundingDate: null
 dissolutionDate: null

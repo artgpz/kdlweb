@@ -1,7 +1,8 @@
 ---
 title: AlcesFlight
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: alcesflight
 foundingDate: null
 dissolutionDate: null

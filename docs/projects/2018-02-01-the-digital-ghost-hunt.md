@@ -2,19 +2,19 @@
 title: The Digital Ghost Hunt
 name: The Digital Ghost Hunt
 tags:
-    - projects
+  - projects
 alternateName: DGH
 slug: the-digital-ghost-hunt
 foundingDate: 2018-02-01
 dissolutionDate: 2019-11-01
 creativeWorkStatus: Post-project
 feature:
-    image: /assets/images/projects/ghost-hunt.jpg
-    title: null
-    description: A lady with ghostly makeup in a black dress, poised and standing on
-        a flight of stairs.
-    width: 1200
-    height: 800
+  image: /assets/images/projects/ghost-hunt.jpg
+  title: null
+  description: A lady with ghostly makeup in a black dress, poised and standing on
+    a flight of stairs.
+  width: 1200
+  height: 800
 funders:
     - name: Arts and Humanities Research Council
       slug: ahrc
@@ -51,23 +51,27 @@ members:
           name: KIT Theatre
           slug: kit-theatre
 keywords:
-    - name: Digital Creativity
-      slug: digital-creativity
+  - name: Digital Creativity
+    slug: digital-creativity
 urls:
-    - name: Project URL
-      url: https://digitalghosthunt.com/
-    - name: "Repository: elliotthall/pxt-digitalghosthunt"
-      url: https://github.com/elliotthall/pxt-digitalghosthunt
-    - name: "Repository: elliotthall/ghosthunter"
-      url: https://github.com/elliotthall/ghosthunter
-    - name: UKRI URL
-      url: https://gtr.ukri.org/projects?ref=AH%2FR009279%2F1
-    - name: Blogpost (1)
-      url: https://kdl.kcl.ac.uk/blog/digital-ghost-hunt/
-    - name: Blogpost (2)
-      url: https://kdl.kcl.ac.uk/blog/new-digital-ghost-hunt/
-    - name: Blogpost (3)
-      url: https://kdl.kcl.ac.uk/blog/ghost-hunt-spinners-mill/
+  - name: Project URL
+    url: https://digitalghosthunt.com/
+  - name: "Repository: elliotthall/pxt-digitalghosthunt"
+    url: https://github.com/elliotthall/pxt-digitalghosthunt
+  - name: "Repository: elliotthall/ghosthunter"
+    url: https://github.com/elliotthall/ghosthunter
+  - name: UKRI URL
+    url: https://gtr.ukri.org/projects?ref=AH%2FR009279%2F1
+  - name: Blogpost (1)
+    url: https://kdl.kcl.ac.uk/blog/digital-ghost-hunt/
+  - name: Blogpost (2)
+    url: https://kdl.kcl.ac.uk/blog/new-digital-ghost-hunt/
+  - name: Blogpost (3)
+    url: https://kdl.kcl.ac.uk/blog/ghost-hunt-spinners-mill/
+draft: false
+sla:
+  start: null
+  end: 2023-12-31
 ---
 
 Digital Ghost Hunt is a mixture of coding education, Augmented Reality and live performance in an immersive storytelling experience.

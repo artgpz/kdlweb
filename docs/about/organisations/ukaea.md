@@ -1,7 +1,8 @@
 ---
 title: UKAEA
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: ukaea
 foundingDate: null
 dissolutionDate: null

@@ -1,7 +1,8 @@
 ---
 title: British Film Institute
 alternateName: null
-tags: [organisations]
+tags:
+  - organisations
 slug: british-film-institute
 foundingDate: null
 dissolutionDate: null

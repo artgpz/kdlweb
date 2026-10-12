@@ -2,7 +2,7 @@
 title: DARIAH-DESIR
 name: DARIAH-DESIR
 tags:
-    - projects
+  - projects
 alternateName: null
 slug: dariah-desir
 foundingDate: 2017-01-01
@@ -69,8 +69,14 @@ members:
           slug: kdl
 keywords: []
 urls:
-    - name: Project URL
-      url: https://www.dariah.eu/activities/projects-and-affiliations/desir/
+  - name: Project URL
+    url: https://www.dariah.eu/activities/projects-and-affiliations/desir/
+  - name: Partner URL
+    url: https://cordis.europa.eu/project/id/731081
+draft: false
+sla:
+  start: null
+  end: null
 ---
 
 Europe has a long and rich tradition as a centre for the Arts & Humanities. However, the digital transformation poses challenges to the Arts & Humanities research landscape all over the world. Responding to these challenges, the Digital Research Infrastructure for Arts & Humanities (DARIAH) was launched as a pan-European network and research infrastructure. After expansion and consolidation, which involved DARIAH’s inscription on the ESFRI roadmap, DARIAH became a European Research Infrastructure Consortium (ERIC) in August 2014. The DESIR project - DARIAH ERIC Sustainability Refined - sets out to strengthen the sustainability of DARIAH and firmly establish it as a long-term leader and partner within Arts & Humanities communities.

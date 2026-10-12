@@ -1,8 +1,9 @@
 ---
 title: Wiedemann Lampe
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: wiedemann-lampe
 foundingDate: null
 dissolutionDate: null

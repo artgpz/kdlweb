@@ -1,7 +1,8 @@
 ---
 title: International Politics
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: international-politics
 foundingDate: null
 dissolutionDate: null

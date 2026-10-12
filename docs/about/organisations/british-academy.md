@@ -1,8 +1,8 @@
 ---
 title: British Academy
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
 slug: british-academy
 foundingDate: null
 dissolutionDate: null

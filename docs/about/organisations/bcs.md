@@ -1,7 +1,8 @@
 ---
 title: BCS
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: bcs
 foundingDate: null
 dissolutionDate: null

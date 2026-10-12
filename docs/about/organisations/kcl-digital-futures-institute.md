@@ -1,7 +1,8 @@
 ---
 title: KCL Digital Futures Institute
 alternateName: null
-tags: [organisations]
+tags:
+  - organisations
 slug: kcl-digital-futures-institute
 foundingDate: null
 dissolutionDate: null

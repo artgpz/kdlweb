@@ -1,8 +1,9 @@
 ---
 title: Software Sustainability Institute
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: software-sustainability-institute
 foundingDate: null
 dissolutionDate: null

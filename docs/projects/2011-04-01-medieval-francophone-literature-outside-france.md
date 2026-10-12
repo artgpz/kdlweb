@@ -93,11 +93,8 @@ members:
     slug: david-murray
     roleName: Researcher
     inOrganisation:
-      name: FAH Department of Languages
-      slug: fah-department-of-languages
-  - name: Literatures and Cultures]
-    slug: literatures-and-cultures
-    roleName: Researcher
+      name: FAH Department of Languages, Literatures and Cultures
+      slug: fah-department-of-languages-literatures-and-cultures
 keywords: []
 urls:
   - name: Project URL

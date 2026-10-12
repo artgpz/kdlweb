@@ -1,7 +1,8 @@
 ---
 title: Met Office
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: met-office
 foundingDate: null
 dissolutionDate: null

@@ -1,7 +1,8 @@
 ---
 title: Society of RSE
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: society-of-rse
 foundingDate: null
 dissolutionDate: null

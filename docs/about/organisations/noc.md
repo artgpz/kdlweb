@@ -1,7 +1,8 @@
 ---
 title: NOC
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: noc
 foundingDate: null
 dissolutionDate: null

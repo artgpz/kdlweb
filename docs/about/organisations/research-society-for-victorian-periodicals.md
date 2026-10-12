@@ -1,7 +1,8 @@
 ---
 title: Research Society for Victorian Periodicals
 alternateName: null
-tags: [organisations]
+tags:
+  - organisations
 slug: research-society-for-victorian-periodicals
 foundingDate: null
 dissolutionDate: null

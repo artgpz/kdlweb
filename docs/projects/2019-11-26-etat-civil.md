@@ -2,8 +2,8 @@
 title: "État Civil: French expatriates in Ottoman Egypt"
 name: "État Civil: French expatriates in Ottoman Egypt"
 tags:
-    - projects
-alternateName: ""
+  - projects
+alternateName: null
 slug: etat-civil
 foundingDate: 2019-11-26
 dissolutionDate: 2020-07-02
@@ -49,14 +49,18 @@ keywords:
     - name: History
       slug: history
 urls:
-    - name: Project URL
-      url: https://histecon.fas.harvard.edu/visualizing/egypt/index.html
-    - name: "Repository: kingsdigitallab/etat-civil-django"
-      url: https://github.com/kingsdigitallab/etat-civil-django
-    - name: Models
-      url: https://etat-civil-django.readthedocs.io/en/latest/technical-overview.html
-    - name: Teaching resource
-      url: https://miro.com/app/board/o9J_lRs9WpU=/?share_link_id=52435022766
+  - name: Project URL
+    url: https://histecon.fas.harvard.edu/visualizing/egypt/index.html
+  - name: "Repository: kingsdigitallab/etat-civil-django"
+    url: https://github.com/kingsdigitallab/etat-civil-django
+  - name: Models
+    url: https://etat-civil-django.readthedocs.io/en/latest/technical-overview.html
+  - name: Teaching resource
+    url: https://miro.com/app/board/o9J_lRs9WpU=/?share_link_id=52435022766
+draft: false
+sla:
+  start: null
+  end: null
 ---
 
 The 'État Civil' -- standing for civil registration of births, deaths and marriages -- exploratory project processes data from the Egyptian consulate of the 'État Civil' to visualise mobility on a continental or global scale and offers insights on patterns of migration and social history.

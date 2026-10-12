@@ -9,11 +9,11 @@ foundingDate: 2020-01-01
 dissolutionDate: 2023-06-30
 creativeWorkStatus: Post-project
 feature:
-    image: /assets/images/projects/Critical_Modelling--reviews waves_edit.jpg
-    title: Critical Modelling Reviews Waves
-    description: A series of black waveform patterns on a light grey background.
-    width: 1200
-    height: 800
+  image: /assets/images/projects/Critical_Modelling--reviews waves_edit.jpg
+  title: Critical Modelling Reviews Waves
+  description: A series of black waveform patterns on a light grey background.
+  width: 1200
+  height: 800
 funders:
     - name: The Australia National University
       slug: the-australia-national-university
@@ -34,9 +34,13 @@ members:
       roleName: Research Software Analyst
       inOrganisation: null
 keywords:
-    - name: Machine Learning and AI
-      slug: machine-learning-ai
+  - name: Machine Learning and AI
+    slug: machine-learning-ai
 urls: []
+draft: false
+sla:
+  start: null
+  end: null
 ---
 
 Critical Modelling of Extensive Literary Data is a collaboration between colleagues at the Australian National University (ANU) and at King’s Digital Lab (KDL), supported by the King’s College London Australia Partnership Seed Fund and Australian National University Global Research Partnership scheme, for the period 2019-22 (followed by a short extension in 2023 due to the COVID 19 pandemic disruptions).

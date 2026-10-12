@@ -64,35 +64,32 @@ members:
     slug: brecht-deseure
     roleName: Researcher
     inOrganisation:
-      name: FAH Department of Languages
-      slug: fah-department-of-languages
-  - name: Literatures and Cultures]
-    slug: literatures-and-cultures
-    roleName: Researcher
+      name: FAH Department of Languages, Literatures and Cultures
+      slug: fah-department-of-languages-literatures-and-cultures
   - name: Niccolò Valmori
     slug: niccolo-valmori
     roleName: Researcher
     inOrganisation:
-      name: FAH Department of Languages
-      slug: fah-department-of-languages
+      name: FAH Department of Languages, Literatures and Cultures
+      slug: fah-department-of-languages-literatures-and-cultures
   - name: Cristina Viti
     slug: cristina-viti
     roleName: Researcher
     inOrganisation:
-      name: FAH Department of Languages
-      slug: fah-department-of-languages
+      name: FAH Department of Languages, Literatures and Cultures
+      slug: fah-department-of-languages-literatures-and-cultures
   - name: Nigel Ritchie
     slug: nigel-ritchie
     roleName: Researcher
     inOrganisation:
-      name: FAH Department of Languages
-      slug: fah-department-of-languages
+      name: FAH Department of Languages, Literatures and Cultures
+      slug: fah-department-of-languages-literatures-and-cultures
   - name: Jacob McGuinn
     slug: jacob-mcguinn
     roleName: Researcher
     inOrganisation:
-      name: FAH Department of Languages
-      slug: fah-department-of-languages
+      name: FAH Department of Languages, Literatures and Cultures
+      slug: fah-department-of-languages-literatures-and-cultures
 keywords:
   - name: Machine Learning and AI
     slug: machine-learning-ai

@@ -2,7 +2,7 @@
 title: Building a Network for Research Software Engineers
 name: Building a Network for Research Software Engineers
 tags:
-    - projects
+  - projects
 alternateName: null
 slug: building-a-network-for-research-software-engineers
 foundingDate: 2025-03-01
@@ -10,8 +10,8 @@ dissolutionDate: 2025-07-31
 creativeWorkStatus: Active
 keywords: []
 funders:
-    - name: King's College London
-      slug: kings-college-london
+  - name: King's College London
+    slug: kings-college-london
 departments:
     - name: e-Research
       slug: e-research
@@ -48,7 +48,7 @@ members:
           name: Humboldt University of Berlin
           slug: humboldt-university-of-berlin
 sla:
-    start: null
-    end: null
+  start: null
+  end: null
 draft: true
 ---

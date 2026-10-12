@@ -1,8 +1,8 @@
 ---
 title: Arcadia
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
 slug: arcadia
 foundingDate: null
 dissolutionDate: null

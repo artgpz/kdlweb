@@ -1,7 +1,8 @@
 ---
 title: AdvanceHE
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: advancehe
 foundingDate: null
 dissolutionDate: null

@@ -1,8 +1,9 @@
 ---
 title: University of Technology Sydney
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: university-of-technology-sydney
 foundingDate: null
 dissolutionDate: null

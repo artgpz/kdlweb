@@ -1,7 +1,8 @@
 ---
 title: Queen Mary University
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: queen-mary-university
 foundingDate: null
 dissolutionDate: null

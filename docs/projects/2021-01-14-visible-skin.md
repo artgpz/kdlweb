@@ -9,18 +9,18 @@ foundingDate: 2021-01-14
 dissolutionDate: 2022-01-18
 creativeWorkStatus: Post-project
 feature:
-    image: /assets/images/projects/Visible_Skin--Online_Poster.jpg
-    title: Visible Skin - Promotional Poster
-    description: Digital promotional image for the Visible Skin exhibition,
-        featuring a split-portrait of the artist, Peter Brathwaite, in historical
-        attire on a black background.
-    width: 2500
-    height: 1667
+  image: /assets/images/projects/Visible_Skin--Online_Poster.jpg
+  title: Visible Skin - Promotional Poster
+  description: Digital promotional image for the Visible Skin exhibition,
+    featuring a split-portrait of the artist, Peter Brathwaite, in historical
+    attire on a black background.
+  width: 2500
+  height: 1667
 funders:
-    - name: Wellcome Trust
-      slug: wellcome-trust
-    - name: FAH King's Culture
-      slug: fah-king-s-culture
+  - name: Wellcome Trust
+    slug: wellcome-trust
+  - name: FAH King's Culture
+    slug: fah-kings-culture
 departments:
     - name: FAH Department of History
       slug: fah-department-of-history
@@ -65,10 +65,14 @@ members:
       inOrganisation: null
 keywords: []
 urls:
-    - name: Project URL
-      url: https://renaissanceskin.ac.uk/visibleskin/
-    - name: "Repository: kingsdigitallab/renskin-django"
-      url: https://github.com/kingsdigitallab/renskin-django
+  - name: Project URL
+    url: https://renaissanceskin.ac.uk/visibleskin/
+  - name: "Repository: kingsdigitallab/renskin-django"
+    url: https://github.com/kingsdigitallab/renskin-django
+draft: false
+sla:
+  start: null
+  end: null
 ---
 
 'Visible Skin' showcases the work of artist Peter Brathwaite in collaboration with the King’s Renaissance Skin research project and King’s Culture. Funded by the Wellcome Trust, the exhibition has been curated by Dr Hannah Murphy, Department of History in the Faculty of Arts & Humanities. KDL developed the online component to augment the physical exhibition, integrating the online exhibition into the existing Renaissance Skin website. Image transitions are used in the online gallery display to accentuate the similarities and differences between each original painting and Brathwaite's reimagining of it.

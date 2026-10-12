@@ -1,7 +1,8 @@
 ---
 title: Somerset House Studios
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: somerset-house-studios
 foundingDate: null
 dissolutionDate: null

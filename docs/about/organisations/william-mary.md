@@ -1,7 +1,8 @@
 ---
 title: William & Mary
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: william-mary
 foundingDate: null
 dissolutionDate: null

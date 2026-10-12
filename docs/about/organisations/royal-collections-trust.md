@@ -1,8 +1,8 @@
 ---
-title: Royal Collection Trust
-tags:
-    - organisations
+title: Royal Collections Trust
 alternateName: null
+tags:
+  - organisations
 slug: royal-collections-trust
 foundingDate: null
 dissolutionDate: null

@@ -1,7 +1,8 @@
 ---
 title: King's Digital Lab
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: kings-digital-lab
 foundingDate: null
 dissolutionDate: null

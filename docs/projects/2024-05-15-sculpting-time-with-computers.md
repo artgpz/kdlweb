@@ -2,19 +2,19 @@
 title: Sculpting Time with Computers - Proof of Concept
 name: Sculpting Time with Computers - Proof of Concept
 tags:
-    - projects
+  - projects
 alternateName: null
 slug: sculpting-time-with-computers
 foundingDate: 2024-05-15
 dissolutionDate: 2025-12-31
 creativeWorkStatus: Active
 feature:
-    image: /assets/images/projects/Sculpting Time.jpg
-    title: Part of automated analysis workflow on a scene from The Godfather (1972).
-    description: Sequence of frames from a film with numbered arrows highlighting
-        key cinematic shots and transitions.
-    width: 1200
-    height: 800
+  image: /assets/images/projects/Sculpting Time.jpg
+  title: Part of automated analysis workflow on a scene from The Godfather (1972).
+  description: Sequence of frames from a film with numbered arrows highlighting
+    key cinematic shots and transitions.
+  width: 1200
+  height: 800
 funders:
     - name: KCL A&H
       slug: kcl-ah
@@ -53,20 +53,20 @@ members:
           name: FAH Department of Digital Humanities
           slug: fah-department-of-digital-humanities
 keywords:
-    - name: Machine Learning and AI
-      slug: machine-learning-ai
-    - name: DFI
-      slug: dfi
+  - name: Machine Learning and AI
+    slug: machine-learning-ai
+  - name: Digital Futures Institute
+    slug: digital-futures-institute
 urls:
-    - name: Repository (notebooks)
-      url: https://github.com/kingsdigitallab/sculpting-poc/
-    - name: Repository (related tool BVQA)
-      url: https://github.com/kingsdigitallab/kdl-vqa
-    - name: Repository (related tool FrameSense)
-      url: https://github.com/kingsdigitallab/framesense
+  - name: Repository (notebooks)
+    url: https://github.com/kingsdigitallab/sculpting-poc/
+  - name: Repository (related tool BVQA)
+    url: https://github.com/kingsdigitallab/kdl-vqa
+  - name: Repository (related tool FrameSense)
+    url: https://github.com/kingsdigitallab/framesense
 sla:
-    start: null
-    end: null
+  start: null
+  end: null
 draft: false
 ---
 

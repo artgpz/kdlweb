@@ -1,7 +1,8 @@
 ---
 title: Interdisciplinary Humanities
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: interdisciplinary-humanities
 foundingDate: null
 dissolutionDate: null

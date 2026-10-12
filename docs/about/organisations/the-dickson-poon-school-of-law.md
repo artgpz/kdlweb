@@ -1,8 +1,9 @@
 ---
 title: The Dickson Poon School of Law
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: the-dickson-poon-school-of-law
 foundingDate: null
 dissolutionDate: null

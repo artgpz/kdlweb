@@ -79,17 +79,14 @@ members:
     slug: robyn-jakeman
     roleName: Researcher
     inOrganisation:
-      name: Birkbeck
-      slug: birkbeck
-  - name: University of London]
-    slug: university-of-london
-    roleName: Researcher
+      name: Birkbeck, University of London
+      slug: birkbeck-university-of-london
   - name: Rebecca Sykes
     slug: rebecca-sykes
     roleName: Researcher
     inOrganisation:
-      name: Birkbeck
-      slug: birkbeck
+      name: Birkbeck, University of London
+      slug: birkbeck-university-of-london
 keywords:
   - name: Data Visualisation
     slug: data-visualisation

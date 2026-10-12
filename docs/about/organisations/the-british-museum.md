@@ -1,8 +1,9 @@
 ---
 title: The British Museum
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: the-british-museum
 foundingDate: null
 dissolutionDate: null

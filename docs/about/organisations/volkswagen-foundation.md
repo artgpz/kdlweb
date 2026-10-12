@@ -1,7 +1,8 @@
 ---
 title: Volkswagen Foundation
 alternateName: null
-tags: [organisations]
+tags:
+  - organisations
 slug: volkswagen-foundation
 foundingDate: null
 dissolutionDate: null

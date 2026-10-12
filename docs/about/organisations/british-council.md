@@ -1,7 +1,8 @@
 ---
 title: British Council
 alternateName: null
-tags: [organisations]
+tags:
+  - organisations
 slug: british-council
 foundingDate: null
 dissolutionDate: null

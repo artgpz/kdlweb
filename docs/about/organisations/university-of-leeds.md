@@ -1,8 +1,9 @@
 ---
 title: University of Leeds
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: university-of-leeds
 foundingDate: null
 dissolutionDate: null

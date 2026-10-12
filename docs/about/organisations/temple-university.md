@@ -1,7 +1,8 @@
 ---
 title: Temple University
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: temple-university
 foundingDate: null
 dissolutionDate: null

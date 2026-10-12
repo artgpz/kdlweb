@@ -1,7 +1,8 @@
 ---
 title: Dan Katz (USA)
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: dan-katz-usa
 foundingDate: null
 dissolutionDate: null

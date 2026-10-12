@@ -1,7 +1,8 @@
 ---
 title: University of Manchester
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: university-of-manchester
 foundingDate: null
 dissolutionDate: null

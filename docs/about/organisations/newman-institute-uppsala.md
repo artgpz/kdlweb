@@ -1,8 +1,9 @@
 ---
 title: Newman Institute Uppsala
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: newman-institute-uppsala
 foundingDate: null
 dissolutionDate: null

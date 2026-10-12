@@ -1,7 +1,8 @@
 ---
 title: Royal Holloway University London
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: royal-holloway-university-london
 foundingDate: null
 dissolutionDate: null

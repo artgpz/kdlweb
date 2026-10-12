@@ -1,7 +1,8 @@
 ---
 title: CloudKubed
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: cloudkubed
 foundingDate: null
 dissolutionDate: null

@@ -1,7 +1,8 @@
 ---
 title: DiRAC
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: dirac
 foundingDate: null
 dissolutionDate: null

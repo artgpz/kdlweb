@@ -1,7 +1,8 @@
 ---
 title: Royal Household
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: royal-household
 foundingDate: null
 dissolutionDate: null

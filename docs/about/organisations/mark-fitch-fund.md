@@ -1,7 +1,8 @@
 ---
 title: Mark Fitch Fund
 alternateName: null
-tags: [organisations]
+tags:
+  - organisations
 slug: mark-fitch-fund
 foundingDate: null
 dissolutionDate: null

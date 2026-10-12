@@ -1,8 +1,9 @@
 ---
 title: University of Glasgow
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: university-of-glasgow
 foundingDate: null
 dissolutionDate: null

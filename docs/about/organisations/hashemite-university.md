@@ -1,8 +1,9 @@
 ---
 title: Hashemite University
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: hashemite-university
 foundingDate: null
 dissolutionDate: null

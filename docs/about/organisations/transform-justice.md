@@ -1,7 +1,8 @@
 ---
 title: Transform Justice
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: transform-justice
 foundingDate: null
 dissolutionDate: null

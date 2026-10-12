@@ -1,7 +1,8 @@
 ---
 title: Australian Research Data Commons
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: australian-research-data-commons
 foundingDate: null
 dissolutionDate: null

@@ -1,8 +1,8 @@
 ---
 title: Wellcome Trust
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
 slug: wellcome-trust
 foundingDate: null
 dissolutionDate: null

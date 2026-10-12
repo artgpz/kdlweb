@@ -1,8 +1,9 @@
 ---
-title: Birkbeck, University of London
-tags:
-    - organisations
+title: Birkbeck
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: birkbeck
 foundingDate: null
 dissolutionDate: null

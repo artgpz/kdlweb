@@ -1,7 +1,8 @@
 ---
 title: UK Research and Innovation (UKRI)
 alternateName: null
-tags: [organisations]
+tags:
+  - organisations
 slug: uk-research-and-innovation-ukri
 foundingDate: null
 dissolutionDate: null

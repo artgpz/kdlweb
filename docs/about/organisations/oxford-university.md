@@ -1,7 +1,8 @@
 ---
 title: Oxford University
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: oxford-university
 foundingDate: null
 dissolutionDate: null

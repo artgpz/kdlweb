@@ -1,7 +1,8 @@
 ---
 title: KCL Global Cultures Institute
 alternateName: null
-tags: [organisations]
+tags:
+  - organisations
 slug: kcl-global-cultures-institute
 foundingDate: null
 dissolutionDate: null

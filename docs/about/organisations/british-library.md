@@ -1,7 +1,9 @@
 ---
 title: British Library
 alternateName: null
-tags: [departments]
+tags:
+  - departments
+  - organisations
 slug: british-library
 foundingDate: null
 dissolutionDate: null

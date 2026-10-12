@@ -1,8 +1,9 @@
 ---
 title: University of Reading
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: university-of-reading
 foundingDate: null
 dissolutionDate: null

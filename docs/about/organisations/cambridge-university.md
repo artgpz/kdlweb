@@ -1,7 +1,8 @@
 ---
 title: Cambridge University
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: cambridge-university
 foundingDate: null
 dissolutionDate: null

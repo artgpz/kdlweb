@@ -2,7 +2,7 @@
 title: African Rock Art
 name: African Rock Art
 tags:
-    - projects
+  - projects
 alternateName: null
 slug: african-rock-art
 foundingDate: 2018-01-02
@@ -16,15 +16,15 @@ feature:
     width: 1200
     height: 800
 funders:
-    - name: The British Museum
-      slug: the-british-museum
-    - name: Arcadia
-      slug: arcadia
+  - name: The British Museum
+    slug: the-british-museum
+  - name: Arcadia
+    slug: arcadia
 departments:
-    - name: The British Museum
-      slug: the-british-museum
-    - name: Trust for African Rock Art
-      slug: trust-for-african-rock-art
+  - name: The British Museum
+    slug: the-british-museum
+  - name: Trust for African Rock Art
+    slug: trust-for-african-rock-art
 members:
     - name: Elizabeth Galvin
       slug: elizabeth-galvin
@@ -40,10 +40,14 @@ members:
       inOrganisation: null
 keywords: []
 urls:
-    - name: Project URL
-      url: https://africanrockart.britishmuseum.org/
-    - name: Blogpost URL
-      url: https://kdl.kcl.ac.uk/blog/african-rock-art/
+  - name: Project URL
+    url: https://africanrockart.britishmuseum.org/
+  - name: Blogpost URL
+    url: https://kdl.kcl.ac.uk/blog/african-rock-art/
+draft: false
+sla:
+  start: 2018-01-02
+  end: 2023-01-02
 ---
 
 This project was the result of a partnership between the BM and the Trust for African Rock Art (TARA), made possible with funding from Arcadia Fund. It sought to curate the around 23,000 images, originally from TARA, and provide valuable context to the diversity of rock art forms found across the African continent to ensure global open access to this extensive collection.

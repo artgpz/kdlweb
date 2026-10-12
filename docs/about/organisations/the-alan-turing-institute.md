@@ -1,8 +1,9 @@
 ---
 title: The Alan Turing Institute
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: the-alan-turing-institute
 foundingDate: null
 dissolutionDate: null

@@ -1,7 +1,8 @@
 ---
 title: UK Ireland DH Association
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: uk-ireland-dh-association
 foundingDate: null
 dissolutionDate: null

@@ -1,7 +1,8 @@
 ---
 title: PRISM Community
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: prism-community
 foundingDate: null
 dissolutionDate: null

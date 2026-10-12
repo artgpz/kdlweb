@@ -1,8 +1,8 @@
 ---
-title: "(Re) Mixing (de) Humanisation:  Virtual Reality Migration Stories for
-    Hard to Reach Audiences with Museums of Migration  "
-name: "(Re) Mixing (de) Humanisation:  Virtual Reality Migration Stories for
-    Hard to Reach Audiences with Museums of Migration  "
+title: "(Re) Mixing (de) Humanisation: Virtual Reality Migration Stories for
+  Hard to Reach Audiences with Museums of Migration"
+name: "(Re) Mixing (de) Humanisation: Virtual Reality Migration Stories for Hard
+  to Reach Audiences with Museums of Migration"
 tags:
     - projects
 alternateName: Room to Breath
@@ -11,15 +11,15 @@ foundingDate: 2019-02-01
 dissolutionDate: 2019-07-01
 creativeWorkStatus: Post-project
 feature:
-    image: /assets/images/projects/Room to breath--Screenshot.jpg
-    title: Screenshot from the project video
-    description: A digitally rendered dimly lit bedroom with a bed, chair, and
-        glowing lights, featuring a textured, painterly effect.
-    width: 1200
-    height: 800
+  image: /assets/images/projects/Room to breath--Screenshot.jpg
+  title: Screenshot from the project video
+  description: A digitally rendered dimly lit bedroom with a bed, chair, and
+    glowing lights, featuring a textured, painterly effect.
+  width: 1200
+  height: 800
 funders:
-    - name: King's College London
-      slug: kings-college-london
+  - name: King's College London
+    slug: kings-college-london
 departments:
     - name: FAH Department of Culture, Media & Creative Industries
       slug: fah-department-of-culture-media-and-creative-industries
@@ -68,8 +68,12 @@ keywords:
     - name: Digital Creativity
       slug: digital-creativity
 urls:
-    - name: Project Video URL
-      url: https://vimeo.com/448849848
+  - name: Project Video URL
+    url: https://vimeo.com/448849848
+draft: false
+sla:
+  start: null
+  end: null
 ---
 
 The project sought to explore the potential for communicating exhibits, stories and personal experiences using immersive technology. It focused on transmitting, replicating, or otherwise porting, the Room to Breathe temporary exhibition showing at the UK Migration Museum.

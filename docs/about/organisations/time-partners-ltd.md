@@ -1,8 +1,9 @@
 ---
-title: Time Partners Ltd
-tags:
-    - organisations
+title: Time Partners	Ltd
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: time-partners-ltd
 foundingDate: null
 dissolutionDate: null

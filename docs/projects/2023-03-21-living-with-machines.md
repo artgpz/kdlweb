@@ -2,38 +2,38 @@
 title: Living with Machines
 name: Living with Machines
 tags:
-    - projects
+  - projects
 alternateName: null
 slug: living-with-machines
 foundingDate: 2023-03-21
 dissolutionDate: 2024-09-30
 creativeWorkStatus: Maintained
 feature:
-    image: /assets/images/projects/Living with Machines--Data viz.jpg
-    title: null
-    description: A data visualisation featuring a symmetrical pattern of concentric
-        circles in orange and blue on a dark background.
-    width: 1200
-    height: 800
+  image: /assets/images/projects/Living with Machines--Data viz.jpg
+  title: null
+  description: A data visualisation featuring a symmetrical pattern of concentric
+    circles in orange and blue on a dark background.
+  width: 1200
+  height: 800
 keywords:
-    - name: Machine Learning and AI
-      slug: machine-learning-ai
-    - name: Data Visualisation
-      slug: data-visualisation
+  - name: Machine Learning and AI
+    slug: machine-learning-ai
+  - name: Data Visualisation
+    slug: data-visualisation
 funders:
-    - name: Arts and Humanities Research Council (AHRC)
-      slug: arts-and-humanities-research-council-ahrc
+  - name: Arts and Humanities Research Council (AHRC)
+    slug: arts-and-humanities-research-council-ahrc
 departments:
-    - name: FAH Department of Digital Humanities
-      slug: fah-department-of-digital-humanities
-    - name: The Alan Turing Institute
-      slug: the-alan-turing-institute
-    - name: King's College, London
-      slug: kings-college-london
-    - name: British Library
-      slug: british-library
-    - name: Queen Mary University
-      slug: queen-mary-university
+  - name: FAH Department of Digital Humanities
+    slug: fah-department-of-digital-humanities
+  - name: The Alan Turing Institute
+    slug: the-alan-turing-institute
+  - name: King's College, London
+    slug: kings-college-london
+  - name: British Library
+    slug: british-library
+  - name: Queen Mary University
+    slug: queen-mary-university
 members:
     - name: Arianna Ciula
       slug: arianna-ciula
@@ -75,22 +75,21 @@ members:
           name: FAH Department of Digital Humanities
           slug: fah-department-of-digital-humanities
 sla:
-    start: 2023-09-01
-    end: 2023-12-31
+  start: 2023-09-01
+  end: 2023-12-31
 urls:
-    - name: Repository
-      url: https://github.com/kingsdigitallab/lwm-davizct/
-    - name: "Interactive notebook: Language of Accidents"
-      url: https://observablehq.com/@jmiguelv/lwm-language-of-accidents
-    - name: "Interactive notebook: Language of Mechanisation"
-      url: https://observablehq.com/@jmiguelv/language-of-mechanisation
-    - name: UKRI URL
-      url: https://gtr.ukri.org/projects?ref=AH%2FS01179X%2F1
-    - name: Language of Mechanisation data paper
-      url: https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.195
-    - name: Language of Mechanisation chapter book
-      url: https://read.uolpress.co.uk/read/analysing-the-language-of-mechanisation/section/b2da82aa-d87b-4b37-8913-c0966fc5028a
-      
+  - name: Repository
+    url: https://github.com/kingsdigitallab/lwm-davizct/
+  - name: "Interactive notebook: Language of Accidents"
+    url: https://observablehq.com/@jmiguelv/lwm-language-of-accidents
+  - name: "Interactive notebook: Language of Mechanisation"
+    url: https://observablehq.com/@jmiguelv/language-of-mechanisation
+  - name: UKRI URL
+    url: https://gtr.ukri.org/projects?ref=AH%2FS01179X%2F1
+  - name: Language of Mechanisation data paper
+    url: https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.195
+  - name: Language of Mechanisation chapter book
+    url: https://read.uolpress.co.uk/read/analysing-the-language-of-mechanisation/section/b2da82aa-d87b-4b37-8913-c0966fc5028a
 draft: false
 ---
 

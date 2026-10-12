@@ -1,8 +1,8 @@
 ---
 title: Ausonius
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
 slug: ausonius
 foundingDate: null
 dissolutionDate: null

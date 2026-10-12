@@ -1,7 +1,8 @@
 ---
 title: Carpentries
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: carpentries
 foundingDate: null
 dissolutionDate: null

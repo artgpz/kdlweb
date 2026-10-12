@@ -1,7 +1,8 @@
 ---
 title: Science Gallery London
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: science-gallery-london
 foundingDate: null
 dissolutionDate: null

@@ -2,7 +2,7 @@
 title: Illustrating Impact
 name: Illustrating Impact
 tags:
-    - projects
+  - projects
 alternateName: null
 slug: illustrating-impact
 foundingDate: 2018-01-01
@@ -17,8 +17,8 @@ feature:
     width: 1200
     height: 800
 funders:
-    - name: King's College London
-      slug: kings-college-london
+  - name: King's College London
+    slug: kings-college-london
 departments:
     - name: KCL The Policy Institute
       slug: the-policy-institute
@@ -87,8 +87,12 @@ members:
       inOrganisation: null
 keywords: []
 urls:
-    - name: Project URL
-      url: https://chimp.kdl.kcl.ac.uk/index.html
+  - name: Project URL
+    url: https://chimp.kdl.kcl.ac.uk/index.html
+draft: false
+sla:
+  start: null
+  end: null
 ---
 
 The project partners were interested in the possibility of having an online resource which would presents company data relating to various measures of social impact, and that would also facilitate public comments on / contributions to that data. As an initial exploration of the concept KDL modelled the desired functionality and principal interactions and on the basis of those models created static mockup HTML pages which mimiced one of the principal user journeys that the resource would enable. These mockups were produced to support subsequent funding applications and were not published. See a prototype non-functional demo (not a publicly released) [here](https://chimp.kdl.kcl.ac.uk/index.html)

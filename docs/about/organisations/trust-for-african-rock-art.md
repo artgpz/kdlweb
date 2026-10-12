@@ -1,8 +1,9 @@
 ---
 title: Trust for African Rock Art
-tags:
-    - organisations
 alternateName: TARA
+tags:
+  - organisations
+  - departments
 slug: trust-for-african-rock-art
 foundingDate: null
 dissolutionDate: null

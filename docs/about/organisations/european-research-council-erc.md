@@ -1,7 +1,8 @@
 ---
 title: European Research Council (ERC)
 alternateName: null
-tags: [organisations]
+tags:
+  - organisations
 slug: european-research-council-erc
 foundingDate: null
 dissolutionDate: null

@@ -1,7 +1,8 @@
 ---
 title: University of Birmingham
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: university-of-birmingham
 foundingDate: null
 dissolutionDate: null

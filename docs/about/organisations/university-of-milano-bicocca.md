@@ -1,8 +1,9 @@
 ---
 title: University of Milano-Bicocca
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: university-of-milano-bicocca
 foundingDate: null
 dissolutionDate: null

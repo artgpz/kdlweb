@@ -1,8 +1,9 @@
 ---
 title: Imperial College London
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: imperial-college-london
 foundingDate: null
 dissolutionDate: null

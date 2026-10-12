@@ -1,8 +1,9 @@
 ---
 title: University of Sheffield
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: university-of-sheffield
 foundingDate: null
 dissolutionDate: null

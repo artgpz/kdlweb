@@ -1,7 +1,8 @@
 ---
 title: University College London
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: university-college-london
 foundingDate: null
 dissolutionDate: null

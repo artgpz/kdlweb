@@ -1,7 +1,8 @@
 ---
 title: KCL Culture
 alternateName: null
-tags: [organisations]
+tags:
+  - organisations
 slug: kcl-culture
 foundingDate: null
 dissolutionDate: null
