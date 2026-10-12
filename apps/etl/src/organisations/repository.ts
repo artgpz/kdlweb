@@ -9,9 +9,9 @@ type OrganisationMetadata = {
   slug: string
   foundingDate: string | null
   dissolutionDate: string | null
-  parentOrganisation: string | null
-  subOrganisations: string[]
-  urls: string[]
+  parentOrganisation: { name: string; slug: string; alternateName: string } | null
+  subOrganisations: { name: string; slug: string; alternateName: string | null }[]
+  urls: { type: string; url: string }[]
 }
 
 export const IOrganisationsRepository = {

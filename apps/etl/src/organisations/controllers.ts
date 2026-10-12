@@ -7,6 +7,7 @@ import {
 import { getProjectsRepository } from '../projects/repository.ts'
 import { projectsConvertToYamlResolver } from '../projects/resolvers.ts'
 import { organisationCreateOrganisationsUseCase } from './create.ts'
+import { getOrganisationRepository } from './repository.ts'
 
 export const organisationsSyncFromRemoteProjectsController = async ({
   apiKey,
@@ -41,6 +42,7 @@ export const organisationsSyncFromRemoteProjectsController = async ({
     console.error(`You need to provide a dir`)
     return
   }
+  const organisationsRepository = getOrganisationRepository()
   const projectsRepository = getProjectsRepository()
   const active = await projectListActiveProjectsUseCase({
     apiKey,
@@ -75,6 +77,7 @@ export const organisationsSyncFromRemoteProjectsController = async ({
   const funders = await Promise.all(
     metadata.map((data) =>
       organisationCreateOrganisationsUseCase({
+        organisationsRepository,
         dir,
         names:
           data?.metadata.funders
@@ -89,6 +92,7 @@ export const organisationsSyncFromRemoteProjectsController = async ({
   const departments = await Promise.all(
     metadata.map((data) =>
       organisationCreateOrganisationsUseCase({
+        organisationsRepository,
         dir,
         names:
           data?.metadata.departments
@@ -137,6 +141,7 @@ export const organisationsSyncFromActiveProjectsController = async ({
   }
   const storageModule = getStorageModule()
   const projectsRepository = getProjectsRepository()
+  const organisationsRepository = getOrganisationRepository()
   const data = await projectListActiveProjectsUseCase({
     apiKey,
     apiUrl,
@@ -159,6 +164,7 @@ export const organisationsSyncFromActiveProjectsController = async ({
   const funders = await Promise.all(
     metadata.map((data) =>
       organisationCreateOrganisationsUseCase({
+        organisationsRepository,
         dir,
         names:
           data?.metadata?.funders
@@ -172,6 +178,7 @@ export const organisationsSyncFromActiveProjectsController = async ({
   const departments = await Promise.all(
     metadata.map((data) =>
       organisationCreateOrganisationsUseCase({
+        organisationsRepository,
         dir,
         names:
           data?.metadata.departments
@@ -215,6 +222,7 @@ export const organisationsSyncFromProjectsIdsFileController = async ({
   }
   const projectsRepository = getProjectsRepository()
   const storageModule = getStorageModule()
+  const organisationsRepository = getOrganisationRepository()
   const { projects, spaces } = await projectsGetProjectsFromIdUseCase({
     apiKey,
     apiUrl,
@@ -240,6 +248,7 @@ export const organisationsSyncFromProjectsIdsFileController = async ({
   const funders = await Promise.all(
     metadata.map((data) =>
       organisationCreateOrganisationsUseCase({
+        organisationsRepository,
         dir,
         names:
           data?.metadata.funders
@@ -254,6 +263,7 @@ export const organisationsSyncFromProjectsIdsFileController = async ({
   const departments = await Promise.all(
     metadata.map((data) =>
       organisationCreateOrganisationsUseCase({
+        organisationsRepository,
         dir,
         names:
           data?.metadata.departments
