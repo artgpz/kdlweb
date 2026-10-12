@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, writeFileSync, readFileSync } from 'node:fs'
+import { existsSync, mkdirSync, writeFileSync, readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 
 export const IStorageFileSystem = {
@@ -6,6 +6,12 @@ export const IStorageFileSystem = {
     const file = join(dir, filename)
     if (existsSync(file)) {
       return readFileSync(file)
+    }
+    return null
+  },
+  listFiles: ({ dir }: { dir: string }) => {
+    if (existsSync(dir)) {
+      return readdirSync(dir)
     }
     return null
   },
