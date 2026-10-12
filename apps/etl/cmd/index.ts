@@ -1,3 +1,4 @@
+import { assetsEvalController, assetsSyncController } from '../src/assets/controllers.ts'
 import { organisationsSyncFromProjectsIdsFileController } from '../src/organisations/controllers.ts'
 import {
   projectsEvaluateProjectsController,
@@ -47,7 +48,15 @@ const main = async () => {
   const args = handleArgs({
     '--action': {
       required: true,
-      options: ['sync', 'write-projects', 'write-orgs', 'write-people', 'evaluate'],
+      options: [
+        'sync',
+        'write-projects',
+        'write-orgs',
+        'write-people',
+        'evaluate',
+        'assets-evaluate',
+        'assets-sync'
+      ],
       message: `You need to provide an --action.`
     },
     '--dest': {
@@ -90,6 +99,30 @@ const main = async () => {
     if (results?.duplicates) {
       console.log(JSON.stringify(results.duplicates, null, 2))
     }
+  }
+  if (args['--action'] === 'assets-evaluate-blog') {
+    const results = assetsEvalController({ dir: args['--dest'], mode: 'blog' })
+    console.log(JSON.stringify(results, null, 2))
+  }
+  if (args['--action'] === 'assets-sync-blog') {
+    const results = assetsSyncController({ dir: args['--dest'], mode: 'blog' })
+    console.log(JSON.stringify(results, null, 2))
+  }
+  if (args['--action'] === 'assets-evaluate-projects') {
+    const results = assetsEvalController({ dir: args['--dest'], mode: 'projects' })
+    console.log(JSON.stringify(results, null, 2))
+  }
+  if (args['--action'] === 'assets-sync-projects') {
+    const results = assetsSyncController({ dir: args['--dest'], mode: 'projects' })
+    console.log(JSON.stringify(results, null, 2))
+  }
+  if (args['--action'] === 'assets-evaluate-slides') {
+    const results = assetsEvalController({ dir: args['--dest'], mode: 'slides' })
+    console.log(JSON.stringify(results, null, 2))
+  }
+  if (args['--action'] === 'assets-sync-slides') {
+    const results = assetsSyncController({ dir: args['--dest'], mode: 'slides' })
+    console.log(JSON.stringify(results, null, 2))
   }
   console.log(`Action: ${args['--action']}`)
   console.timeEnd('etl')
