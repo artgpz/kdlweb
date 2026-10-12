@@ -7,6 +7,7 @@ import { projectsConvertToYamlResolver, projectsResolveFileName } from './resolv
 import type { IPeopleRepository } from '../people/repository.ts'
 import { peopleConvertToYamlResolver } from '../people/resolvers.ts'
 import { join } from 'node:path'
+import { SLEEP_TIME } from '../utils/vars.ts'
 
 const PROJECTS_IDS_FILENAME = 'projects.json'
 
@@ -52,7 +53,10 @@ export const projectsSyncIdFileUseCase = async ({
         ...activeTasks.map((task) => task.id),
         ...archivedTasks.map((task) => task.id)
       ])
-    ).map((x) => ({ id: x }))
+    ).map((x) => ({
+      id: x,
+      title: [...activeTasks, ...archivedTasks].find((y) => y.id === x)?.name ?? undefined
+    }))
     storageModule.writeFile({ dir, content: JSON.stringify(ids), filename: PROJECTS_IDS_FILENAME })
   } catch (error) {}
 }
@@ -87,7 +91,7 @@ export const projectGenerateMarkdownFromIdsUseCase = async ({
         batch.map(({ id }) => projectsRepository.getTaskById({ apiKey, apiUrl, id }))
       ).then((res) => res.flatMap((res) => (res.status === 'fulfilled' ? res.value : null)))
       results = [...results, ...res]
-      await sleep(3000)
+      await sleep(SLEEP_TIME)
       batchCount++
     }
     const spaceResponse = await projectsRepository.getSpaceByTeamId({ teamId, apiKey, apiUrl })
@@ -103,7 +107,7 @@ export const projectGenerateMarkdownFromIdsUseCase = async ({
           })
         )
     )
-    console.log(parsed)
+    // console.log(parsed)
     const written = parsed
       .filter((data) => data !== null)
       .map(({ metadata, content }) => {

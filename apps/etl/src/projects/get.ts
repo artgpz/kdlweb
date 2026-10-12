@@ -1,5 +1,6 @@
 import { IStorageFileSystem } from '../infrastructure/storage.ts'
 import { batchMap, sleep } from '../utils/index.ts'
+import { SLEEP_TIME } from '../utils/vars.ts'
 import { IProjectsRepository } from './repository.ts'
 import type { Task, TaskMetadata } from './types.ts'
 
@@ -169,7 +170,7 @@ export const projectsGetProjectsFromIdUseCase = async ({
         batch.map(({ id }) => projectsRepository.getTaskById({ apiKey, apiUrl, id }))
       ).then((res) => res.flatMap((res) => (res.status === 'fulfilled' ? res.value : null)))
       results = [...results, ...res]
-      await sleep(3000)
+      await sleep(SLEEP_TIME)
       batchCount++
     }
     const spaceResponse = await projectsRepository.getSpaceByTeamId({ teamId, apiKey, apiUrl })

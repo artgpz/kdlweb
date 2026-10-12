@@ -12,6 +12,8 @@ import { existsSync } from 'fs'
 import { join } from 'node:path'
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { batchMap, sleep } from '../utils/index.ts'
+import { SLEEP_TIME } from '../utils/vars.ts'
+const MODES = ['archived', 'not_archived']
 
 export const createClient = ({ apiUrl, apiKey }: { apiUrl: string; apiKey: string }) =>
   axios.create({
@@ -162,16 +164,26 @@ export const IProjectsRepository = {
       let lists: string[] = []
       console.log(`Fetching lists of folder`)
       for (const folders of batchedFolders) {
-        console.log(`Batch ${foldersBatch + 1} of ${batchedFolders.length}`)
-        const res = await Promise.allSettled(
-          folders.map((id) => client.get<ListsResponse>(`/folder/${id}/list`))
-        ).then((res) =>
-          res.flatMap((res) =>
-            res.status === 'fulfilled' ? res.value.data.lists.map((res) => res.id) : ''
+        for (const mode of MODES) {
+          const url = (id: string) =>
+            mode === 'not_archived' ? `/folder/${id}/list` : `/folder/${id}/list?archived=true`
+          console.log(`Batch ${foldersBatch + 1} of ${batchedFolders.length}; mode ${mode}`)
+          const res = await Promise.allSettled(
+            folders.map((id) => client.get<ListsResponse>(url(id)))
+          ).then((res) =>
+            res.flatMap((res) =>
+              res.status === 'fulfilled'
+                ? res.value.data.lists.map((res) => res.id)
+                : (() => {
+                    console.log('getting list error')
+                    console.log(JSON.stringify(res.reason, null, 2))
+                    return null
+                  })()
+            )
           )
-        )
-        lists = [...lists, ...res]
-        await sleep(3000)
+          lists = [...lists, ...res.filter((x) => x !== null)]
+          await sleep(SLEEP_TIME)
+        }
         foldersBatch++
       }
       console.log(`Lists: ${lists.length}`)
@@ -180,20 +192,32 @@ export const IProjectsRepository = {
       let results: Task[] = []
       console.log(`Fetching tasks of list`)
       for (const lists of batchedLists) {
-        console.log(`Batch ${batch + 1} of ${batchedLists.length}`)
-        // TODO: add generator fn
-        // let page = 0
-        // let isLastPage = false
-
-        const res = await Promise.all(
-          lists.map((id) =>
-            client.get<TaskResponse>(
-              `/list/${id}/task?custom_items[]=${customItemId}&include_closed=true`
+        for (const mode of MODES) {
+          console.log(`Batch ${batch + 1} of ${batchedLists.length}; mode ${mode}`)
+          // TODO: add generator fn
+          // let page = 0
+          // let isLastPage = false
+          const url = (id: string) =>
+            mode === 'not_archived'
+              ? `/list/${id}/task?custom_items[]=${customItemId}&include_closed=true`
+              : `/list/${id}/task?custom_items[]=${customItemId}&include_closed=true&archived=true`
+          const res = await Promise.allSettled(
+            lists.map((id) => client.get<TaskResponse>(url(id)))
+          ).then((res) =>
+            res.flatMap((r) =>
+              r.status === 'fulfilled'
+                ? r.value.data.tasks
+                : (() => {
+                    console.log('getting task error')
+                    console.log(JSON.stringify(r.reason, null, 2))
+                    return null
+                  })()
             )
           )
-        ).then((res) => res.flatMap((r) => r.data.tasks))
-        results = [...results, ...res]
-        await sleep(3000)
+          results = [...results, ...res.filter((x) => x !== null)]
+          await sleep(SLEEP_TIME)
+        }
+
         batch++
       }
       console.log(`Archived tasks: ${results.length}`)
