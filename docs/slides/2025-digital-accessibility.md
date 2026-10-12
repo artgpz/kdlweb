@@ -650,7 +650,7 @@ Reference: [https://www.ontario.ca/page/inclusive-design-toolkit](https://www.on
 
 {% slide %}
 
-<img src="https://www.unimelb.edu.au/__data/assets/image/0004/2777584/res-1.png" alt="A visual representation of a web accessibility checklist, highlighting key elements for creating inclusive online experiences categorised by role" style="width:800px">
+<img src="/assets/images/slides/res-1.png" alt="A visual representation of a web accessibility checklist, highlighting key elements for creating inclusive online experiences categorised by role" style="width:800px">
 
 Reference: [University of Melbourne](https://www.unimelb.edu.au/__data/assets/pdf_file/0005/2777567/responsibilities-20190219.pdf)
 
