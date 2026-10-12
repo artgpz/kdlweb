@@ -8,7 +8,8 @@
     "sync": "node --env-file=.env ./cmd/index.ts --action=sync --dest='../../docs' --item-id=1004",
     "write-projects": "node --env-file=.env ./cmd/index.ts --action=write-projects --dest='../../docs'",
     "write-orgs": "node --env-file=.env ./cmd/index.ts --action=write-orgs --dest='../../docs'",
-    "write-people": "node --env-file=.env ./cmd/index.ts --action=write-people --dest='../../docs'"
+    "write-people": "node --env-file=.env ./cmd/index.ts --action=write-people --dest='../../docs'",
+    "cli": "node --env-file=.env ./cmd/index.ts"
   },
   "engines": {
     "node": ">=24"

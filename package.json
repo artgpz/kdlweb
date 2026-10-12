@@ -16,8 +16,11 @@
 		"dev": "pnpm run --parallel dev",
 		"lint": "pnpm run lint",
 		"format": "prettier --write .",
-		"build": "pnpm run --parallel build",
-		"release": "release-it"
+		"build": "pnpm --filter kdl-frontend run build",
+		"sync": "pnpm --filter etl run sync && pnpm --filter etl run write-projects && pnpm --filter etl run write-orgs && pnpm --filter etl run write-people",
+		"cli": "pnpm --filter etl run cli",
+		"release": "release-it",
+		"test": "pnpm --filter kdl-frontend run test"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
