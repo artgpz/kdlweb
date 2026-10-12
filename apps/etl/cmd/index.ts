@@ -54,8 +54,12 @@ const main = async () => {
         'write-orgs',
         'write-people',
         'evaluate',
-        'assets-evaluate',
-        'assets-sync'
+        'assets-evaluate-blog',
+        'assets-sync-blog',
+        'assets-evaluate-projects',
+        'assets-sync-projects',
+        'assets-evaluate-slides',
+        'assets-sync-slides'
       ],
       message: `You need to provide an --action.`
     },
