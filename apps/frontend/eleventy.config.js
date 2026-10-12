@@ -53,9 +53,7 @@ export default (eleventyConfig) => {
 	eleventyConfig.addPlugin(pluginTOC);
 	// NOTE: enable later
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-		formats: ["avif", "webp", "svg"],
-		// …
-
+		formats: ["avif", "webp", "svg", "jpg"],
 		htmlOptions: {
 			imgAttributes: {
 				loading: "lazy",
