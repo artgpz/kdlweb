@@ -17,7 +17,7 @@ excerpt: As our new director, Arianna, mentioned in her recent blog post,
     moves quickly, it continuously brings new methodological opportunities to many
     scientific fields including the Humanities.
 feature:
-    image: /assets/images/blog/sunset-boulevard-in-512-0.01.original.png
+    image: /assets/images/blog/sunset-boulevard-in-512-0-01-original.png
     title: © GN (generated with VQGan-CLIP)
     description: Image of cityscape against a colorful sunset rendered by VQGAN-CLIP
 ---
@@ -40,7 +40,7 @@ Use case: I decided to define what makes a good layout (e.g., vertically compact
 
 ### [Exon Domesday](https://www.exondomesday.ac.uk/lab/hundreds/) (2014-2017, AHRC, PI: Julia Crick)
 
-![Patterns of hundredal orders in Exon Domesday book](/assets/images/blog/out-002.width-1024.png)
+![Patterns of hundredal orders in Exon Domesday book](/assets/images/blog/out-002-width-1024.png)
 
 [Hundredal Order page](https://www.exondomesday.ac.uk/lab/hundreds/) on the Exon Domesday project website ([introduction by P. Stokes](https://www.exondomesday.ac.uk/labs/hundredal-order/)).
 
@@ -50,7 +50,7 @@ Use case: I adapted the [metaheuristic](http://scholarpedia.org/article/Metaheur
 
 ### [The Community of the realm in Scotland](https://cotr.ac.uk/lab/regions?parent=custom&diff=region-vecs-ft-30.json&texts=7,20,36,23,12,17) (2017-2021, AHRC, PI: Alice Taylor)
 
-![Collation table with colour-coded textual distance](/assets/images/blog/out-003.width-1024.png)
+![Collation table with colour-coded textual distance](/assets/images/blog/out-003-width-1024.png)
 
 [Collation table with colour-coded textual distances](https://cotr.ac.uk/lab/regions?parent=custom&diff=region-vecs-ft-30.json&texts=7,20,36,23,12,17). (See also the [Help page](https://cotr.ac.uk/lab/regions/?parent=custom&panel=help&diff=region-vecs-ft-30.json&texts=7,20,36,23,12,17)).
 
@@ -66,7 +66,7 @@ Use case: text classification is a very well-studied type of ML tasks with many 
 
 ### Word alignment across translations (2022, pre-grant analysis, PI: Gabriele Salciute Civiliene)
 
-![Semi-automated word alignment interface](/assets/images/blog/out-004.width-1024.png){.media-medium}
+![Semi-automated word alignment interface](/assets/images/blog/out-004-width-1024.png){.media-medium}
 
 Proof of concept of a semi-automated word alignment interface, inspired by the concepts developed by Gabriele Salciute Civiliene
 
@@ -74,7 +74,7 @@ In this pre-project (the pre-grant analysis that feeds into an application) phas
 
 This is only a sample of use cases. In other projects in the Lab we are also applying topic modelling, text summarization, hierarchical clustering and neural search to help other partners discover major trends among their projects datasets. For example, my colleague Miguel Vieira has also recently fine-tuned generative language models to produce fictional narratives about the provenance of real heritage material.
 
-![Character reconstruction](/assets/images/blog/out-005.width-1024.jpg){.media-medium}
+![Character reconstruction](/assets/images/blog/out-005-width-1024.jpg){.media-medium}
 
 Attempt at using convolutional networks to reconstruct OCRed text.
 

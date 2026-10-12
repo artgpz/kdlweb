@@ -8,7 +8,7 @@ authors:
 date: 2019-10-30
 excerpt: ""
 feature:
-    image: /assets/images/blog/Viz_UTGKaWw.original.jpg
+    image: /assets/images/blog/viz-utg-ka-ww-original.jpg
     title: © Adapted from a visualisation on the DRaL page
     description: A bar graph presenting the percentage of word repetitions omitted by a translator per each English repeteme in Lithuanian translation (2003)
 ---

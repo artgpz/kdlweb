@@ -11,7 +11,7 @@ excerpt: Digital ghosts, eye vibrations and narratives in physical space.  KDL
     Project Development Programme 2017, exploring immersive and interactive
     storytelling at Lighthouse in Brighton...
 feature:
-    image: /assets/images/blog/ghost_hunt.expanded.jpg
+    image: /assets/images/blog/ghost-hunt-expanded.jpg
     title:
     description: Collage of face parts featuring spooky ghostly figures and eerie atmosphere.
 ---

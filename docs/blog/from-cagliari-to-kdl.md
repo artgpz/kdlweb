@@ -8,7 +8,7 @@ authors:
 date: 2024-04-12
 excerpt: "What brought me to the Virginia Woolf Building was the doctoral programme I am pursuing at the University of Cagliari under the scientific responsibility of professor Giampaolo Salice, and in particular the training course linked to the PON R&I scholarship I hold."
 feature:
-    image: /assets/images/blog/from_cagliari_to_kdl--data-transcription.png
+    image: /assets/images/blog/from-cagliari-to-kdl-data-transcription.png
     title: The process of data transcription © Filippo Astori
     description: One set of visual data transformation with a code snippet in Python on the left and manuscripts on the right.
 

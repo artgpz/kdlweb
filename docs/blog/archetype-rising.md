@@ -14,7 +14,7 @@ excerpt: There have been some mysterious and intriguing noises coming out of KDL
     add the final touches to a digital behemoth hidden underneath an equally
     metaphorical, oil-stained tarpaulin...
 feature:
-    image: /assets/images/blog/metropolis57fsam.original.jpg
+    image: /assets/images/blog/metropolis57fsam-original.jpg
     title:
     description: a dark background with a central radiant metallic metropolis figure
 ---
@@ -41,4 +41,4 @@ So, beneath the tarpaulin, we are hooking up the electrodes. We’re testing the
 
 “Arise, my child! Arise [ARCHETYPE](http://archetype.ink)!”
 
-![The iconic symbol of a triangle with a letter "a" in shades of purple surrounded by a lightning bolt and swirls](/assets/images/blog/archetyp_blog.width-300.jpg "Arise Archetype"){.media-small}
+![The iconic symbol of a triangle with a letter "a" in shades of purple surrounded by a lightning bolt and swirls](/assets/images/blog/archetyp-blog-width-300.jpg "Arise Archetype"){.media-small}

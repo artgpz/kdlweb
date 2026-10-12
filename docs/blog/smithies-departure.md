@@ -14,7 +14,7 @@ excerpt: I’ll be leaving King’s Digital Lab (KDL) this month, after 6 wonder
     I’m grateful to the many people who have supported me to this point, in New
     Zealand, Australia, Jordan, and the United States, as well as the UK.
 feature:
-    image: /assets/images/blog/torsten-dederichs-t5IN6vx0cLs-unsplash_830h.original.jpg
+    image: /assets/images/blog/torsten-dederichs-t5-in-6vx0c-ls-unsplash-830h-original.jpg
     title: © Torsten Dederichs on Unsplash
     description: Four penguins jumping above the ocean with splashes of water around them
 ---

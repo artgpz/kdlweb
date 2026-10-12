@@ -13,7 +13,7 @@ date: 2018-01-17
 excerpt: KDL help the British Museum to ensure that the natural custodians of
     cultural heritage have equal access to scholarship
 feature:
-    image: /assets/images/blog/ara.original.jpg
+    image: /assets/images/blog/ara-original.jpg
     title:
     description: Drawings on rocks capturing the essence of Africa's diverse cultural narratives.
 ---

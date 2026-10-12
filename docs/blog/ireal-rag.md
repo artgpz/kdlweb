@@ -14,7 +14,7 @@ authors:
 date: 2025-01-16
 excerpt: A prototype RAG system for Indigenous data, exploring the use of AI/ML in the context of sensitive cultural data.
 feature:
-    image: /assets/images/blog/JamillahKnowles-Weand-AIPeopleand-Ivory-Tower-AI-2560x1482.webp
+    image: /assets/images/blog/jamillah-knowles-weand-ai-peopleand-ivory-tower-ai-2560x1482.webp
     title: Jamillah Knowles & We and AI / Better Images of AI / People and Ivory Tower AI / CC-BY 4.0
     description: "A neural network comes out of the top of an ivory tower, above a crowd of people's heads (shown in green to symbolise grass roots). Some of them are reaching up to try and take some control and pull the net down to them. Watercolour illustration."
 ---

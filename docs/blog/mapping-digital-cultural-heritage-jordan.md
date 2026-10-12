@@ -8,7 +8,7 @@ authors:
 date: 2019-04-03
 excerpt: ""
 feature:
-    image: /assets/images/blog/banner_jordan.original.jpg
+    image: /assets/images/blog/banner-jordan-original.jpg
     title: © The Oval Forum and Cardo Maximus in ancient Jerash. Wikimedia Commons. Cropped from photo by Arzufrog. Creative Commons Attribution-Share Alike 3.0 Unported.
     description: An expansive view of ancient ruins and modern city with buildings in Jerash, with focus points overlaid
 ---

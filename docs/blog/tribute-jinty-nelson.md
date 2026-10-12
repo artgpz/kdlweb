@@ -13,7 +13,7 @@ authors:
 date: 2024-10-28
 excerpt: Obituary of Professor Dame Janet Nelson
 feature:
-    image: /assets/images/blog/Jinty_Nelson.png
+    image: /assets/images/blog/jinty-nelson.png
     title: Image John Deehan for the Royal Historical Society
     description: Professor Dame Janet Nelson, 2019. Image John Deehan for the Royal Historical Society
 ---

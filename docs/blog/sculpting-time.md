@@ -11,7 +11,7 @@ authors:
 date: 2026-10-09
 excerpt: A short description for previews and SEO.
 feature:
-    image: /assets/images/blog/sculpting_time_figure_1.png
+    image: /assets/images/blog/sculpting-time-figure-1.png
     title: Part of automated analysis workflow on a scene from The Godfather (1972).
     description: Sequence of frames from The Godfather (1972) showing the baptism scene with numbered arrows highlighting key cinematic shots and transitions.
 ---
@@ -102,7 +102,7 @@ framework as a 5×3 matrix:
 Space (Continuous, Contiguous, Discontinuous) vs Time (Continuous,
 Ellipsis definite/indefinite, Time reversal definite/indefinite).
 Include the classification codes: CC, CE, CEi, CR, CRi, CtC, CtE, CtEi,
-CtR, CtRi, DC, DE, DEi, DR, DRi](/assets/images/blog/sculpting_time_figure_2.png "FIGURE 1: Table showing Burch's 5×3 matrix of shot transitions --
+CtR, CtRi, DC, DE, DEi, DR, DRi](/assets/images/blog/sculpting-time-figure-2.png "FIGURE 1: Table showing Burch's 5×3 matrix of shot transitions --
 Space (Continuous, Contiguous, Discontinuous) vs Time (Continuous,
 Ellipsis definite/indefinite, Time reversal definite/indefinite).
 Include the classification codes: CC, CE, CEi, CR, CRi, CtC, CtE, CtEi,
@@ -156,7 +156,7 @@ parody](https://youtu.be/-KDS_NuXYHI?si=bdd-BQhVWWHtvuMR&t=159).
 
 ![FIGURE 2: Table showing shot analysis from The Godfather baptism
 sequence -- including shot numbers, frame thumbnails, space/time
-classifications, and Burch codes.](/assets/images/blog/sculpting_time_figure_3.png "FIGURE 2: Table showing shot analysis from The Godfather baptism
+classifications, and Burch codes.](/assets/images/blog/sculpting-time-figure-3.png "FIGURE 2: Table showing shot analysis from The Godfather baptism
 sequence -- including shot numbers, frame thumbnails, space/time
 classifications, and Burch codes.")
 
@@ -167,7 +167,7 @@ underpins this iconic sequence.
 
 ![FIGURE 3: Line graphs showing time and space continuity signals
 across the baptism sequence -- visualising the oscillating pattern of
-parallel editing](/assets/images/blog/sculpting_time_figure_4.png "FIGURE 3: Line graphs showing time and space continuity signals
+parallel editing](/assets/images/blog/sculpting-time-figure-4.png "FIGURE 3: Line graphs showing time and space continuity signals
 across the baptism sequence -- visualising the oscillating pattern of
 parallel editing")
 
@@ -201,12 +201,12 @@ post-production, a sort of "uncutting" or "unediting" process,
 ![FIGURES 4&5: Network visualisation showing lazy shot clustering
 results -- nodes represent shots, positioned by model-defined groups,
 with edges showing sequence order. Include examples from both The
-Godfather and Vertigo (1958)](/assets/images/blog/sculpting_time_figure_5.png)
+Godfather and Vertigo (1958)](/assets/images/blog/sculpting-time-figure-5.png)
 
 ![FIGURES 4&5: Network visualisation showing lazy shot clustering
 results -- nodes represent shots, positioned by model-defined groups,
 with edges showing sequence order. Include examples from both The
-Godfather and Vertigo (1958)](/assets/images/blog/sculpting_time_figure_6.png)
+Godfather and Vertigo (1958)](/assets/images/blog/sculpting-time-figure-6.png)
 
 ![](/ "FIGURES 4&5: Network visualisation showing lazy shot clustering
 results -- nodes represent shots, positioned by model-defined groups,
@@ -255,7 +255,7 @@ capable vision models.
 
 ![FIGURE 6: Experimental designs (conducted in green and black):
 Computational Burch (1 and 2) are the experiments discussed in this
-blogpost.](/assets/images/blog/sculpting_time_figure_7.jpg "FIGURE 6: Experimental designs (conducted in green and black):
+blogpost.](/assets/images/blog/sculpting-time-figure-7.jpg "FIGURE 6: Experimental designs (conducted in green and black):
 Computational Burch (1 and 2) are the experiments discussed in this
 blogpost.")
 

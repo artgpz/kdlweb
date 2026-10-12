@@ -11,7 +11,7 @@ authors:
 date: 2026-05-07
 excerpt: ""
 feature:
-    image: /assets/images/blog/Before-AI-agents.jpg
+    image: /assets/images/blog/before-ai-agents.jpg
     title: Alan Warburton / https://betterimagesofai.org / © BBC / https://creativecommons.org/licenses/by/4.0/
     description: A photographic rendering of a succulent plant seen through a refractive glass grid, overlaid with a diagram of a neural network
 draft: false
@@ -29,7 +29,7 @@ From [ChatGPT’s Agent mode](https://openai.com/index/introducing-chatgpt-agent
 
 Our focus here is the search infrastructures that helped make AI agentic search possible. Specifically, we examine the integration of web search into large language models (LLMs), a layer increasingly referred to as generative AI search. One such case is [ChatGPT-4o’s web search functionality](https://openai.com/index/introducing-chatgpt-search/), which became widely available in late 2024. Fig.1 situates our study within a broader recent shift from web search to generative AI search and, more recently, AI agent search. Our empirical focus is the middle layer, where web search becomes integrated into LLMs and begins to underpin newer agentic systems. Drawing on an eight-month digital methods study, we examined how GPT-4o “sees” and “searches” the web over time, tracing which sources it cites, how consistent its answers are, and how its tone and self-presentation shift under repeated questioning.
 
-![Figure 1: Situating our study within the changing infrastructures of web search. The schema distinguishes between web search, generative AI search, and the more recent rise of agentic search.](/assets/images/blog/Before-AI-1.jpg "Figure 1: Situating our study within the changing infrastructures of web search"){.media-medium}
+![Figure 1: Situating our study within the changing infrastructures of web search. The schema distinguishes between web search, generative AI search, and the more recent rise of agentic search.](/assets/images/blog/before-ai-1.jpg "Figure 1: Situating our study within the changing infrastructures of web search"){.media-medium}
 
 Across this period, we found GPT-4o to behave as a conservative mediator of web knowledge (conservative by default), and only under explicit and consistent prompts challenging its credibility does it reflect the diversity of web sources and more critical language (stubborn just because). This conservatism is not ideological but operational. At the same time, GPT-4o offers inconsistent responses about its own functioning, yet relies on Reddit to ground its own technical explanations and often recycles sources.
 
@@ -41,11 +41,11 @@ Our study operationalises a platform observability framework to understand how G
 
 To do this we focused on capturing GPT-4o’s responses to its web search function over a period of eight months (Fig.2). This involved [repeated prompting rounds](https://www.researchgate.net/publication/394343724_What_if_LLMs_Are_Our_New_Research_Engines), starting with a baseline prompt and extending it with follow-ups carried forward, with systematic capture of full outputs (text, layout screenshots, citation links, metadata).
 
-![Figure 2: Longitudinal Prompt Method.](/assets/images/blog/Before-AI-2.jpg "Figure 2: Longitudinal Prompt Method"){.media-medium}
+![Figure 2: Longitudinal Prompt Method.](/assets/images/blog/before-ai-2.jpg "Figure 2: Longitudinal Prompt Method"){.media-medium}
 
 From December 2024 to July 2025, [data curation](https://docs.google.com/document/d/1RVOuPH8eNkDMeUJvFQRrQcYFa4-BXICh5_Rh8k8Ad6Q/edit?tab=t.0) combined an initial prompt with five follow-up meta-prompts (Fig.3). The initial prompt treats GenAI as an object of study, seeking domain content. Subsequent meta-prompts ask the model to explain its operations, documentation, performance changes, source selection, and reliance on third-party search.
 
-![Figure 3: List of prompts for data curation between December 2024 and July 2025.](/assets/images/blog/Before-AI-3.jpg "Figure 3: List of prompts for data curation between December 2024 and July 2025"){.media-medium}
+![Figure 3: List of prompts for data curation between December 2024 and July 2025.](/assets/images/blog/before-ai-3.jpg "Figure 3: List of prompts for data curation between December 2024 and July 2025"){.media-medium}
 
 ## Conservative by default – Taking you to approved sources
 
@@ -53,7 +53,7 @@ GPT-4o recycles approximately 54.8% of the web sources used to answer the prompt
 
 The network centre (Fig.4) reveals that GPT-4o tends to ground technical explanations on Reddit, a platform for community discussions and niche topics. As an epistemic authority, Reddit is one of the most frequently used single sources; it becomes a recurring source of credibility in ChatGPT’s explanations of its own web search function (meta-prompts 2 and 3) and appears exactly where OpenAI’s official documentation is absent (meta-prompt 1). This reliance on user-generated content, often mixed with SEO blogs, tech media, and OpenAI help articles, suggests that GPT-4o treats Reddit posts as quasi-technical confirmation for its own architecture.
 
-![Figure 4: Network of prompts and domain image icons, representing GPT-4o’s responses from December 2024 to July 2025.](/assets/images/blog/Before-AI-4.jpg "Figure 4: Network of prompts and domain image icons, representing GPT-4o’s responses from December 2024 to July 2025"){.media-medium}
+![Figure 4: Network of prompts and domain image icons, representing GPT-4o’s responses from December 2024 to July 2025.](/assets/images/blog/before-ai-4.jpg "Figure 4: Network of prompts and domain image icons, representing GPT-4o’s responses from December 2024 to July 2025"){.media-medium}
 
 ​​Left unchallenged, GPT-4o operates like a conservative search engine: once-trusted, always-trusted. But when prompts turn self-reflexive or probe credibility, citations shift toward the network periphery (Fig.4), pulling in novel and more authoritative sources. Prompt wording (lexical choices) and framing (semantic intent) shape this citation behaviour. Meta-cognitive, evaluative, or adversarial prompts, such as asking the model to justify its reasoning or cite documentation (meta-prompts 1, 2, 3 and 5), trigger diversification.
 
@@ -70,7 +70,7 @@ Two observations are of note: a) the lack of transparency regarding OpenAI from 
 
 Meanwhile, academic sources are present in the links returned for the initial prompt and prompts 1 & 2, but no academic sources are linked in responses to prompts 4 & 5. In other words, when the questioning moves from “define/explain” (prompts 0-1) to “verify/justify” (prompts 2-5), the sourcing pattern shifts unevenly. These patterns imply that robustness is not the model’s default setting but rather something the user must explicitly request.
 
-![Figure 6: ChatGPT-4o inconsistent explanations of its web search providers and ranks results.](/assets/images/blog/Before-AI-6.jpg "Figure 6: ChatGPT-4o inconsistent explanations of its web search providers and ranks results"){.media-medium}
+![Figure 6: ChatGPT-4o inconsistent explanations of its web search providers and ranks results.](/assets/images/blog/before-ai-6.jpg "Figure 6: ChatGPT-4o inconsistent explanations of its web search providers and ranks results"){.media-medium}
 
 A second point characterising GPT-4o’s stubbornness is its capacity to return inconsistent responses, including when asked to explain which third-party search providers it uses and how it ranks results (Fig.6). Over time, GPT-4o shifts from unnamed providers to multi-provider or Bing-only. The model vacillates between treating Bing as an exclusive search provider and incorporating other providers, with similar inconsistency in its account of ranking mechanisms: from attributing ranking to Google’s PageRank or Bing’s raw results, to LLM-centric ranking, and then to ChatGPT-centric ranking layered on top of whatever the provider returns. Under sustained meta-questioning, each new answer overwrites the last rather than accounting for the shift.
 

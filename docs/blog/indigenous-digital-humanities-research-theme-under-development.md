@@ -11,7 +11,7 @@ excerpt: Whaia e koe ki te iti kahurangi, kia tāpapa koe,he maunga
     to a lofty mountainNāku te rourou, nāu te rourou,ka ora ai te iwiWith my
     basket, and your basket,we will feed the people
 feature:
-    image: /assets/images/blog/IDH_banner.original.jpg
+    image: /assets/images/blog/idh-banner-original.jpg
     title: © Sean Pike, 2022
     description: Indigenous Digital Humanities Banner
 ---
@@ -30,7 +30,7 @@ we will feed the people_
 
 ## Ko wai au? (Who am I?)
 
-![Te Whanau a Apanui sign, Hawai by Te Ara, 2007- edited](/assets/images/blog/whanau_x2.width-1024.jpg)
+![Te Whanau a Apanui sign, Hawai by Te Ara, 2007- edited](/assets/images/blog/whanau-x2-width-1024.jpg)
 
 [Te Whanau a Apanui sign, Hawai](https://www.flickr.com/photos/teara/1581811841/in/photolist-3pMcxX) by Te Ara, 2007. Reproduced under CC [BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/)
 
@@ -56,7 +56,7 @@ The definition of ‘Indigenous’ as a term itself is contentious and we do not
 
 A substantial amount of work that underpins some of the thinking for our developing research theme is my outreach work. I’ve spoken to GLAM (Galleries, Libraries, Archives and Museums) sector staff and academics at conferences, symposia, seminars, and by invitation to the DH Oxford Summer School and the Tate Britain. Some of this outreach work has been supported by KDL; other outreach has been done via my volunteer work with [Te Maru o Hinemihi](http://www.hinemihi.co.uk/), a [pūkenga](https://maoridictionary.co.nz/search?idiom=&phrase=&proverb=&loan=&histLoanWords=&keywords=pukenga) (expert) group predominantly based in the UK supporting the care, and now [exchange](https://www.nationaltrust.org.uk/clandon-park/features/an-update-on-hinemihi), of the [wharenui](https://maoridictionary.co.nz/search?idiom=&phrase=&proverb=&loan=&histLoanWords=&keywords=wharenui) (meeting house), [Hinemihi o te Ao Tawhito](https://www.nationaltrust.org.uk/clandon-park/features/hinemihi-of-the-old-world). My volunteer work is, at times, supported via the Service Time policy here at King’s.
 
-![Tourist guides Sophia Hinerangi (standing), Kate Middlemass (Kati) (on left) and another guide, outside Hinemihi meeting house at Te Wairoa. Taken by Elizabeth Pulman around 1881.](/assets/images/blog/nlnzimage.width-1024.jpg "Pulman, Elizabeth, 1836-1900. Sophia Hinerangi, Kate Middlemass (Kati), and another guide, outside Hinemihi meeting house, Te Wairoa. Ref: 1/2-029217-F. Alexander Turnbull Library, Wellington, New Zealand. [/records/22630317](https://natlib.govt.nz/records/22630317)")
+![Tourist guides Sophia Hinerangi (standing), Kate Middlemass (Kati) (on left) and another guide, outside Hinemihi meeting house at Te Wairoa. Taken by Elizabeth Pulman around 1881.](/assets/images/blog/nlnzimage-width-1024.jpg "Pulman, Elizabeth, 1836-1900. Sophia Hinerangi, Kate Middlemass (Kati), and another guide, outside Hinemihi meeting house, Te Wairoa. Ref: 1/2-029217-F. Alexander Turnbull Library, Wellington, New Zealand. [/records/22630317](https://natlib.govt.nz/records/22630317)")
 
 The sorts of topics I cover when speaking have overlaps based on audience. When speaking to GLAM sector practitioners I place more focus on consultation/co-working, [taonga](https://maoridictionary.co.nz/search?idiom=&phrase=&proverb=&loan=&histLoanWords=&keywords=taonga) (treasures) and reconnection, as well as data sovereignty. When speaking to academics I focus more on data and data sovereignty while also highlighting relationship building and consultation/co-working.
 
@@ -104,7 +104,7 @@ Although not an exhaustive list, these benefits might be:
     - Opportunities for relationship, network and knowledge building
     - For Early Career Researchers and new graduate GLAM staff opportunities to use knowledge gained through their degrees
 
-![Ngāti Rānana perform in front of Hinemihi o te Ao Tawhito, 2012 - edited](/assets/images/blog/hinemihi_2012-2-denoiseai-standard-gigapixel-.width-1024.jpg "Ngāti Rānana perform in front of Hinemihi o te Ao Tawhito, 2012 © Sean Pike, 2022. Reproduced with permission.")
+![Ngāti Rānana perform in front of Hinemihi o te Ao Tawhito, 2012 - edited](/assets/images/blog/hinemihi-2012-2-denoiseai-standard-gigapixel-width-1024.jpg "Ngāti Rānana perform in front of Hinemihi o te Ao Tawhito, 2012 © Sean Pike, 2022. Reproduced with permission.")
 
 ## Projects
 

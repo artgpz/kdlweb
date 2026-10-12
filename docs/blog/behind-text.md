@@ -8,7 +8,7 @@ authors:
 date: 2020-11-18
 excerpt: ""
 feature:
-    image: /assets/images/blog/book_network.original.jpg
+    image: /assets/images/blog/book-network-original.jpg
     description: Multiple open books spread out with neon-coloured lines and bright glitch effect
 ---
 

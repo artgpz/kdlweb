@@ -24,7 +24,7 @@ excerpt: This blogpost discusses and reflects on the process and findings of the
     background and outlines three approaches to investigating the Reading at the
     Interface project dataset.
 feature:
-    image: /assets/images/blog/robert-anasch-McX3XuJRsUM-unsplash.original.jpg
+    image: /assets/images/blog/robert-anasch-mc-x3-xu-jrs-um-unsplash-original.jpg
     title: © Photo by Robert Anasch on Unsplash
     description: Books neatly arranged in a pile against a wall, representing a wealth of information and intellectual exploration.
 ---
@@ -80,7 +80,7 @@ Of the codex technology in the context of the development of the novel in the ei
 
 Design-first approaches offer another source of inspiration. The visual examples quoted below are grounded on (often textual) data trustworthiness, yet work with readers’ perception and foreground the creative process not availed of technical functionalism.
 
-![A collage showcasing diverse designs and patterns in a visually captivating arrangement.](/assets/images/blog/Blank_4_Grids_Collage.width-1024.png)
+![A collage showcasing diverse designs and patterns in a visually captivating arrangement.](/assets/images/blog/blank-4-grids-collage-width-1024.png)
 
 Images clockwise from top left: [Stefanie Posavec](https://www.stefanieposavec.com/work); [Hanna Piotrowska](https://www.behance.net/gallery/83315693/Italo-Calvino-text-data-data-visualization-book); Stefanie Posavec again; [Nicholas Felton](http://feltron.com/FAR14.html)
 
@@ -110,11 +110,11 @@ To explore this idea, I decided to use Parts Of Speech (POS) tagging. A POS proc
 
 To test this hunch, I used the [Fin NLP POS Tagger](https://finnlp.gitbook.io/fin/in-depth-look/pos-tagger) to encode the review texts as POS and saved them as flat text files. I then created a JavaScript web app which encodes a user’s text input into a POS string and finds matching patterns in the POS encoded review files, displaying matching texts as a list.
 
-![ Screenshot of tagging model](/assets/images/blog/Capture1.width-1024.png){.media-medium}
+![ Screenshot of tagging model](/assets/images/blog/capture1-width-1024.png){.media-medium}
 
 A user’s text input is encoded as POS.
 
-![ Screenshot of list of search results](/assets/images/blog/Capture2.width-300.png){.media-small}
+![ Screenshot of list of search results](/assets/images/blog/capture2-width-300.png){.media-small}
 
 The list of matches, denoted by source (review publication type): \[a\]cademic, \[s\]ocial (media), \[n\]ewspaper.
 
@@ -143,7 +143,7 @@ The [second notebook](http://tinyurl.com/59ys8pz6) was focused on temporal explo
 
 [The final notebook](http://tinyurl.com/ycy27y7z) used  machine learning to create sentence embeddings. [Sentence embeddings](https://www.wikiwand.com/en/Sentence_embedding) are mathematical representations of sentences that capture their features and are used for computational processing of sentence data. These can then be used for several applications, in this project it was used for [semantic search](https://www.sbert.net/examples/applications/semantic-search/README.html) and [clustering](https://www.wikiwand.com/en/Cluster_analysis). This allows us to search and find reviews based on context and meaning rather than just keywords, making it easier to identify patterns in the data. We also explored different visualisations to represent the embeddings.
 
-![A map displayed in the various colours and a color spectrum bar on the right](/assets/images/blog/Capture3_AxrPb2c.width-1024.png){.media-medium}
+![A map displayed in the various colours and a color spectrum bar on the right](/assets/images/blog/capture3-axr-pb2c-width-1024.png){.media-medium}
 
 Sentence embeddings of the RTI reviews (academic, social and newspapers) coloured by cluster
 

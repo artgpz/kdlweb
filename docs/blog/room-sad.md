@@ -8,7 +8,7 @@ authors:
 date: 2023-06-23
 excerpt: "Room is Sad is an immersive experience that uses AI and the Internet of Things (IoT) to tell the story of a smart room that isn’t feeling quite itself.  It's a humorous, accessible way to engage both an academic and general audience on questions of identity, privacy, and intelligence."
 feature:
-    image: /assets/images/blog/RoomIsSad_opening_2_cropped.original.jpg
+    image: /assets/images/blog/room-is-sad-opening-2-cropped-original.jpg
     title:
     description: A desk with lamp and plant on top, in a room are bathed in purple light.
 ---
@@ -50,7 +50,7 @@ I decided to use generative AI to provide some elements of Room’s mind.  Firs
 
 I also used [OpenAI's Chat GPT-4,](https://openai.com/research/gpt-4) though not to write any of Room itself, for reasons I hope to go into in a later post.  The short version is that I wanted GPT-4 to be a character on its own, so I made it into Room’s therapist. Here is the therapy session, that I then cut down for use in the installation:
 
-![ An image showcasing a step-by-step guide](/assets/images/blog/GPT_Therapy.width-1024.png "Screenshot of Chat GPT-4's results")
+![ An image showcasing a step-by-step guide](/assets/images/blog/gpt-therapy-width-1024.png "Screenshot of Chat GPT-4's results")
 
 Room's therapy session with GPT-4
 

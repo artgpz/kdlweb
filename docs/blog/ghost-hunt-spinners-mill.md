@@ -14,7 +14,7 @@ excerpt: "Tom Bowtell of KIT Theatre and Elliott Hall of Kings Digital Lab
     time ghost) Mike Burwin.Emma Bradburn, intern for the ‘Civic Theatres: A Place
     for Towns’ research project wrote an account of the show on her blog."
 feature:
-    image: /assets/images/blog/Leigh_Spinners_Leigh_-_geograph.org.uk_-_637989.original.png
+    image: /assets/images/blog/leigh-spinners-leigh-geograph-org-uk-637989-original.png
     title: © By Chris Allen, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=13176326
     description: Spinners Mill
 ---
@@ -61,7 +61,7 @@ Our audience was drawn almost exclusively from Leigh and the surrounding area. 
 
 In the coming year the project is planning to do more work with early career practitioners in immersive theatre, as part of the lab's project to collaborate and support the Digital Creativity ecosystem.  As for the Ghost Hunt, the Ministry of Real Paranormal Hygiene (MORPH) is famously secretive about its work, but there is always another ghost to find, to help, and to set free.
 
-![A group of people standing proudly alongside a majestic steam engine](/assets/images/blog/PHOTO-2021-08-08-18-29-09.width-1024.jpg "Spinners Mill cast")
+![A group of people standing proudly alongside a majestic steam engine](/assets/images/blog/photo-2021-08-08-18-29-09-width-1024.jpg "Spinners Mill cast")
 
 The cast, dwarfed by the spectacular (and potentially dangerous) historic machinery
 

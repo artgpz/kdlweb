@@ -10,7 +10,7 @@ authors:
 date: 2019-12-05
 excerpt: ""
 feature:
-    image: /assets/images/blog/franck-v-U3sOwViXhkY-unsplash.original.jpg
+    image: /assets/images/blog/franck-v-u3s-ow-vi-xhk-y-unsplash-original.jpg
     title: © Photo by Franck V. on Unsplash
     description: A robot arm playing music on the keyboard
 ---
