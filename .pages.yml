@@ -241,18 +241,28 @@ content:
             options:
                 collection: organisations
                 multiple: true
+                search: "fields.slug"
+                value: "{path}"
+                label: "{fields.title}"
+
           - name: departments
             label: Departments
             type: reference
             options:
                 collection: organisations
                 multiple: true
+                search: "fields.slug"
+                value: "{path}"
+                label: "{fields.title}"
           - name: members
             label: Members
             type: reference
             options:
                 collection: people
                 multiple: true
+                search: "fields.slug"
+                value: "{path}"
+                label: "{fields.title}"
           - name: body
             label: Content
             type: rich-text
