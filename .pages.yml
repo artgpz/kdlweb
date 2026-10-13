@@ -34,6 +34,7 @@ content:
             type: string
           - name: slug
             label: false
+            hidden: true
             type: string
           - name: foundingDate
             label: Founding date
@@ -95,6 +96,7 @@ content:
             type: string
           - name: slug
             label: false
+            hidden: true
             type: string
           - name: jobTitle
             label: Job title
@@ -186,6 +188,7 @@ content:
             type: string
           - name: name
             label: false
+            hidden: true
             type: string
           - name: tags
             label: Tags
@@ -198,6 +201,7 @@ content:
 
           - name: slug
             label: false
+            hidden: true
             type: string
 
           - name: foundingDate
