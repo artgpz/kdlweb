@@ -1,0 +1,37 @@
+media:
+    - name: images
+      label: Images
+      input: docs/assets/images
+      output: _site/assets/images
+      rename: safe
+      extensions: [png, jpg, webp]
+      # actions:
+      #     - name: optimize-images
+      #       label: Optimize images
+      #       workflow: pages-cms-media-action.yml
+content:
+    - name: blog
+      label: Blog
+      type: collection
+      path: docs/blog
+      fields:
+          - name: title
+            type: string
+          - name: tags
+            type: string
+            list: true
+          - name: authors
+            type: string
+            list: true
+          - name: date
+            type: date
+            default: ""
+          - name: feature
+            label: Feature image
+            type: file
+            options:
+                media: media
+                path: docs/assets/images/blog
+                rename: true
+          - name: body
+            type: rich-text
