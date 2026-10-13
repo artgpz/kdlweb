@@ -11,8 +11,6 @@ on:
             - develop
             - main
             - next
-    schedule:
-        - cron: "*/30 7-22 * * *"
 
 jobs:
     build:
