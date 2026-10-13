@@ -21,6 +21,9 @@ content:
       type: collection
       path: docs/about/organisations
       format: yaml-frontmatter
+      operations:
+          create: false
+          delete: false
       fields:
           - name: title
             label: Title
@@ -186,6 +189,9 @@ content:
       type: collection
       path: docs/projects
       format: yaml-frontmatter
+      operations:
+          create: false
+          delete: false
       fields:
           - name: title
             label: Title
