@@ -20,12 +20,12 @@ content:
           - name: tags
             type: string
             list: true
-          # - name: authors
-          #   type: string
-          #   list: true
-          # - name: date
-          #   type: date
-          #   default: ""
+          - name: authors
+            type: string
+            list: true
+          - name: date
+            type: date
+            default: ""
           # - name: feature
           #   label: Feature image
           #   type: file
@@ -33,6 +33,6 @@ content:
           #       media: media
           #       path: docs/assets/images/blog
           #       rename: true
-          # - name: body
-          #   type: rich-text
+          - name: body
+            type: rich-text
 
