@@ -26,13 +26,11 @@ content:
           - name: date
             type: date
             default: ""
-          # - name: feature
-          #   label: Feature image
-          #   type: file
-          #   options:
-          #       media: media
-          #       path: docs/assets/images/blog
-          #       rename: true
+          - name: feature
+            label: Feature image
+            type: file
+            options:
+                path: docs/assets/images/blog
           - name: body
             type: rich-text
 
