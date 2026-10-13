@@ -184,6 +184,11 @@ content:
             options:
                 path: /assets/images/blog
                 rename: safe
+          - name: draft
+            label: Draft
+            type: boolean
+            default: true
+
     - name: projects
       label: Projects
       type: collection
