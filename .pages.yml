@@ -370,7 +370,7 @@ settings:
     commit:
         identity: app
         templates:
-            create: "chore: Create {name}"
-            update: "chore: Update {name}"
-            delete: "chore: Delete {name}"
+            create: "chore: Create {name} {filename}"
+            update: "chore: Update {name} {filename}"
+            delete: "chore: Delete {name} {filename}"
             rename: "chore: Rename {oldPath} -> {newPath}"
