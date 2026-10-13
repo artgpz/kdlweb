@@ -16,6 +16,120 @@ media:
       #       label: Optimize images
       #       workflow: pages-cms-media-action.yml
 content:
+    - name: organisations
+      label: Organisations
+      type: collection
+      path: docs/about/organisations
+      format: yaml-frontmatter
+      fields:
+          - name: title
+            label: Title
+            type: string
+          - name: tags
+            label: Tags
+            type: string
+            list: true
+          - name: alternateName
+            label: Alternate Name
+            type: string
+          - name: slug
+            label: false
+            type: string
+          - name: foundingDate
+            label: Founding date
+            type: date
+            default: ""
+          - name: dissolutionDate
+            label: Dissolution date
+            type: date
+            default: ""
+          - name: parentOrganisation
+            label: Parent organisation
+            type: object
+            fields:
+                - name: name
+                  label: Name
+                  type: string
+                - name: slug
+                  label: Slug
+                  type: string
+                - name: alternateName
+                  label: Alternate name
+                  type: string
+          - name: subOrganisations
+            label: Sub organisations
+            type: object
+            list: true
+            fields:
+                - name: name
+                  label: Name
+                  type: string
+                - name: slug
+                  label: Slug
+                  type: string
+                - name: alternateName
+                  label: Alternate name
+                  type: string
+          - name: urls
+            label: URLs
+            type: object
+            list: true
+            fields:
+                - name: type
+                  label: Type
+                  type: string
+                - name: url
+                  label: URL
+                  type: string
+          - name: body
+            label: Content
+            type: rich-text
+    - name: people
+      label: People
+      type: collection
+      path: docs/about/people
+      format: yaml-frontmatter
+      fields:
+          - name: title
+            label: Title
+            type: string
+          - name: slug
+            label: false
+            type: string
+          - name: jobTitle
+            label: Job title
+            type: string
+          - name: tags
+            label: Tags
+            type: string
+            list: true
+          - name: memberOf
+            label: Member of
+            type: object
+            list: true
+            fields:
+                - name: startDate
+                  label: Start date
+                  type: date
+                  default: ""
+                - name: endDate
+                  label: End date
+                  type: date
+                  default: ""
+                - name: organisation
+                  label: Organisation
+                  type: object
+                  fields:
+                      - name: name
+                        label: Name
+                        type: string
+                      - name: slug
+                        label: Slug
+                        type: string
+          - name: body
+            label: Content
+            type: rich-text
+
     - name: blog
       label: Blog
       type: collection
@@ -23,32 +137,153 @@ content:
       format: yaml-frontmatter
       fields:
           - name: title
+            label: Title
             type: string
           - name: subtitle
+            label: Subtitle
             type: string
           - name: excerpt
+            label: Excerpt
             type: string
           - name: tags
+            label: Tags
             type: string
             list: true
           - name: authors
+            label: Authors
             type: string
             list: true
           - name: date
+            label: Date
             type: date
             default: ""
           - name: feature
+            label: Feature
             type: object
             fields:
                 - name: title
+                  label: Title
                   type: string
                 - name: description
+                  label: Description
                   type: rich-text
                 - name: image
+                  label: Image
                   type: image
                   options:
                       path: assets/images/blog
-          - name: excerpt
-            type: string
           - name: body
+            label: Content
             type: rich-text
+    - name: projects
+      label: Projects
+      type: collection
+      path: docs/projects
+      format: yaml-frontmatter
+      fields:
+          - name: title
+            label: Title
+            type: string
+          - name: name
+            label: false
+            type: string
+          - name: tags
+            label: Tags
+            type: string
+            list: true
+
+          - name: alternateName
+            label: Alternate Name
+            type: string
+
+          - name: slug
+            label: false
+            type: string
+
+          - name: foundingDate
+            label: Founding date
+            type: date
+            default: ""
+          - name: dissolutionDate
+            label: Dissolution date
+            type: date
+            default: ""
+
+          - name: creativeWorkStatus
+            label: Status
+            type: string
+
+          - name: feature
+            label: Feature
+            type: object
+            fields:
+                - name: title
+                  label: Title
+                  type: string
+                - name: description
+                  label: Description
+                  type: rich-text
+                - name: image
+                  label: Image
+                  type: image
+                  options:
+                      path: assets/images/projects
+                - name: width
+                  label: Witdh
+                  type: number
+                - name: height
+                  label: Height
+                  type: number
+
+          - name: funders
+            label: Funders
+            type: reference
+            options:
+                collection: organisations
+                multiple: true
+          - name: departments
+            label: Departments
+            type: reference
+            options:
+                collection: organisations
+                multiple: true
+          - name: members
+            label: Members
+            type: reference
+            options:
+                collection: people
+                multiple: true
+          - name: body
+            label: Content
+            type: rich-text
+          - name: keywords
+            label: Keywords
+            type: string
+            list: true
+          - name: urls
+            label: URLs
+            type: object
+            list: true
+            fields:
+                - name: name
+                  label: Name
+                  type: string
+                - name: url
+                  label: URL
+                  type: string
+          - name: sla
+            label: SLA
+            type: object
+            fields:
+                - name: start
+                  label: Start
+                  type: date
+                  default: ""
+                - name: end
+                  label: End
+                  type: date
+                  default: ""
+          - name: draft
+            label: Draft
+            type: boolean
+            default: true
