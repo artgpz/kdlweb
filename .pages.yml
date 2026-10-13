@@ -27,10 +27,16 @@ content:
             type: date
             default: ""
           - name: feature
-            label: Feature image
-            type: file
-            options:
-                path: docs/assets/images/blog
+            type: object
+            fields:
+                - name: title
+                  type: string
+                - name: description
+                  type: rich-text
+                - name: image
+                  type: image
+                  options:
+                      path: docs/assets/images/blog
           - name: body
             type: rich-text
 
