@@ -14,8 +14,13 @@ content:
       label: Blog
       type: collection
       path: docs/blog
+      format: yaml-frontmatter
       fields:
           - name: title
+            type: string
+          - name: subtitle
+            type: string
+          - name: excerpt
             type: string
           - name: tags
             type: string
@@ -37,5 +42,7 @@ content:
                   type: image
                   options:
                       path: docs/assets/images/blog
+          - name: excerpt
+            type: string
           - name: body
             type: rich-text
