@@ -241,32 +241,78 @@ content:
 
           - name: funders
             label: Funders
-            type: reference
-            options:
-                collection: organisations
-                multiple: true
-                search: "fields.slug"
-                value: "{path}"
-                label: "{fields.title}"
-
+            type: object
+            list: true
+            fields:
+                - name: name
+                  label: Name
+                  type: string
+                - name: slug
+                  label:
+                  type: string
           - name: departments
             label: Departments
-            type: reference
-            options:
-                collection: organisations
-                multiple: true
-                search: "fields.slug"
-                value: "{path}"
-                label: "{fields.title}"
+            type: object
+            list: true
+            fields:
+                - name: name
+                  label: Name
+                  type: string
+                - name: slug
+                  label: Slug
+                  type: string
+
           - name: members
             label: Members
-            type: reference
-            options:
-                collection: people
-                multiple: true
-                search: "fields.slug"
-                value: "{path}"
-                label: "{fields.title}"
+            type: object
+            list: true
+            fields:
+                - name: name
+                  label: Name
+                  type: string
+                - name: slug
+                  label: Slug
+                  type: string
+                - name: inOrganisation
+                  label: Organisation
+                  type: object
+                  fields:
+                      - name: name
+                        label: Name
+                        type: string
+                      - name: slug
+                        label: Slug
+                        type:
+                            string
+
+                            # - name: funders
+          #   label: Funders
+          #   type: reference
+          #   options:
+          #       collection: organisations
+          #       multiple: true
+          #       search: "fields.slug"
+          #       value: "{path}"
+          #       label: "{fields.title}"
+          #
+          # - name: departments
+          #   label: Departments
+          #   type: reference
+          #   options:
+          #       collection: organisations
+          #       multiple: true
+          #       search: "fields.slug"
+          #       value: "{path}"
+          #       label: "{fields.title}"
+          # - name: members
+          #   label: Members
+          #   type: reference
+          #   options:
+          #       collection: people
+          #       multiple: true
+          #       search: "fields.slug"
+          #       value: "{path}"
+          #       label: "{fields.title}"
           - name: body
             label: Content
             type: rich-text
