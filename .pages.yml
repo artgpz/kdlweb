@@ -5,12 +5,6 @@ media:
       output: _site/assets/images
       rename: safe
       extensions: [png, jpg, webp]
-    - name: blog_images
-      label: Blog images
-      input: docs/assets/images/blog
-      output: _site/assets/images/blog
-      rename: safe
-      extensions: [png, jpg, webp]
       # actions:
       #     - name: optimize-images
       #       label: Optimize images
@@ -42,7 +36,6 @@ content:
                 - name: image
                   type: image
                   options:
-                      media: blog_images
+                      path: docs/assets/images/blog
           - name: body
             type: rich-text
-
