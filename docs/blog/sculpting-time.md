@@ -12,7 +12,7 @@ feature:
   title: Part of automated analysis workflow on a scene from The Godfather (1972).
   description: Sequence of frames from The Godfather (1972) showing the baptism
     scene with numbered arrows highlighting key cinematic shots and transitions.
-  image: assets/images/blog/sculpting-time-figure-1.png
+  image: docs/assets/images/blog/sculpting-time-figure-1.png
 ---
 *Want to know more about this research? Why not read [Cinema and Machine Vision: Artificial Intelligence, Aesthetics and Spectatorship](https://edinburghuniversitypress.com/book-cinema-and-machine-vision.html) which is now out on paperback! For a limited time, get a 30% discount using the code PAPER30*
 
