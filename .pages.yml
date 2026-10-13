@@ -36,7 +36,7 @@ content:
                 - name: image
                   type: image
                   options:
-                      path: docs/assets/images/blog
+                      path: /docs/assets/images/blog
           - name: body
             type: rich-text
 
