@@ -2,14 +2,14 @@ media:
     - name: images
       label: Images
       input: docs/assets/images
-      output: docs/assets/images
-      # rename: safe
+      output: assets/images
+      rename: safe
       extensions: [png, jpg, webp, svg]
     - name: videos
       label: Videos
       input: docs/assets/videos
-      output: docs/assets/videos
-      # rename: safe
+      output: assets/videos
+      rename: safe
       extensions: [mp4]
       # actions:
       #     - name: optimize-images
@@ -174,11 +174,13 @@ content:
                   type: image
                   options:
                       path: assets/images/blog
+                      rename: safe
           - name: body
             label: Content
             type: rich-text
             options:
                 path: assets/images/blog
+                rename: safe
     - name: projects
       label: Projects
       type: collection
@@ -238,6 +240,7 @@ content:
                   type: image
                   options:
                       path: assets/images/projects
+                      rename: safe
                 - name: width
                   label: Witdh
                   type: number
