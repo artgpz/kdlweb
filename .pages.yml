@@ -2,7 +2,7 @@ media:
     - name: images
       label: Images
       input: docs/assets/images
-      output: assets/images
+      output: docs/assets/images
       rename: safe
       extensions: [png, jpg, webp]
       # actions:
