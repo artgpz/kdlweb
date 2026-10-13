@@ -173,12 +173,12 @@ content:
                   label: Image
                   type: image
                   options:
-                      path: /assets/images/blog
+                      path: assets/images/blog
           - name: body
             label: Content
             type: rich-text
             options:
-                path: /assets/images/blog
+                path: assets/images/blog
     - name: projects
       label: Projects
       type: collection
@@ -237,7 +237,7 @@ content:
                   label: Image
                   type: image
                   options:
-                      path: /assets/images/projects
+                      path: assets/images/projects
                 - name: width
                   label: Witdh
                   type: number
