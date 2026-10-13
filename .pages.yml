@@ -4,7 +4,13 @@ media:
       input: docs/assets/images
       output: docs/assets/images
       rename: safe
-      extensions: [png, jpg, webp]
+      extensions: [png, jpg, webp, svg]
+    - name: videos
+      label: Videos
+      input: docs/assets/videos
+      output: docs/assets/videos
+      rename: safe
+      extensions: [mp4]
       # actions:
       #     - name: optimize-images
       #       label: Optimize images
@@ -41,7 +47,7 @@ content:
                 - name: image
                   type: image
                   options:
-                      path: docs/assets/images/blog
+                      path: assets/images/blog
           - name: excerpt
             type: string
           - name: body
