@@ -325,8 +325,16 @@ content:
             type: rich-text
           - name: keywords
             label: Keywords
-            type: string
+            type: object
+            hidden: true
             list: true
+            fields:
+                - name: name
+                  label: Name
+                  type: string
+                - name: slug
+                  label: Slug
+                  type: string
           - name: urls
             label: URLs
             type: object

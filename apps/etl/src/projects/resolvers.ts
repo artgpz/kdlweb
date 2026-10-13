@@ -187,6 +187,7 @@ const getKeywords = ({ data }: { data: Task }) => {
     .filter((opt) => themeField.value?.includes(opt.id))
     .map((opt) => ({
       name: opt.label,
+      // HACK: this should be removed/data driven
       slug: opt.label === 'Machine Learning and AI' ? 'machine-learning-ai' : slugify(opt.label)
     }))
 }
