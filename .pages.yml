@@ -32,18 +32,19 @@ content:
           - name: alternateName
             label: Alternate Name
             type: string
+            hidden: true
           - name: slug
             label: false
             hidden: true
             type: string
           - name: foundingDate
             label: Founding date
+            hidden: true
             type: date
-            default: ""
           - name: dissolutionDate
             label: Dissolution date
+            hidden: true
             type: date
-            default: ""
           - name: parentOrganisation
             label: Parent organisation
             type: object
@@ -101,6 +102,7 @@ content:
           - name: jobTitle
             label: Job title
             type: string
+            hidden: true
           - name: tags
             label: Tags
             type: string
@@ -113,11 +115,9 @@ content:
                 - name: startDate
                   label: Start date
                   type: date
-                  default: ""
                 - name: endDate
                   label: End date
                   type: date
-                  default: ""
                 - name: organisation
                   label: Organisation
                   type: object
@@ -193,11 +193,13 @@ content:
           - name: tags
             label: Tags
             type: string
+            hidden: true
             list: true
 
           - name: alternateName
             label: Alternate Name
             type: string
+            hidden: true
 
           - name: slug
             label: false
@@ -207,15 +209,17 @@ content:
           - name: foundingDate
             label: Founding date
             type: date
-            default: ""
+            hidden: true
+
           - name: dissolutionDate
             label: Dissolution date
             type: date
-            default: ""
+            hidden: true
 
           - name: creativeWorkStatus
             label: Status
             type: string
+            hidden: true
 
           - name: feature
             label: Feature
@@ -243,6 +247,7 @@ content:
             label: Funders
             type: object
             list: true
+            hidden: true
             fields:
                 - name: name
                   label: Name
@@ -254,6 +259,7 @@ content:
             label: Departments
             type: object
             list: true
+            hidden: true
             fields:
                 - name: name
                   label: Name
@@ -266,6 +272,7 @@ content:
             label: Members
             type: object
             list: true
+            hidden: true
             fields:
                 - name: name
                   label: Name
@@ -324,6 +331,7 @@ content:
             label: URLs
             type: object
             list: true
+            hidden: true
             fields:
                 - name: name
                   label: Name
@@ -334,15 +342,14 @@ content:
           - name: sla
             label: SLA
             type: object
+            hidden: true
             fields:
                 - name: start
                   label: Start
                   type: date
-                  default: ""
                 - name: end
                   label: End
                   type: date
-                  default: ""
           - name: draft
             label: Draft
             type: boolean
