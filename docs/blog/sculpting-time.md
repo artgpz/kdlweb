@@ -1,5 +1,6 @@
 ---
 title: Sculpting Time with Computers
+subtitle: Modelling Cinematic Continuity with Vision-Language Models
 tags:
     - post
 authors:
@@ -8,6 +9,7 @@ authors:
     - Ryan Heuser
     - Arianna Ciula
 date: 2026-10-09
+excerpt: ""
 feature:
     title: Part of automated analysis workflow on a scene from The Godfather (1972).
     description: Sequence of frames from The Godfather (1972) showing the baptism
@@ -453,4 +455,3 @@ project.
 We would like to thank Barbara Plotz
 ([https://www.kcl.ac.uk/people/barbara-plotz](https://www.kcl.ac.uk/people/barbara-plotz)) for her contribution
 as expert annotator for this task.
-
