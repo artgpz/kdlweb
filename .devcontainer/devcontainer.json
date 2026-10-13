@@ -1,6 +1,9 @@
 {
 	"name": "kdl",
 	"image": "node:24",
+	"features": {
+		"ghcr.io/devcontainers-extra/features/pnpm:2": { "version": "2.0.5" }
+	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
