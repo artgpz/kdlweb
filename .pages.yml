@@ -3,13 +3,13 @@ media:
       label: Images
       input: docs/assets/images
       output: docs/assets/images
-      rename: safe
+      # rename: safe
       extensions: [png, jpg, webp, svg]
     - name: videos
       label: Videos
       input: docs/assets/videos
       output: docs/assets/videos
-      rename: safe
+      # rename: safe
       extensions: [mp4]
       # actions:
       #     - name: optimize-images
@@ -173,10 +173,12 @@ content:
                   label: Image
                   type: image
                   options:
-                      path: assets/images/blog
+                      path: /assets/images/blog
           - name: body
             label: Content
             type: rich-text
+            options:
+                path: /assets/images/blog
     - name: projects
       label: Projects
       type: collection
@@ -362,3 +364,13 @@ content:
             label: Draft
             type: boolean
             default: true
+settings:
+    content:
+        merge: true
+    commit:
+        identity: app
+        templates:
+            create: "chore: Create {name}"
+            update: "chore: Update {name}"
+            delete: "chore: Delete {name}"
+            rename: "chore: Rename {oldPath} -> {newPath}"
