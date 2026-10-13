@@ -1,22 +1,20 @@
 ---
 title: Sculpting Time with Computers
-subtitle: Modelling Cinematic Continuity with Vision-Language Models
 tags:
-    - post
+  - post
 authors:
-    - Daniel Chávez Heras
-    - Geoffroy Noël
-    - Ryan Heuser
-    - Arianna Ciula
+  - Daniel Chávez Heras
+  - Geoffroy Noël
+  - Ryan Heuser
+  - Arianna Ciula
 date: 2026-10-09
-excerpt: A short description for previews and SEO.
 feature:
-    image: /assets/images/blog/sculpting-time-figure-1.png
-    title: Part of automated analysis workflow on a scene from The Godfather (1972).
-    description: Sequence of frames from The Godfather (1972) showing the baptism scene with numbered arrows highlighting key cinematic shots and transitions.
+  title: Part of automated analysis workflow on a scene from The Godfather (1972).
+  description: Sequence of frames from The Godfather (1972) showing the baptism
+    scene with numbered arrows highlighting key cinematic shots and transitions.
+  image: _site/assets/images/blog/sculpting-time-figure-1.png
 ---
-
-_Want to know more about this research? Why not read [Cinema and Machine Vision: Artificial Intelligence, Aesthetics and Spectatorship](https://edinburghuniversitypress.com/book-cinema-and-machine-vision.html) which is now out on paperback! For a limited time, get a 30% discount using the code PAPER30_
+*Want to know more about this research? Why not read [Cinema and Machine Vision: Artificial Intelligence, Aesthetics and Spectatorship](https://edinburghuniversitypress.com/book-cinema-and-machine-vision.html) which is now out on paperback! For a limited time, get a 30% discount using the code PAPER30*
 
 ## Introduction
 
@@ -65,13 +63,13 @@ others. For the most part, professional editors learn to apply these
 rules and conventions instinctively through careful observation and
 practice. But although expert practitioners in crafting continuity can
 usually tell very accurately whether a sequence is well or poorly
-edited, most often they cannot explain _why_ the effect is possible in
+edited, most often they cannot explain *why* the effect is possible in
 the first place. Perhaps the best example of a film editor going into
 detail about how thy develop their craft by abstracting rules out of
 embodied knowledge is Walter Murch, one of the most respected film
 editors (and sound designers) in contemporary cinema.
 
-<https://youtu.be/s49Al2CMfTI?si=qb2AwOA3I_SOIUKH>
+[https://youtu.be/s49Al2CMfTI?si=qb2AwOA3I\_SOIUKH](https://youtu.be/s49Al2CMfTI?si=qb2AwOA3I_SOIUKH)
 
 As with other forms of embodied knowledge developed by practice and
 convention over long periods of time, the emergence of cultural patterns
@@ -116,7 +114,7 @@ signatures, genre conventions, or historical periods---a kind of
 "stylometry" for film editing.
 
 It's important to note, however, that as with other aesthetic
-categories, Burch describes _latent_ relations---what an idealised
+categories, Burch describes *latent* relations---what an idealised
 viewer would infer between shots, rather than directly measurable
 properties of the film itself. This has two key implications: 1) that to
 model editing styles we need not only the films but a proxy for its
@@ -137,12 +135,12 @@ book to get a sense of the limitations too.
 ## Case Study: The Baptism Scene from The Godfather
 
 To illustrate our approach, we focused on one of cinema's most analysed
-sequences: the "baptism of fire" scene from Francis Ford Coppola's _The
-Godfather_ (1972). In this sequence, shots of Michael Corleone attending
+sequences: the "baptism of fire" scene from Francis Ford Coppola's *The
+Godfather* (1972). In this sequence, shots of Michael Corleone attending
 his nephew's baptism are intercalated with shots of multiple murders
 being carried out at his behest.
 
-<https://youtu.be/bkoEALTHQwc?si=UQ_1AcZuZDCnWTDN>
+[https://youtu.be/bkoEALTHQwc?si=UQ\_1AcZuZDCnWTDN](https://youtu.be/bkoEALTHQwc?si=UQ_1AcZuZDCnWTDN)
 
 Using the PySceneDetect library, we first segmented the entire film into
 individual shots (1,429 in total). The baptism sequence (shots
@@ -189,7 +187,7 @@ the viewer."
 
 The model successfully identified meaningful groupings based on shot
 scale, subject, action, and location. For example, in a conversation
-sequence from _The Godfather_, GPT-4 correctly grouped establishing
+sequence from *The Godfather*, GPT-4 correctly grouped establishing
 shots separately from close-ups of each character, reflecting the
 ["analytical editing" pattern described by Bordwell and
 Thompson](https://www.davidbordwell.net/blog/2008/02/04/what-happens-between-shots-happens-between-your-ears/).
@@ -236,7 +234,7 @@ transitions according to Burch's established categories, with detailed
 definitions provided in the prompt.
 
 The results validated against expert's manual annotation revealed
-both capabilities and limitations. [^1] Qwen performed reasonably well at
+both capabilities and limitations. \[^1\] Qwen performed reasonably well at
 recognising changes in setting and identifying "narrative connections"
 between shots. However, it made significant errors in temporal reasoning
 ---most notably conflating the baptism ceremony with a funeral, and
@@ -336,8 +334,8 @@ work draws on intermedia studies and theories of modelling that
 emphasise how different "modalities"---the material, virtual, and
 cognitive dimensions of media---interact to create meaning.
 
-[LINK: For theoretical background, see Elleström's work on media
-modalities: <https://doi.org/10.1057/9780230275201_2>]
+\[LINK: For theoretical background, see Elleström's work on media
+modalities: [https://doi.org/10.1057/9780230275201\_2](https://doi.org/10.1057/9780230275201_2)\]
 
 What we're attempting to model is essentially the relationship between a
 film's material properties () and its "virtual"
@@ -436,21 +434,21 @@ Rather than expecting computational models to produce consistent outputs
 like traditional statistical tools, moving image researchers may find
 greater success in designing contexts where the elasticity of VLM output
 plays out as an advantage. From this point of view, we are not applying
-computational methods _to_ film but designing the abstract spaces for
+computational methods *to* film but designing the abstract spaces for
 synthetic audiences to be simulated; this is where most of the sculpting
 happens!
 
-_This research was conducted in collaboration between King's Digital Lab
-and the Department of Digital Humanities, supported by the_ _Digital
-Futures Institute, the Faculty of Arts & Humanities and the AI Institute
-at King's College London. This research was conducted_ with
-infrastructure for research data storage provided by _King's College
+*This research was conducted in collaboration between King's Digital Lab
+and the Department of Digital Humanities, supported by the* *Digital
+Futures Institute, the Faculty of Arts &amp; Humanities and the AI Institute
+at King's College London. This research was conducted* with
+infrastructure for research data storage provided by *King's College
 London e-Research. This proof-of-concept collaboration also connects to
-the_ [Intelligent Systems for Screen Archives
+the* [Intelligent Systems for Screen Archives
 (ISSA)](https://kdl.kcl.ac.uk/projects/intelligent-systems-for-screen-archivesv-issa/)
 project.
 
-[^1]:
+\[^1\]:
     We would like to thank Barbara Plotz
-    (<https://www.kcl.ac.uk/people/barbara-plotz>) for her contribution
+    ([https://www.kcl.ac.uk/people/barbara-plotz](https://www.kcl.ac.uk/people/barbara-plotz)) for her contribution
     as expert annotator for this task.
