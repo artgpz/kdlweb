@@ -2,13 +2,13 @@ media:
     - name: images
       label: Images
       input: docs/assets/images
-      output: assets/images
+      output: /assets/images
       rename: safe
       extensions: [png, jpg, webp, svg]
     - name: videos
       label: Videos
       input: docs/assets/videos
-      output: assets/videos
+      output: /assets/videos
       rename: safe
       extensions: [mp4]
       # actions:
