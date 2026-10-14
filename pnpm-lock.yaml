@@ -59,6 +59,9 @@ importers:
       globals:
         specifier: ^17.6.0
         version: 17.13.0
+      gray-matter:
+        specifier: ^4.0.3
+        version: 4.0.3
       mdsvex:
         specifier: ^0.12.7
         version: 0.12.8(svelte@5.57.1(@typescript-eslint/types@8.71.0))
