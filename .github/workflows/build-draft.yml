@@ -42,7 +42,7 @@ jobs:
                   pnpm ci
 
             - name: Restore image cache
-              uses: actions/cache/restore@v4
+              uses: actions/cache/restore@v5
               with:
                   path: _site/img
                   key: eleventy-images-${{ runner.os }}-${{ hashFiles('/docs/assets/images/**') }}-${{ hashFiles('package-lock.json') }}
@@ -54,13 +54,13 @@ jobs:
                   pnpm run build --pathprefix 'kdlweb'
 
             - name: Save image cache
-              uses: actions/cache/save@v4
+              uses: actions/cache/save@v5
               with:
                   path: _site/img
                   key: eleventy-images-${{ runner.os }}-${{ hashFiles('/docs/assets/images/**') }}-${{ hashFiles('package-lock.json') }}
 
             - name: Upload Pages artifact
-              uses: actions/upload-pages-artifact@v3
+              uses: actions/upload-pages-artifact@v5
               with:
                   path: _site
 
