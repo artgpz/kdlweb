@@ -51,7 +51,7 @@ jobs:
 
             - name: Build frontend
               run: |
-                  pnpm run build
+                  pnpm run build --pathprefix 'kdlweb'
 
             - name: Save image cache
               uses: actions/cache/save@v4
