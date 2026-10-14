@@ -72,7 +72,7 @@ Samantha Callaghan, Arianna Ciula, Tiffany Ong, Miguel Vieira
 
 ## System Architecture
 
-![Architecture diagram](https://www.mermaidchart.com/raw/1e322484-df83-4b42-9e2c-f8b042a42231?theme=light&version=v0.1&format=svg)
+![Architecture diagram](/assets/images/slides/architecture-diagram.svg)
 
 1. **School records**: NSW Aboriginal school records (1876-1979)
 1. **Data preparation**: Conversion to JSON and Markdown
