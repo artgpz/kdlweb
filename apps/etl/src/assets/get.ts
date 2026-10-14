@@ -2,8 +2,9 @@ import { join } from 'node:path'
 import { IStorageFileSystem } from '../infrastructure/storage.ts'
 import slugify from '@sindresorhus/slugify'
 import { IMAGES_DIR } from '../utils/vars.ts'
+import { evalAssetsInMarkdown } from './utils.ts'
 
-export const assetsEvalUseCase = ({
+export const assetsEvalUseCase = async ({
   dir,
   storageModule,
   mode
@@ -38,33 +39,16 @@ export const assetsEvalUseCase = ({
       }
     })
     .filter((x) => x !== null)
-  const updated = files?.reduce(
-    (acc, { file, filename }) => {
-      if (!file) {
-        return acc
-      }
-      let changed = false
-      let updated = file
-      to_update?.map((asset) => {
-        const index = updated?.indexOf(asset.without_extension)
-        if (index !== -1) {
-          changed = true
-          const replaced = updated?.replaceAll(asset.without_extension, asset.slug)
-          updated = replaced
-          asset.rename = true
-        }
-        return asset
-      })
-      if (changed) {
-        acc.push({ file: updated, filename })
-      }
-      return acc
-    },
-    [] as { file?: string; filename: string }[]
-  )
+
+  const updated = await files
+    ?.reduce(
+      evalAssetsInMarkdown({ assets: to_update }),
+      Promise.resolve([]) as Promise<{ file?: string; filename: string }[]>
+    )
+    .then((x) => x.map((y) => y.filename))
 
   return {
     assets: to_update?.filter((asset) => asset.rename).map((asset) => asset.original),
-    files: updated?.map((file) => file.filename)
+    files: updated
   }
 }

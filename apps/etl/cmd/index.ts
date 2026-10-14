@@ -105,27 +105,27 @@ const main = async () => {
     }
   }
   if (args['--action'] === 'assets-evaluate-blog') {
-    const results = assetsEvalController({ dir: args['--dest'], mode: 'blog' })
+    const results = await assetsEvalController({ dir: args['--dest'], mode: 'blog' })
     console.log(JSON.stringify(results, null, 2))
   }
   if (args['--action'] === 'assets-sync-blog') {
-    const results = assetsSyncController({ dir: args['--dest'], mode: 'blog' })
+    const results = await assetsSyncController({ dir: args['--dest'], mode: 'blog' })
     console.log(JSON.stringify(results, null, 2))
   }
   if (args['--action'] === 'assets-evaluate-projects') {
-    const results = assetsEvalController({ dir: args['--dest'], mode: 'projects' })
+    const results = await assetsEvalController({ dir: args['--dest'], mode: 'projects' })
     console.log(JSON.stringify(results, null, 2))
   }
   if (args['--action'] === 'assets-sync-projects') {
-    const results = assetsSyncController({ dir: args['--dest'], mode: 'projects' })
+    const results = await assetsSyncController({ dir: args['--dest'], mode: 'projects' })
     console.log(JSON.stringify(results, null, 2))
   }
   if (args['--action'] === 'assets-evaluate-slides') {
-    const results = assetsEvalController({ dir: args['--dest'], mode: 'slides' })
+    const results = await assetsEvalController({ dir: args['--dest'], mode: 'slides' })
     console.log(JSON.stringify(results, null, 2))
   }
   if (args['--action'] === 'assets-sync-slides') {
-    const results = assetsSyncController({ dir: args['--dest'], mode: 'slides' })
+    const results = await assetsSyncController({ dir: args['--dest'], mode: 'slides' })
     console.log(JSON.stringify(results, null, 2))
   }
   console.log(`Action: ${args['--action']}`)

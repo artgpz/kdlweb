@@ -2,7 +2,7 @@ import { getStorageModule } from '../infrastructure/storage.ts'
 import { assetsEvalUseCase } from './get.ts'
 import { assetsSyncUseCase } from './update.ts'
 
-export const assetsEvalController = ({
+export const assetsEvalController = async ({
   dir,
   mode
 }: {
@@ -17,7 +17,7 @@ export const assetsEvalController = ({
   return assetsEvalUseCase({ dir, storageModule, mode })
 }
 
-export const assetsSyncController = ({
+export const assetsSyncController = async ({
   dir,
   mode
 }: {
