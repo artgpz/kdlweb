@@ -1,4 +1,4 @@
-name: Build content
+name: Build draft content
 
 on:
     push:
@@ -7,6 +7,10 @@ on:
     pull_request:
         branches:
             - pnpm
+
+concurrency:
+    group: ${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: true
 
 jobs:
     build:
