@@ -17,7 +17,7 @@ slide:
 
 # Critical Modelling
 
-![](/assets/images/projects/Critical_Modelling--reviews%20waves_edit.jpg)
+![](/assets/images/projects/critical-modelling-reviews-waves-edit.jpg)
 
 {% endslide %}
 
