@@ -9,8 +9,7 @@ foundingDate: 2009-01-01
 dissolutionDate: 2021-12-31
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/IRT--Ward-Perkins,1947 (Ward-Perkins Archive, BSR
-    47.IX.10).jpg
+  image: /assets/images/projects/irt-ward-perkins-1947-ward-perkins-archive-bsr-47-ix-10.jpg
   title: Part of a mosaic panel comprising the left-hand side of a tabella ansata
     (IRT0013). Ward Perkins, 1947 (Ward Perkins Archive, Bsr 47.ix.10)
   description: A black and white photograph of an ancient mosaic inscription with

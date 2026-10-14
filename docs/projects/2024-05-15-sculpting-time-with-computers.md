@@ -9,7 +9,7 @@ foundingDate: 2024-05-15
 dissolutionDate: 2025-12-31
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/Sculpting Time.jpg
+  image: /assets/images/projects/sculpting-time.jpg
   title: Part of automated analysis workflow on a scene from The Godfather (1972).
   description: Sequence of frames from a film with numbered arrows highlighting
     key cinematic shots and transitions.

@@ -9,7 +9,7 @@ foundingDate: 2008-03-01
 dissolutionDate: 2011-12-31
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/Fine Roll 1246.jpg
+  image: /assets/images/projects/fine-roll-1246.jpg
   title: 31 HENRY III (October 1246 - October 1247) - TNA reference C 60/44,
     membrane 1. © Crown copyright images reproduced by permission of The
     National Archives, London, England.

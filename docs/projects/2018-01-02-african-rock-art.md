@@ -9,12 +9,12 @@ foundingDate: 2018-01-02
 dissolutionDate: 2023-01-02
 creativeWorkStatus: Maintained
 feature:
-    image: /assets/images/projects/ara.original.jpg
-    title: African Rock Art Project Banner
-    description: Ancient rock paintings of animals and human figures on a desert
-        cliff, overlaid with large bold text reading 'African Rock Art'.
-    width: 1200
-    height: 800
+  image: /assets/images/projects/ara-original.jpg
+  title: African Rock Art Project Banner
+  description: Ancient rock paintings of animals and human figures on a desert
+    cliff, overlaid with large bold text reading 'African Rock Art'.
+  width: 1200
+  height: 800
 funders:
   - name: The British Museum
     slug: the-british-museum

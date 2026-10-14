@@ -10,7 +10,7 @@ foundingDate: 2025-09-01
 dissolutionDate: 2026-07-31
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/FederationOfComputeMarkusWinkler.jpg
+  image: /assets/images/projects/federation-of-compute-markus-winkler.jpg
   title: Photo by Markus Winkler
   description: Wooden letter tiles scattered on a surface, with the word 'FED'
     arranged on a green tile rack in the centre.

@@ -9,8 +9,7 @@ foundingDate: 2004-02-01
 dissolutionDate: 2007-10-31
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/InsAph-- Aphrodisias Ancient CityPhoto by Edhem
-    ŞEŞE.jpg
+  image: /assets/images/projects/ins-aph-aphrodisias-ancient-city-photo-by-edhem-sese.jpg
   title: Aphrodisias Ancient City, photo by Edhem Şeşe
   description: Close-up view of ancient stone columns and carved architectural
     details in Aphrodisias, set against a clear blue sky.

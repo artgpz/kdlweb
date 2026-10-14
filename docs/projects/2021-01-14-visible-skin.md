@@ -9,7 +9,7 @@ foundingDate: 2021-01-14
 dissolutionDate: 2022-01-18
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Visible_Skin--Online_Poster.jpg
+  image: /assets/images/projects/visible-skin-online-poster.jpg
   title: Visible Skin - Promotional Poster
   description: Digital promotional image for the Visible Skin exhibition,
     featuring a split-portrait of the artist, Peter Brathwaite, in historical

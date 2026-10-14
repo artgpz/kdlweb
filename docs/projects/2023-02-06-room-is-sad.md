@@ -9,8 +9,7 @@ foundingDate: 2023-02-06
 dissolutionDate: 2023-06-30
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/roomissad--The Room at London Design Biennale
-    2023. Photo Elliott Hall..jpg
+  image: /assets/images/projects/roomissad-the-room-at-london-design-biennale-2023-photo-elliott-hall.jpg
   title: The Room at London Design Biennale 2023. Photo by Elliott Hall.
   description: A round window looking into a room bathed in purple light with a
     white desk, lamp and plant on top.

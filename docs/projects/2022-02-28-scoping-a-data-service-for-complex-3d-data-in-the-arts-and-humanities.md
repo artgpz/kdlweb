@@ -9,7 +9,7 @@ foundingDate: 2022-02-28
 dissolutionDate: 2022-07-13
 creativeWorkStatus: Post-project
 feature:
-    image: /assets/images/projects/3D images of a telegraph.jpg
+    image: /assets/images/projects/3-d-images-of-a-telegraph.jpg
     title: A 3D image of a Telegraph
     description: Vintage brass telegraph key on a wooden base against a beige
         background, showcasing intricate mechanical details.

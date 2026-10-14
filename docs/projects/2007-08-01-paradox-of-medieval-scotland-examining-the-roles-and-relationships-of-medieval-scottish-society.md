@@ -9,8 +9,7 @@ foundingDate: 2007-08-01
 dissolutionDate: 2010-12-31
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/moray_Jq1m58g.original--Moray original map
-    (detail).jpg
+  image: /assets/images/projects/moray-jq1m58g-original-moray-original-map-detail.jpg
   title: Moray Original Map (detail)
   description: A historical map presenting Scotland, exhibiting its terrain,
     cities, and significant landmarks.

@@ -9,8 +9,7 @@ foundingDate: 2018-10-01
 dissolutionDate: 2024-12-31
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/data-portal-explorer-A Network Visualization of
-    Open Data Portals, by Jonathan Gray.jpg
+  image: /assets/images/projects/data-portal-explorer-a-network-visualization-of-open-data-portals-by-jonathan-gray.jpg
   title: A Network Visualisation of Open Data Portals, by Jonathan Gray
   description: Network visualisation of open data portals with interconnected
     nodes in blue and orange.

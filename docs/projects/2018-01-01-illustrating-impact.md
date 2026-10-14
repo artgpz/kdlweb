@@ -9,13 +9,13 @@ foundingDate: 2018-01-01
 dissolutionDate: 2019-08-31
 creativeWorkStatus: Maintained
 feature:
-    image: /assets/images/projects/Illustrating Impact--Icons.jpg
-    title: Illustrating Impact Icons
-    description: A colourful grid of UN Sustainable Development Goals, each
-        represented by a numbered icon with text, covering topics like poverty and
-        climate.
-    width: 1200
-    height: 800
+  image: /assets/images/projects/illustrating-impact-icons.jpg
+  title: Illustrating Impact Icons
+  description: A colourful grid of UN Sustainable Development Goals, each
+    represented by a numbered icon with text, covering topics like poverty and
+    climate.
+  width: 1200
+  height: 800
 funders:
   - name: King's College London
     slug: kings-college-london

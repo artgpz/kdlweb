@@ -9,7 +9,7 @@ foundingDate: 2020-01-01
 dissolutionDate: 2023-06-30
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Critical_Modelling--reviews waves_edit.jpg
+  image: /assets/images/projects/critical-modelling-reviews-waves-edit.jpg
   title: Critical Modelling Reviews Waves
   description: A series of black waveform patterns on a light grey background.
   width: 1200

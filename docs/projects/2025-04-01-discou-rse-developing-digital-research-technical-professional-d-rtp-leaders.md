@@ -9,7 +9,7 @@ foundingDate: 2025-04-01
 dissolutionDate: 2028-09-30
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/DiscouRSE (1).jpg
+  image: /assets/images/projects/discou-rse-1.jpg
   title: Photo by Linus Nylund on Unsplash
   description: Water surface with ripples and droplets creating circular waves.
   width: 1200

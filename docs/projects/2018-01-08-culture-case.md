@@ -9,7 +9,7 @@ foundingDate: 2018-01-08
 dissolutionDate: 2019-01-07
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/CultureCase--Tomb in India.jpg
+  image: /assets/images/projects/culture-case-tomb-in-india.jpg
   title: Photo by Ibrahim Rifath
   description: A traveler with a backpack stands facing an ornate white tomb,
     surrounded by gardens under a clear sky.

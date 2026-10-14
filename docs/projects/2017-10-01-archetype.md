@@ -9,14 +9,13 @@ foundingDate: 2017-10-01
 dissolutionDate: 2021-02-07
 creativeWorkStatus: Post-project
 feature:
-    image: /assets/images/projects/Archetype--Translations of titles to
-        illustrations, Cambridge, Corpus Christi College, MS 23, p.109..jpg
-    title: Translations of Titles to Illustrations, Cambridge, Corpus Christi
-        College, Ms 23, P.109.
-    description: Manuscript page with Latin text in black ink, red initials, and an
-        illustration of figures, overlaid with green and orange annotation boxes.
-    width: 1200
-    height: 800
+  image: /assets/images/projects/archetype-translations-of-titles-to-illustrations-cambridge-corpus-christi-college-ms-23-p-109.jpg
+  title: Translations of Titles to Illustrations, Cambridge, Corpus Christi
+    College, Ms 23, P.109.
+  description: Manuscript page with Latin text in black ink, red initials, and an
+    illustration of figures, overlaid with green and orange annotation boxes.
+  width: 1200
+  height: 800
 funders:
     - name: European Research Council
       slug: erc

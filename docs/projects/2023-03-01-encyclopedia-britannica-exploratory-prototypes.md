@@ -9,8 +9,7 @@ foundingDate: 2023-03-01
 dissolutionDate: 2024-03-31
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Encyclopedia
-    Britannica--mohamed-marey-tZe9vB4EJ4Y-unsplash.jpg
+  image: /assets/images/projects/encyclopedia-britannica-mohamed-marey-t-ze9v-b4-ej-4-y-unsplash.jpg
   title: An open book, Photo by Mohamed Marey
   description: A close-up of an open book's fanned-out pages, creating a visually
     striking pattern of curved, layered lines in warm tones.

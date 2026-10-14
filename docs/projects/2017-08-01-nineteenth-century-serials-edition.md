@@ -9,7 +9,7 @@ foundingDate: 2017-08-01
 dissolutionDate: 2021-07-31
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/NCSE--Data viz.jpg
+  image: /assets/images/projects/ncse-data-viz.jpg
   title: null
   description: A minimalist bar chart with blue vertical bars of varying heights
     against a dark background, creating a structured data visualisation.

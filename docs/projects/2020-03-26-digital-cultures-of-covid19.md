@@ -9,7 +9,7 @@ foundingDate: 2020-03-26
 dissolutionDate: 2022-11-04
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Digital_Cultures_engin-akyurt.jpg
+  image: /assets/images/projects/digital-cultures-engin-akyurt.jpg
   title: Photo by Engin Akyurt
   description: A person wearing a face mask, hunched over a laptop in a dimly lit
     room, their face illuminated by the screen’s glow.

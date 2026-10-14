@@ -12,7 +12,7 @@ foundingDate: 2026-01-16
 dissolutionDate: 2028-01-15
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/UNRESTDerekLee.jpg
+  image: /assets/images/projects/unrest-derek-lee.jpg
   title: Photo by Derek Lee
   description: An abandoned sofa sits in an empty, overgrown lot beside a damaged
     building, with construction machinery and industrial structures in the

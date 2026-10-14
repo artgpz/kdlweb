@@ -11,9 +11,7 @@ foundingDate: 2019-08-01
 dissolutionDate: 2024-03-22
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/1783 to 1807 timelines from France, Ireland,
-    Italy, United Kingdom, and other countries, showing events, source texts &
-    translations.jpg
+  image: /assets/images/projects/1783-to-1807-timelines-from-france-ireland-italy-united-kingdom-and-other-countries-showing-events-source-texts-and-translations.jpg
   title: null
   description: A structured data visualisation with blue and yellow square grids
     representing historical events and their relationships across timelines

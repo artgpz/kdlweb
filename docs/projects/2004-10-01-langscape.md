@@ -9,7 +9,7 @@ foundingDate: 2004-10-01
 dissolutionDate: 2008-09-30
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Landscape--Photo by Manohar Reddy.jpg
+  image: /assets/images/projects/landscape-photo-by-manohar-reddy.jpg
   title: Photo by Manohar Reddy
   description: Lush green terraced fields and dense forests surrounding a small
     village in a hilly landscape.

@@ -9,7 +9,7 @@ foundingDate: 2023-06-30
 dissolutionDate: 2025-01-31
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/King's Past.jpg
+  image: /assets/images/projects/kings-past.jpg
   title: King's College, Strand, London. Engraving by J. C. Carter. Wellcome
     Collection (V0013842).
   description: A historic engraving of a neoclassical building with arched

@@ -9,7 +9,7 @@ foundingDate: 2024-01-01
 dissolutionDate: 2025-06-30
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/social_dynamics_chat_gpt.jpg
+  image: /assets/images/projects/social-dynamics-chat-gpt.jpg
   title: Social Dynamics ChatGPT
   description: Sepia-toned image of soldiers gathered around a table in a wartime
     camp, overlaid with handwritten letters, evoking historical memory.

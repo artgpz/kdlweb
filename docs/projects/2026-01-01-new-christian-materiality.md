@@ -10,7 +10,7 @@ foundingDate: 2026-01-01
 dissolutionDate: 2030-08-31
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/MATERIAMarkusSchumacher.jpg
+  image: /assets/images/projects/materia-markus-schumacher.jpg
   title: Photo by Markus Schumacher
   description: A wooden cross silhouetted against a cloudy sky.
   width: 1200

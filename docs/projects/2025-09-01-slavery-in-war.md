@@ -10,7 +10,7 @@ foundingDate: 2025-09-01
 dissolutionDate: 2026-12-31
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/SlaveryInWar.jpg
+  image: /assets/images/projects/slavery-in-war.jpg
   title: Album for 1835 - Carré enfoncé... 1835 Auguste Raffet (French, 1804–1860)
     France, 19th century lithograph Twenty-fifth anniversary gift, Mr. and Mrs.
     Lewis B. Williams Collection 1941.246

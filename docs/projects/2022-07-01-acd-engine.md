@@ -9,8 +9,7 @@ foundingDate: 2022-07-01
 dissolutionDate: 2023-06-30
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/ACDE--Algo-r-(h)-i-(y)-thms, installation at ON
-    AIR, Palais de Tokyo, Paris, 2018. Photo Alina Grubnyak.jpg
+  image: /assets/images/projects/acde-algo-r-h-i-y-thms-installation-at-on-air-palais-de-tokyo-paris-2018-photo-alina-grubnyak.jpg
   title: Algo-R-(h)-I-(y)-Thms, Installation at ON AIR, Palais De Tokyo, Paris,
     2018. Photo Alina Grubnyak.
   description: "3D artwork of dark thread and straight dark wire material forming

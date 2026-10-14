@@ -11,8 +11,7 @@ foundingDate: 2022-01-10
 dissolutionDate: 2026-03-31
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/Sudan Memory--Record cover of the song al-Ginyat
-    Basharu by al-Balabil.jpg
+  image: /assets/images/projects/sudan-memory-record-cover-of-the-song-al-ginyat-basharu-by-al-balabil.jpg
   title: Record Cover of the Song Al Ginyat Basharu by Al Balabil
   description: Vintage record cover with a yellow background featuring three
     portrait photographs of women, Arabic text, and decorative red stars.

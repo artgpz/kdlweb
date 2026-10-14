@@ -11,7 +11,7 @@ foundingDate: 2020-10-01
 dissolutionDate: 2026-09-30
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/CROSSREADS_IMG-20220523-WA0011.webp
+  image: /assets/images/projects/crossreads-img-20220523-wa-0011.webp
   title: Crossreads Img 20220523 W A0011
   description: Threes researchers reading an ancient inscription
   width: 1200

@@ -9,8 +9,7 @@ foundingDate: 2023-09-01
 dissolutionDate: 2028-04-30
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/Bibliothèque nationale de France, MS fr. 846 f.
-    94r.jpg
+  image: /assets/images/projects/bibliotheque-nationale-de-france-ms-fr-846-f-94r.webp
   title: Bibliothèque Nationale De France, Ms Fr. 846 F. 94r
   description: Medieval manuscript with illuminated letter depicting a scribe
     writing on a scroll, surrounded by musical notation and text.

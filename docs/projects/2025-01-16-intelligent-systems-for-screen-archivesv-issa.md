@@ -9,7 +9,7 @@ foundingDate: 2025-01-16
 dissolutionDate: 2027-06-30
 creativeWorkStatus: Active
 feature:
-  image: /assets/images/projects/ISSA.jpg
+  image: /assets/images/projects/issa.jpg
   title: Photo by Sami TÜRK
   description: Close-up of an old film reel with filmstrip threaded through it in
     warm light.

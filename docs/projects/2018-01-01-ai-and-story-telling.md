@@ -9,17 +9,16 @@ foundingDate: 2018-01-01
 dissolutionDate: 2019-12-31
 creativeWorkStatus: Post-project
 feature:
-    image: /assets/images/projects/AI and Story Telling--Data Mining 1 by Hanna
-        Barakat & Archival Images of AI + AIxDESIGN.jpg
-    title: Data Mining by Hanna Barakat & Archival Images of Ai + AIxDesign
-    description: A surreal landscape of snowy cliffs with jagged mountain peaks
-        under a vibrant gradient sky that shifts from orange to pink and purple.
-        People wearing old-fashioned expedition clothing pull ropes across the snow,
-        helping others traverse a crevice of circuits and wires. Tall transmission
-        towers rise from the mountaintops, and in the depths of the canyon below, a
-        grid of electronic circuits is melting the snow.
-    width: 1200
-    height: 800
+  image: /assets/images/projects/ai-and-story-telling-data-mining-1-by-hanna-barakat-and-archival-images-of-ai-a-ix-design.jpg
+  title: Data Mining by Hanna Barakat & Archival Images of Ai + AIxDesign
+  description: A surreal landscape of snowy cliffs with jagged mountain peaks
+    under a vibrant gradient sky that shifts from orange to pink and purple.
+    People wearing old-fashioned expedition clothing pull ropes across the snow,
+    helping others traverse a crevice of circuits and wires. Tall transmission
+    towers rise from the mountaintops, and in the depths of the canyon below, a
+    grid of electronic circuits is melting the snow.
+  width: 1200
+  height: 800
 funders:
     - name: Innovation UK
       slug: innovation-uk

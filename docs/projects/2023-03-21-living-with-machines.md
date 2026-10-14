@@ -9,7 +9,7 @@ foundingDate: 2023-03-21
 dissolutionDate: 2024-09-30
 creativeWorkStatus: Maintained
 feature:
-  image: /assets/images/projects/Living with Machines--Data viz.jpg
+  image: /assets/images/projects/living-with-machines-data-viz.jpg
   title: null
   description: A data visualisation featuring a symmetrical pattern of concentric
     circles in orange and blue on a dark background.

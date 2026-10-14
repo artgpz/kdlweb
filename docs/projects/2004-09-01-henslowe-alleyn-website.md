@@ -9,7 +9,7 @@ foundingDate: 2004-09-01
 dissolutionDate: 2022-08-31
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Website display of a manuscript promptbook.jpg
+  image: /assets/images/projects/website-display-of-a-manuscript-promptbook.jpg
   title: Website Display of a Manuscript Promptbook.
   description: A close-up of an aged manuscript page with elaborate handwritten text.
   width: 1200

@@ -9,15 +9,13 @@ foundingDate: 2018-04-01
 dissolutionDate: 2018-11-30
 creativeWorkStatus: Maintained
 feature:
-    image: /assets/images/projects/TCOL--Imaged created by KDL including a
-        screenshot of the network visualisation for the project and sample documents
-        in the background..jpg
-    title: Imaged Created by Kdl Including a Screenshot of the Network Visualisation
-        for the Project and Sample Documents in the Background.
-    description: Screenshot of the project network visualisation superimposed on a
-        set of printed open book pages.
-    width: 1200
-    height: 800
+  image: /assets/images/projects/tcol-imaged-created-by-kdl-including-a-screenshot-of-the-network-visualisation-for-the-project-and-sample-documents-in-the-background.jpg
+  title: Imaged Created by Kdl Including a Screenshot of the Network Visualisation
+    for the Project and Sample Documents in the Background.
+  description: Screenshot of the project network visualisation superimposed on a
+    set of printed open book pages.
+  width: 1200
+  height: 800
 funders:
     - name: King's College London
       slug: kings-college-london

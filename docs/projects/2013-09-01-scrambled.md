@@ -9,8 +9,7 @@ foundingDate: 2013-09-01
 dissolutionDate: 2018-06-30
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/James Hook, Word from the missing, 1877 (oil on
-    canvas).jpg
+  image: /assets/images/projects/james-hook-word-from-the-missing-1877-oil-on-canvas.jpg
   title: James Hook, Word From the Missing, 1877 (oil on Canvas)
   description: An oil painting shows children discovering a message in a bottle,
     while a woman collects driftwood near the beach.

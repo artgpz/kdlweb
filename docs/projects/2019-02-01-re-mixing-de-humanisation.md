@@ -11,7 +11,7 @@ foundingDate: 2019-02-01
 dissolutionDate: 2019-07-01
 creativeWorkStatus: Post-project
 feature:
-  image: /assets/images/projects/Room to breath--Screenshot.jpg
+  image: /assets/images/projects/room-to-breath-screenshot.jpg
   title: Screenshot from the project video
   description: A digitally rendered dimly lit bedroom with a bed, chair, and
     glowing lights, featuring a textured, painterly effect.
