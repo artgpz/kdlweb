@@ -1,3 +1,12 @@
+actions:
+    - name: sync-projects
+      label: Sync projects
+      workflow: sync-projects.yml
+      confirm:
+          title: Sync projects?
+          message: This will trigger the sync projects workflow, which will generate an index of all projects in CU (aprox 10 mins).
+          button: Sync projects
+
 media:
     - name: images
       label: Images
