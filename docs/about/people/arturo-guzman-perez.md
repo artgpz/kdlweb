@@ -3,16 +3,14 @@ title: Arturo Guzmán Pérez
 slug: arturo-guzman-perez
 jobTitle: Research Software Engineer
 tags:
-    - people
+  - people
 memberOf:
-    - startDate: null
-      endDate: null
-      organisation:
-          name: King's Digital Lab
-          slug: kdl
-      roleName: Research Software Engineer
+  - startDate: 2026-10-14
+    endDate: 2026-10-14
+    organisation:
+      name: King's Digital Lab
+      slug: kdl
 ---
-
 Arturo joined KDL in September 2026 as a Research Software Engineer.
 
 His career has been marked by unwavering dedication to the intersection of visual storytelling, technology and art - with experience designing and building online experiences for artists, curators, small businesses and creative studios.
