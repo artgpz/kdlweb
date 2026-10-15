@@ -61,7 +61,7 @@ jobs:
               run: pnpm run test
 
             - name: Page rendering check
-              run: bash scripts/page-check.sh
+              run: bash scripts/page-check.sh $REPO_NAME
 
             - name: Save image cache
               uses: actions/cache/save@v6
