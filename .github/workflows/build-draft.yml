@@ -3,10 +3,10 @@ name: Build draft content
 on:
     push:
         branches:
-            - pnpm
+            - content
     pull_request:
         branches:
-            - pnpm
+            - content
 
 concurrency:
     group: ${{ github.workflow }}-${{ github.ref }}
