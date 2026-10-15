@@ -11,25 +11,42 @@ on:
 concurrency:
     group: ${{ github.workflow }}-${{ github.ref }}
     cancel-in-progress: true
+
 jobs:
-    build:
+    create-pr:
         runs-on: ubuntu-22.04
-
         permissions:
-            contents: write
+            contents: read
             pull-requests: write
-
-        strategy:
-            matrix:
-                node-version: [24.x]
 
         steps:
             - name: Checkout repo
               uses: actions/checkout@v6
               with:
-                  token: ${{ secrets.GITHUB_TOKEN }}
+                  token: ${{ secrets.PAT }}
 
-            - name: Create Pull Request
-              uses: peter-evans/create-pull-request@v8
-              with:
-                  branch: pnpm
+            - name: Create or update PR from content into pnpm
+              env:
+                  GH_TOKEN: ${{ secrets.PAT }}
+              run: |
+                  AHEAD=$(gh api "repos/$GITHUB_REPOSITORY/compare/pnpm...content" \
+                      --jq '.ahead_by // empty')
+                  if [ -z "$AHEAD" ] || [ "$AHEAD" = "0" ]; then
+                      echo "No changes on 'content' ahead of 'pnpm' — nothing to merge."
+                      exit 0
+                  fi
+
+                  PR_NUMBER=$(gh pr list --base pnpm --head content --state open \
+                      --json number --jq '.[0].number // empty')
+                  if [ -n "$PR_NUMBER" ]; then
+                      echo "Appending to existing PR #$PR_NUMBER"
+                      gh pr comment "$PR_NUMBER" --body \
+                          "Deployment requested again via Pages CMS — 'content' is now $AHEAD commit(s) ahead of 'pnpm'."
+                      exit 0
+                  fi
+
+                  gh pr create \
+                      --base pnpm \
+                      --head content \
+                      --title "Merge content into pnpm" \
+                      --body "Triggered via Pages CMS. 'content' is $AHEAD commit(s) ahead of 'pnpm'."
