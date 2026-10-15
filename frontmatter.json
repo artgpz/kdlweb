@@ -288,33 +288,28 @@
 	],
 	"frontMatter.content.pageFolders": [
 		{
-			"title": "src",
-			"path": "[[workspace]]/frontend/src",
-			"contentTypes": ["default"]
-		},
-		{
 			"title": "organisations",
-			"path": "[[workspace]]/frontend/src/about/organisations",
+			"path": "[[workspace]]/docs/about/organisations",
 			"contentTypes": ["organisation"]
 		},
 		{
 			"title": "people",
-			"path": "[[workspace]]/frontend/src/about/people",
+			"path": "[[workspace]]/docs/about/people",
 			"contentTypes": ["person"]
 		},
 		{
 			"title": "projects",
-			"path": "[[workspace]]/frontend/src/projects",
+			"path": "[[workspace]]/docs/projects",
 			"contentTypes": ["project"]
 		},
 		{
 			"title": "blog",
-			"path": "[[workspace]]/frontend/src/blog",
+			"path": "[[workspace]]/docs/blog",
 			"contentTypes": ["post"]
 		}
 	],
 	"frontMatter.content.publicFolder": {
-		"path": "[[workspace]]/frontend/public",
+		"path": "[[workspace]]/docs/assets",
 		"relative": false
 	},
 	"frontMatter.data.types": [
@@ -346,7 +341,7 @@
 		{
 			"id": "team",
 			"title": "Team",
-			"file": "[[workspace]]/frontend/src/_data/team.json",
+			"file": "[[workspace]]/docs/_data/team.json",
 			"fileType": "json",
 			"labelField": "slug",
 			"singleEntry": false,
@@ -452,12 +447,14 @@
 				{
 					"title": "startDate",
 					"name": "startDate",
-					"type": "datetime"
+					"type": "datetime",
+					"required": false
 				},
 				{
 					"title": "endDate",
 					"name": "endDate",
-					"type": "datetime"
+					"type": "datetime",
+					"required": false
 				},
 				{
 					"title": "organisation",
@@ -467,6 +464,11 @@
 						{
 							"title": "name",
 							"name": "name",
+							"type": "string"
+						},
+						{
+							"title": "slug",
+							"name": "slug",
 							"type": "string"
 						}
 					]
