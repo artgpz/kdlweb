@@ -1,6 +1,5 @@
 import js from "@eslint/js";
 import ts from "typescript-eslint";
-import cypress from "eslint-plugin-cypress";
 // const babelParser = require("@babel/eslint-parser");
 import globals from "globals";
 import prettierConfig from "eslint-config-prettier";
@@ -24,10 +23,6 @@ export const config = defineConfig(
 				...globals.jest,
 			},
 		},
-	},
-	{
-		files: ["cypress/**/*.js"],
-		...cypress.configs.recommended,
 	},
 	prettierConfig,
 );
