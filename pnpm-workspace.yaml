@@ -7,7 +7,6 @@ allowBuilds:
     core-js: true
     simple-git-hooks: true
     "@parcel/watcher": true
-    cypress: true
     djlint: true
 autoInstallPeers: true
 minimumReleaseAge: 1440
@@ -23,4 +22,4 @@ blockExoticSubdeps: true
 #   "@indacas/ui":
 #     engineStrict: true
 minimumReleaseAgeExclude:
-  - prettier-plugin-nunjucks@0.2.3
+    - prettier-plugin-nunjucks@0.2.3
