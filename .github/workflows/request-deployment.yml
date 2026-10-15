@@ -32,4 +32,10 @@ jobs:
             - name: Create Pull Request
               uses: peter-evans/create-pull-request@v8
               with:
-                  branch: pnpm
+                  base: pnpm
+                  branch: content-to-pnpm
+                  title: "Merge content into pnpm"
+                  body: |
+                      This pull request proposes merging
+                      changes from `content` into `pnpm`.
+                  delete-branch: false
