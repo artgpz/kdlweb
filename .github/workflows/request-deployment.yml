@@ -32,7 +32,7 @@ jobs:
             - name: Create Pull Request
               uses: peter-evans/create-pull-request@v8
               with:
-                  branch: ${{ steps.update.outputs.branch }}
+                  branch: content
                   base: pnpm
                   title: "Merge content into pnpm"
                   commit-message: "chore: update via create-pull-request action"
