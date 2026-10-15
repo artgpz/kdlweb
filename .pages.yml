@@ -4,7 +4,7 @@ actions:
       workflow: sync-projects.yml
       confirm:
           title: Sync projects?
-          message: This will trigger the sync projects workflow, which will generate an index of all projects in CU (aprox 10 mins).
+          message: This will generate an index of all projects in ClickUp (aprox 20 mins), which then can be used to create and/or update data by running the update data action.
           button: Sync projects
 
 media:
