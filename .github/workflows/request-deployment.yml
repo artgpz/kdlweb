@@ -32,10 +32,9 @@ jobs:
             - name: Create Pull Request
               uses: peter-evans/create-pull-request@v8
               with:
+                  branch: ${{ steps.update.outputs.branch }}
                   base: pnpm
-                  branch: content-to-pnpm
                   title: "Merge content into pnpm"
-                  body: |
-                      This pull request proposes merging
-                      changes from `content` into `pnpm`.
+                  commit-message: "chore: update via create-pull-request action"
+                  token: ${{ secrets.GITHUB_TOKEN }}
                   delete-branch: false
