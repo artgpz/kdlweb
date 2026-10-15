@@ -23,8 +23,8 @@ dotenv.config();
 
 /** @param {import('@11ty/eleventy/UserConfig').default} eleventyConfig*/
 export default (eleventyConfig) => {
-	const kdlComponentsPath = "../../packages/kdl-components/src";
-	// const kdlComponentsPath = "@kdl/components/src/";
+	// const kdlComponentsPath = "../../packages/kdl-components/src";
+	const kdlComponentsPath = "node_modules/@kdl/components/src/";
 	const nunjucksEnvironment = new Nunjucks.Environment([
 		new Nunjucks.FileSystemLoader(kdlComponentsPath),
 		new Nunjucks.FileSystemLoader("./src/_includes"),
