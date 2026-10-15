@@ -14,9 +14,10 @@ import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { batchMap, sleep } from '../utils/index.ts'
 import { SLEEP_TIME } from '../utils/vars.ts'
 const MODES = ['archived', 'not_archived']
+const MAX_RETRIES = 3
 
-export const createClient = ({ apiUrl, apiKey }: { apiUrl: string; apiKey: string }) =>
-  axios.create({
+export const createClient = ({ apiUrl, apiKey }: { apiUrl: string; apiKey: string }) => {
+  const client = axios.create({
     baseURL: apiUrl,
     headers: {
       Authorization: apiKey,
@@ -24,6 +25,36 @@ export const createClient = ({ apiUrl, apiKey }: { apiUrl: string; apiKey: strin
       accept: 'application/json'
     }
   })
+  client.interceptors.response.use(
+    (response) => response,
+    async (error) => {
+      const config = error.config
+
+      const shouldRetry =
+        !error.response || (error.response.status >= 500 && error.response.status < 600)
+
+      if (!shouldRetry) {
+        console.log(`Error but not retrying`)
+        return Promise.reject(error)
+      }
+
+      config._retryCount = config._retryCount ?? 0
+
+      if (config._retryCount >= MAX_RETRIES) {
+        console.log(`Error but max retries exceeded`)
+        return Promise.reject(error)
+      }
+
+      config._retryCount += 1
+      console.log(`Retrying... ${config._retryCount} of ${MAX_RETRIES}`)
+      const backoff = SLEEP_TIME * 2 ** config._retryCount
+      await sleep(backoff)
+
+      return client(config)
+    }
+  )
+  return client
+}
 
 export const IProjectsRepository = {
   getSpaceByTeamId: async ({
