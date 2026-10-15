@@ -54,7 +54,7 @@ jobs:
 
             - name: Sync project ids
               run: |
-                  pnpm run cli --action=sync --dest='/test-docs' --item-id=1004
+                  pnpm run cli --action=sync --dest='../../docs' --item-id=1004
 
             - uses: stefanzweifel/git-auto-commit-action@v7
               with:
