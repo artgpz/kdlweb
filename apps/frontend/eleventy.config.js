@@ -54,10 +54,12 @@ export default (eleventyConfig) => {
 	// NOTE: enable later
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		formats: ["avif", "webp", "svg", "jpg"],
+		width: [320, 768, 1280, 2000, "auto"],
 		htmlOptions: {
 			imgAttributes: {
 				loading: "lazy",
 				decoding: "async",
+				sizes: "(max-width: 320px) 320px, (max-width: 768px) 768px, (max-width: 1280px) 1280px, 2000px",
 			},
 
 			// HTML attributes added to `<picture>` (omitted when <img> used)
