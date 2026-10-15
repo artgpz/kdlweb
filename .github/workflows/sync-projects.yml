@@ -47,10 +47,10 @@ jobs:
 
             - name: Get env
               run: |
-                  touch /apps/etl/.env
-                  echo CLICKUP_API_URL=${{ secrets.CLICKUP_API_URL }} >> /apps/etl/.env
-                  echo CLICKUP_API_KEY=${{ secrets.CLICKUP_API_KEY }} >> /apps/etl/.env
-                  echo CLICKUP_TEAM_ID=${{ secrets.CLICKUP_TEAM_ID }} >> /apps/etl/.env
+                  touch apps/etl/.env
+                  echo CLICKUP_API_URL=${{ secrets.CLICKUP_API_URL }} >> apps/etl/.env
+                  echo CLICKUP_API_KEY=${{ secrets.CLICKUP_API_KEY }} >> apps/etl/.env
+                  echo CLICKUP_TEAM_ID=${{ secrets.CLICKUP_TEAM_ID }} >> apps/etl/.env
 
             - name: Sync project ids
               run: |
