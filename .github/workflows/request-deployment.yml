@@ -1,0 +1,32 @@
+name: Request deployment
+
+on:
+    workflow_dispatch:
+        inputs:
+            payload:
+                description: Pages CMS payload as JSON
+                required: true
+                type: string
+
+concurrency:
+    group: ${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: true
+
+jobs:
+    build:
+        runs-on: ubuntu-22.04
+
+        strategy:
+            matrix:
+                node-version: [24.x]
+
+        steps:
+            - name: Checkout repo
+              uses: actions/checkout@v6
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Create Pull Request
+              uses: peter-evans/create-pull-request@v8
+              with:
+                  branch: pnpm

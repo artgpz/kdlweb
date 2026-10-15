@@ -7,6 +7,14 @@ actions:
           message: This will generate an index of all projects in ClickUp (aprox 20 mins), which then can be used to create and/or update data by running the update data action.
           button: Sync projects
 
+    - name: request-deployment
+      label: Request deployment to production
+      workflow: request-deployment.yml
+      confirm:
+          title: Request deployment to production
+          message: This will submit your content changes for an RSE's to checkbefore deploying to production. You will still be able to make changes if you spot any issues but but please make sure you're happy with the changes in the dev website before making a request.
+          button: Request
+
 media:
     - name: images
       label: Images
