@@ -55,6 +55,12 @@ members:
     inOrganisation:
       name: FAH Department of History
       slug: fah-department-of-history
+  - name: Daniel Dias
+    slug: daniel-dias
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
 sla:
   start: null
   end: null
