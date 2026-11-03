@@ -15,7 +15,7 @@
 	"author": "King's Digital Lab",
 	"license": "MPL-2.0",
 	"devDependencies": {
-		"@11ty/eleventy": "^3.1.6",
+		"@11ty/eleventy": "3.1.6",
 		"@11ty/eleventy-img": "^7.0.0",
 		"@11ty/eleventy-navigation": "^1.0.5",
 		"@kdl/components": "workspace:*",
