@@ -1,9 +1,6 @@
 name: Build and test website
 
 on:
-    push:
-        branches:
-            - pnpm
     pull_request:
         branches:
             - pnpm
