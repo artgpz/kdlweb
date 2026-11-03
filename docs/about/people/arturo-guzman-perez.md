@@ -17,6 +17,4 @@ His career has been marked by unwavering dedication to the intersection of visua
 
 He holds a MA in Art and Politics from Goldsmiths, University of London, and a BA in Fine Art from Facultad de Artes y Diseño, Universidad Nacional Autónoma de México.
 
-
-
-He likes cars
+He likes cars and basketball.
