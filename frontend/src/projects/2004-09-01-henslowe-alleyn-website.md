@@ -7,7 +7,7 @@ alternateName: null
 slug: henslowe-alleyn-website
 foundingDate: 2004-09-01
 dissolutionDate: 2022-08-31
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/Website display of a manuscript promptbook.jpg
   title: Website Display of a Manuscript Promptbook.
@@ -56,7 +56,7 @@ urls:
   - name: Project URL
     url: https://henslowe-alleyn.org.uk/
 sla:
-  start: null
+  start: 2016-04-04
   end: 2030-05-12
 draft: false
 ---
