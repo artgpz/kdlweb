@@ -25,7 +25,7 @@ departments:
     slug: fah-department-of-languages-literatures-and-cultures
   - name: French
     slug: french
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Cambridge University
     slug: cambridge-university
@@ -41,6 +41,12 @@ members:
   - name: Ginestra Ferraro
     slug: ginestra-ferraro
     roleName: Research Software Designer
+  - name: Simon Gaunt
+    slug: simon-gaunt
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Languages, Literatures and Cultures
+      slug: fah-department-of-languages-literatures-and-cultures
   - name: Jane Gilbert
     slug: jane-gilbert
     roleName: Co-Investigator

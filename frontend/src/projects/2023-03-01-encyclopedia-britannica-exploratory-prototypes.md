@@ -28,7 +28,7 @@ funders:
 departments:
   - name: FAH Department of Digital Humanities
     slug: fah-department-of-digital-humanities
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Temple University
     slug: temple-university
@@ -39,6 +39,12 @@ members:
   - name: Geoffroy Noël
     slug: geoffroy-noel
     roleName: Research Software Engineer
+  - name: Peter Logan
+    slug: peter-logan
+    roleName: Principal investigator
+    inOrganisation:
+      name: Temple University
+      slug: temple-university
   - name: Marion Thain
     slug: marion-thain
     roleName: Researcher

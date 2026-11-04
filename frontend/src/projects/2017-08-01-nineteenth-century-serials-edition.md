@@ -33,7 +33,7 @@ departments:
     slug: birkbeck
   - name: University of Leeds
     slug: university-of-leeds
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
 members:
   - name: Tiffany Ong
@@ -51,6 +51,12 @@ members:
   - name: Paul Caton
     slug: paul-caton
     roleName: Research Software Analyst
+  - name: Laurel Brake
+    slug: laurel-brake
+    roleName: Principal investigator
+    inOrganisation:
+      name: Birkbeck, University of London
+      slug: birkbeck-university-of-london
   - name: Mark Turner
     slug: mark-turner
     roleName: Co-Investigator

@@ -28,7 +28,7 @@ departments:
     slug: fah-department-of-history
   - name: FAH Department of Digital Humanities
     slug: fah-department-of-digital-humanities
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
 members:
   - name: Paul Caton
@@ -40,6 +40,12 @@ members:
   - name: Miguel Vieira
     slug: miguel-vieira
     roleName: Research Software Engineer
+  - name: David Carpenter
+    slug: david-carpenter
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
   - name: Harold Short
     slug: harold-short
     roleName: Co-Investigator

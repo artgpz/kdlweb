@@ -25,7 +25,7 @@ funders:
 departments:
   - name: FAH Department of History
     slug: fah-department-of-history
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
 members:
   - name: Samantha Callaghan
@@ -40,6 +40,18 @@ members:
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer
+  - name: Jon Wilson
+    slug: jon-wilson
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Hannah Dawson
+    slug: hannah-dawson
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
   - name: Jonah Milller
     slug: jonah-milller
     roleName: Researcher

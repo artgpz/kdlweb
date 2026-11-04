@@ -29,7 +29,7 @@ departments:
     slug: yorkshire-film-archive
   - name: National Library of Scotland
     slug: national-library-of-scotland
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Northern Ireland Screen Commission
     slug: northern-ireland-screen-commission
@@ -54,6 +54,12 @@ members:
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer
+  - name: Daniel Chavez Herras
+    slug: daniel-chavez-herras
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
   - name: Kirsty Warner
     slug: kirsty-warner
     roleName: Researcher

@@ -22,7 +22,7 @@ funders:
 departments:
   - name: FAH Department of History
     slug: fah-department-of-history
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
 members:
   - name: Neil Jakeman
@@ -37,6 +37,12 @@ members:
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer
+  - name: Francisco Bethencourt
+    slug: francisco-bethencourt
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
   - name: Ana Paula Lloyd
     slug: ana-paula-lloyd
     roleName: Researcher

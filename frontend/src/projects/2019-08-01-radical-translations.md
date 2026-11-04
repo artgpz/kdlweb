@@ -25,7 +25,7 @@ funders:
 departments:
   - name: FAH Department of Languages, Literatures and Cultures
     slug: fah-department-of-languages-literatures-and-cultures
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: University of Milano-Bicocca
     slug: university-of-milano-bicocca
@@ -42,6 +42,12 @@ members:
   - name: Tiffany Ong
     slug: tiffany-ong
     roleName: Research Software Designer
+  - name: Sanja Perovic
+    slug: sanja-perovic
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Languages, Literatures and Cultures
+      slug: fah-department-of-languages-literatures-and-cultures
   - name: Erica Joy Mannucci
     slug: erica-joy-mannucci
     roleName: Co-Investigator

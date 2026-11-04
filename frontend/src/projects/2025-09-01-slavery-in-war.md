@@ -38,7 +38,7 @@ departments:
     slug: fah-department-of-digital-humanities
   - name: University of Nottingham
     slug: university-of-nottingham
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
 members:
   - name: Neil Jakeman
