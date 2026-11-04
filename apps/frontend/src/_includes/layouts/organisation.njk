@@ -21,7 +21,7 @@ layout: layouts/agent.njk
 	<div id="funded">
 		<h2>Projects funded</h2>
 		<ul>
-			{% for project in funded | | sort(attribute='data.name') %}
+			{% for project in funded | sort(attribute='data.name') %}
 				<li>
 					<a href="{{ project.page.url }}">{{ project.data.name }}</a>
 				</li>
