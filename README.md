@@ -74,6 +74,10 @@ TBA
 
 ### Dev
 
+#### Merge strategy
+
+![merge strategy](./docs/assets/images/general/merge_strategy.png)
+
 #### Data model
 
 The data model is based on the [schema.org](https://schema.org/) vocabulary. Local customisations are prefixed with `KDL`.
