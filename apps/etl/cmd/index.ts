@@ -43,7 +43,7 @@ export const handleArgs = (args: Record<Args, Optional | Required>) => {
 const main = async () => {
   console.time('etl')
   const apiKey = process.env.CLICKUP_API_KEY
-  const apiUrl = process.env.CLICKUP_API_URL
+  const apiUrl = 'https://api.clickup.com/api/v2'
   const teamId = process.env.CLICKUP_TEAM_ID
   const args = handleArgs({
     '--action': {
