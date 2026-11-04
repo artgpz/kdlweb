@@ -16,88 +16,119 @@ feature:
   width: 1200
   height: 800
 funders:
-    - name: Arts and Humanities Research Council
-      slug: ahrc
-    - name: Faculty of Arts and Humanities
-      slug: faculty-of-arts-and-humanities
+  - name: Arts and Humanities Research Council (AHRC)
+    slug: arts-and-humanities-research-council-ahrc
+  - name: KCL Faculty of Arts and Humanities
+    slug: kcl-faculty-of-arts-and-humanities
 departments:
-    - name: FAH Department of Digital Humanities
-      slug: ddh
-    - name: FAH Department of Classics
-      slug: fah-department-of-classics
-    - name: Heidelberg University
-      slug: heidelberg-university
-    - name: New York University
-      slug: nyu
+  - name: FAH Department of Classics
+    slug: fah-department-of-classics
+  - name: FAH Department of Digital Humanities
+    slug: fah-department-of-digital-humanities
+  - name: King's College, London
+    slug: kings-college-london
+  - name: Cambridge University
+    slug: cambridge-university
+  - name: Heidelberg University
+    slug: heidelberg-university
+  - name: New York University
+    slug: new-york-university
+  - name: Ancient World Mapping Centre, University of North Carolina
+    slug: ancient-world-mapping-centre-university-of-north-carolina
+  - name: Oxford University
+    slug: oxford-university
+  - name: University College London
+    slug: university-college-london
+  - name: A&H
+    slug: ah
 members:
-    - name: Benet Salway
-      slug: benet-salway
-      roleName: Researcher
-      inOrganisation:
-          name: University College London
-          slug: ucl
-    - name: Christopher Ratté
-      slug: christopher-ratte
-      roleName: Researcher
-      inOrganisation:
-          name: New York University
-          slug: nyu
-    - name: Harold Short
-      slug: harold-short
-      roleName: Principal investigator
-      inOrganisation: null
-    - name: Juan Garcés
-      slug: juan-garces
-      roleName: RSE team member
-      inOrganisation: null
-    - name: Michael Crawford
-      slug: michael-crawford
-      roleName: Researcher
-      inOrganisation:
-          name: University College London
-          slug: ucl
-    - name: Gabriel Bodard
-      slug: gabriel-bodard
-      roleName: RSE team member
-      inOrganisation: null
-    - name: Bert Smith
-      slug: bert-smith
-      roleName: Researcher
-      inOrganisation:
-          name: University of Oxford
-          slug: university-of-oxford
-    - name: John Lavagnino
-      slug: john-lavagnino
-      roleName: RSE team member
-      inOrganisation: null
-    - name: Angelos Chaniotis
-      slug: angelos-chaniotis
-      roleName: Researcher
-      inOrganisation:
-          name: Heidelberg University
-          slug: heidelberg-university
-    - name: Paul Spence
-      slug: paul-spence
-      roleName: RSE team member
-      inOrganisation: null
-    - name: Charlotte Roueché
-      slug: charlotte-roueche
-      roleName: Principal investigator
-      inOrganisation: null
-    - name: Zaneta Au
-      slug: zaneta-au
-      roleName: RSE team member
-      inOrganisation: null
-    - name: Joyce Reynholds
-      slug: joyce-reynholds
-      roleName: Researcher
-      inOrganisation:
-          name: Newnham College
-          slug: newnham-college
-    - name: Tom Elliott
-      slug: tom-elliott
-      roleName: Researcher
-      inOrganisation: null
+  - name: Samantha Callaghan
+    slug: samantha-callaghan
+    roleName: Research Software Analyst
+  - name: Charlotte Roueché
+    slug: charlotte-roueche
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Classics
+      slug: fah-department-of-classics
+  - name: Harold Short
+    slug: harold-short
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Zaneta Au
+    slug: zaneta-au
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Paul Spence
+    slug: paul-spence
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Juan Garcés
+    slug: juan-garces
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Gabriel Bodard
+    slug: gabriel-bodard
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: John Lavagnino
+    slug: john-lavagnino
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Angelos Chaniotis
+    slug: angelos-chaniotis
+    roleName: Researcher
+    inOrganisation:
+      name: Heidelberg University
+      slug: heidelberg-university
+  - name: Joyce Reynholds
+    slug: joyce-reynholds
+    roleName: Researcher
+    inOrganisation:
+      name: University of Cambridge
+      slug: university-of-cambridge
+  - name: Christopher Ratté
+    slug: christopher-ratte
+    roleName: Researcher
+    inOrganisation:
+      name: NYU
+      slug: nyu
+  - name: Bert Smith
+    slug: bert-smith
+    roleName: Researcher
+    inOrganisation:
+      name: University of Oxford
+      slug: university-of-oxford
+  - name: Michael Crawford
+    slug: michael-crawford
+    roleName: Researcher
+    inOrganisation:
+      name: University College London
+      slug: university-college-london
+  - name: Benet Salway
+    slug: benet-salway
+    roleName: Researcher
+    inOrganisation:
+      name: University College London
+      slug: university-college-london
+  - name: Tom Elliott
+    slug: tom-elliott
+    roleName: Researcher
+    inOrganisation:
+      name: Ancient World Mapping Centre, University of North Carolina
+      slug: ancient-world-mapping-centre-university-of-north-carolina
 keywords: []
 urls:
   - name: Project URL

@@ -6,7 +6,7 @@ tags:
 alternateName: null
 slug: room-is-sad
 foundingDate: 2023-02-06
-dissolutionDate: 2023-06-30
+dissolutionDate: 2024-01-31
 creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/roomissad-the-room-at-london-design-biennale-2023-photo-elliott-hall.jpg
@@ -16,18 +16,22 @@ feature:
   width: 1200
   height: 800
 funders:
-    - name: King's College London
-      slug: kings-college-london
-    - name: FAH King's Culture
-      slug: fah-king-s-culture
+  - name: King's College London
+    slug: kings-college-london
 departments:
-    - name: King's Digital Lab
-      slug: kdl
+  - name: King's Digital Lab
+    slug: kings-digital-lab
+  - name: King's College, London
+    slug: kings-college-london
+  - name: A&H
+    slug: ah
 members:
-    - name: Elliott Hall
-      slug: elliott-hall
-      roleName: Principal investigator
-      inOrganisation: null
+  - name: Elliott Hall
+    slug: elliott-hall
+    roleName: Principal investigator
+    inOrganisation:
+      name: King's Digital Lab
+      slug: kings-digital-lab
 keywords:
   - name: Digital Creativity
     slug: digital-creativity

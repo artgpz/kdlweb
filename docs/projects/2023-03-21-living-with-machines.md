@@ -34,46 +34,48 @@ departments:
     slug: british-library
   - name: Queen Mary University
     slug: queen-mary-university
+  - name: A&H
+    slug: ah
 members:
-    - name: Arianna Ciula
-      slug: arianna-ciula
-      roleName: Research Software Analyst
-    - name: Miguel Vieira
-      slug: miguel-vieira
-      roleName: Research Software Engineer
-    - name: Tiffany Ong
-      slug: tiffany-ong
-      roleName: Research Software Designer
-    - name: Ruth Ahnert
-      slug: ruth-ahnert
-      roleName: Principal investigator
-      inOrganisation:
-          name: Queen Mary University
-          slug: queen-mary-university
-    - name: Mia Ridge
-      slug: mia-ridge
-      roleName: Co-Investigator
-      inOrganisation:
-          name: The British Library
-          slug: the-british-library
-    - name: Barbara McGillivray
-      slug: barbara-mcgillivray
-      roleName: Co-Investigator
-      inOrganisation:
-          name: FAH Department of Digital Humanities
-          slug: fah-department-of-digital-humanities
-    - name: Nilo Pedrazzini
-      slug: nilo-pedrazzini
-      roleName: Researcher
-      inOrganisation:
-          name: FAH Department of Digital Humanities
-          slug: fah-department-of-digital-humanities
-    - name: Kalle Westerling
-      slug: kalle-westerling
-      roleName: Researcher
-      inOrganisation:
-          name: FAH Department of Digital Humanities
-          slug: fah-department-of-digital-humanities
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software Designer
+  - name: Ruth Ahnert
+    slug: ruth-ahnert
+    roleName: Principal investigator
+    inOrganisation:
+      name: Queen Mary University
+      slug: queen-mary-university
+  - name: Mia Ridge
+    slug: mia-ridge
+    roleName: Co-Investigator
+    inOrganisation:
+      name: The British Library
+      slug: the-british-library
+  - name: Barbara McGillivray
+    slug: barbara-mcgillivray
+    roleName: Co-Investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Nilo Pedrazzini
+    slug: nilo-pedrazzini
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Kalle Westerling
+    slug: kalle-westerling
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
 sla:
   start: 2023-09-01
   end: 2023-12-31

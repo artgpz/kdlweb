@@ -35,6 +35,8 @@ departments:
     slug: university-of-leeds
   - name: King's College, London
     slug: kings-college-london
+  - name: A&H
+    slug: ah
 members:
   - name: Tiffany Ong
     slug: tiffany-ong

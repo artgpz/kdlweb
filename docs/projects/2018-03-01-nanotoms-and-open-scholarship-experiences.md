@@ -16,20 +16,25 @@ feature:
   width: 1200
   height: 800
 funders:
-    - name: FAH Department of Digital Humanities
-      slug: ddh
+  - name: KCL Faculty of Arts and Humanities
+    slug: kcl-faculty-of-arts-and-humanities
 departments:
-    - name: FAH Department of Digital Humanities
-      slug: ddh
+  - name: FAH Department of Digital Humanities
+    slug: fah-department-of-digital-humanities
+  - name: King's College, London
+    slug: kings-college-london
+  - name: A&H
+    slug: ah
 members:
-    - name: Graeme Earl
-      slug: graeme-earl
-      roleName: Principal investigator
-      inOrganisation: null
-    - name: Miguel Vieira
-      slug: miguel-vieira
-      roleName: RSE team member
-      inOrganisation: null
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: Graeme Earl
+    slug: graeme-earl
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
 keywords:
   - name: Machine Learning and AI
     slug: machine-learning-ai

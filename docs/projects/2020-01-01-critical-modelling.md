@@ -2,12 +2,12 @@
 title: Critical Modelling of Extensive Literary Data
 name: Critical Modelling of Extensive Literary Data
 tags:
-    - projects
-alternateName: Critical Modelling
+  - projects
+alternateName: null
 slug: critical-modelling
 foundingDate: 2020-01-01
-dissolutionDate: 2023-06-30
-creativeWorkStatus: Post-project
+dissolutionDate: 2025-02-28
+creativeWorkStatus: Active
 feature:
   image: /assets/images/projects/critical-modelling-reviews-waves-edit.jpg
   title: Critical Modelling Reviews Waves
@@ -15,24 +15,32 @@ feature:
   width: 1200
   height: 800
 funders:
-    - name: The Australia National University
-      slug: the-australia-national-university
-    - name: King's College London
-      slug: kings-college-london
+  - name: King's College London
+    slug: kings-college-london
+  - name: The Australian National University (ANU)
+    slug: the-australian-national-university-anu
 departments:
-    - name: The Australia National University
-      slug: the-australia-national-university
-    - name: King's Digital Lab
-      slug: kdl
+  - name: Australian National University
+    slug: australian-national-university
 members:
-    - name: Katherine Bode
-      slug: katherine-bode
-      roleName: Principal investigator
-      inOrganisation: null
-    - name: Arianna Ciula
-      slug: arianna-ciula
-      roleName: Research Software Analyst
-      inOrganisation: null
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: Katherine Bode
+    slug: katherine-bode
+    roleName: Principal investigator
+    inOrganisation:
+      name: Australian National University
+      slug: australian-national-university
+  - name: Galen Cuthbertson
+    slug: galen-cuthbertson
+    roleName: Researcher
+    inOrganisation:
+      name: Australian National University
+      slug: australian-national-university
 keywords:
   - name: Machine Learning and AI
     slug: machine-learning-ai

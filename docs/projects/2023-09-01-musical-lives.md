@@ -23,6 +23,8 @@ departments:
     slug: fah-department-of-music
   - name: King's College, London
     slug: kings-college-london
+  - name: A&H
+    slug: ah
 members:
   - name: Neil Jakeman
     slug: neil-jakeman

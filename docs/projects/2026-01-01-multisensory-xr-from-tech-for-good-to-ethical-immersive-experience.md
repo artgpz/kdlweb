@@ -18,8 +18,16 @@ funders:
 departments:
   - name: FAH Department of Digital Humanities
     slug: fah-department-of-digital-humanities
+  - name: FAH Department of Culture, Media & Creative Industries
+    slug: fah-department-of-culture-media-creative-industries
+  - name: School of Neuroscience
+    slug: school-of-neuroscience
   - name: King's College, London
     slug: kings-college-london
+  - name: A&H
+    slug: ah
+  - name: IoPPN
+    slug: ioppn
 members:
   - name: Neil Jakeman
     slug: neil-jakeman

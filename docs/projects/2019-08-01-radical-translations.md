@@ -27,6 +27,8 @@ departments:
     slug: kings-college-london
   - name: University of Milano-Bicocca
     slug: university-of-milano-bicocca
+  - name: A&H
+    slug: ah
 members:
   - name: Arianna Ciula
     slug: arianna-ciula

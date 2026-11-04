@@ -7,7 +7,7 @@ alternateName: SCRAMBLED
 slug: scrambled
 foundingDate: 2013-09-01
 dissolutionDate: 2018-06-30
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/james-hook-word-from-the-missing-1877-oil-on-canvas.jpg
   title: James Hook, Word From the Missing, 1877 (oil on Canvas)
@@ -22,81 +22,81 @@ funders:
   - name: KCL Faculty of Arts and Humanities
     slug: kcl-faculty-of-arts-and-humanities
 departments:
-    - name: Courtauld Institute of Art
-      slug: courtauld-institute-of-art
-    - name: FAH Department of Digital Humanities
-      slug: ddh
-    - name: FAH Department of English
-      slug: fah-department-of-english
-    - name: King's College, London
-      slug: kings-college-london
+  - name: FAH Department of English
+    slug: fah-department-of-english
+  - name: King's College, London
+    slug: kings-college-london
+  - name: Courtauld Institute of Art
+    slug: courtauld-institute-of-art
+  - name: A&H
+    slug: ah
 members:
-    - name: Brian Maher
-      slug: brian-maher
-      roleName: Research Software Engineer
-    - name: Samantha Callaghan
-      slug: samantha-callaghan
-      roleName: Research Software Analyst
-    - name: Miguel Vieira
-      slug: miguel-vieira
-      roleName: Research Software Engineer
-    - name: Carolin Arscott
-      slug: carolin-arscott
-      roleName: Principal investigator
-      inOrganisation:
-          name: Courtauld Institute of Art
-          slug: courtauld-institute-of-art
-    - name: Clare Pettitt
-      slug: clare-pettitt
-      roleName: Researcher
-      inOrganisation:
-          name: FAH Department of History
-          slug: fah-department-of-history
-    - name: Anne Chapman
-      slug: anne-chapman
-      roleName: Researcher
-      inOrganisation:
-          name: FAH Department of History
-          slug: fah-department-of-history
-    - name: Natalie Hume
-      slug: natalie-hume
-      roleName: Researcher
-      inOrganisation:
-          name: Courtauld Institute of Art
-          slug: courtauld-institute-of-art
-    - name: Mark Miodownik
-      slug: mark-miodownik
-      roleName: Researcher
-      inOrganisation:
-          name: FAH Department of History
-          slug: fah-department-of-history
-    - name: Cassie Newland
-      slug: cassie-newland
-      roleName: Researcher
-      inOrganisation:
-          name: FAH Department of History
-          slug: fah-department-of-history
-    - name: Frances Patman
-      slug: frances-patman
-      roleName: Researcher
-      inOrganisation:
-          name: FAH Department of History
-          slug: fah-department-of-history
-    - name: Katie Sambrook
-      slug: katie-sambrook
-      roleName: Researcher
-      inOrganisation:
-          name: FAH Department of History
-          slug: fah-department-of-history
-    - name: Paul Vetch
-      slug: paul-vetch
-      roleName: Researcher
-      inOrganisation:
-          name: FAH Department of Digital Humanities
-          slug: fah-department-of-digital-humanities
+  - name: Brian Maher
+    slug: brian-maher
+    roleName: Research Software Engineer
+  - name: Samantha Callaghan
+    slug: samantha-callaghan
+    roleName: Research Software Analyst
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: Carolin Arscott
+    slug: carolin-arscott
+    roleName: Principal investigator
+    inOrganisation:
+      name: Courtauld Institute of Art
+      slug: courtauld-institute-of-art
+  - name: Clare Pettitt
+    slug: clare-pettitt
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Anne Chapman
+    slug: anne-chapman
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Natalie Hume
+    slug: natalie-hume
+    roleName: Researcher
+    inOrganisation:
+      name: Courtauld Institute of Art
+      slug: courtauld-institute-of-art
+  - name: Mark Miodownik
+    slug: mark-miodownik
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Cassie Newland
+    slug: cassie-newland
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Frances Patman
+    slug: frances-patman
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Katie Sambrook
+    slug: katie-sambrook
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Paul Vetch
+    slug: paul-vetch
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
 sla:
-  start: null
-  end: null
+  start: 2018-01-01
+  end: 2023-02-07
 urls:
   - name: Project URL
     url: https://scrambledmessages.ac.uk/

@@ -24,6 +24,8 @@ departments:
     slug: fah-department-of-history
   - name: King's College, London
     slug: kings-college-london
+  - name: A&H
+    slug: ah
 members:
   - name: Neil Jakeman
     slug: neil-jakeman
@@ -51,6 +53,12 @@ members:
       slug: fah-department-of-history
   - name: Maria Ines Godinho Guarda
     slug: maria-ines-godinho-guarda
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Daniel Dias
+    slug: daniel-dias
     roleName: Researcher
     inOrganisation:
       name: FAH Department of History
