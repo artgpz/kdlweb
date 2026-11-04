@@ -7,7 +7,7 @@ alternateName: DGH
 slug: the-digital-ghost-hunt
 foundingDate: 2018-02-01
 dissolutionDate: 2019-11-01
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/ghost-hunt.jpg
   title: null
@@ -16,40 +16,59 @@ feature:
   width: 1200
   height: 800
 funders:
-    - name: Arts and Humanities Research Council
-      slug: ahrc
-    - name: FAH King's Culture
-      slug: fah-king-s-culture
+  - name: Arts and Humanities Research Council (AHRC)
+    slug: arts-and-humanities-research-council-ahrc
+  - name: FAH King's Culture
+    slug: fah-kings-culture
 departments:
-    - name: University of Sussex
-      slug: university-of-sussex
-    - name: KIT Theatre
-      slug: kit-theatre
-    - name: King's Digital Lab
-      slug: kdl
+  - name: King's Digital Lab
+    slug: kings-digital-lab
+  - name: University of Sussex
+    slug: university-of-sussex
+  - name: Royal Holloway University London
+    slug: royal-holloway-university-london
+  - name: King's College, London
+    slug: kings-college-london
+  - name: Bournemouth University
+    slug: bournemouth-university
+  - name: "KIT Theatre C.I.C "
+    slug: kit-theatre-cic
+  - name: A&H
+    slug: ah
 members:
-    - name: Carina Westling
-      slug: carina-westling
-      roleName: Researcher
-      inOrganisation:
-          name: Royal Holloway, University of London
-          slug: royal-holloway
-    - name: Elliott Hall
-      slug: elliott-hall
-      roleName: Co-investigator
-      inOrganisation: null
-    - name: Mary Krell
-      slug: mary-krell
-      roleName: Principal investigator
-      inOrganisation:
-          name: University of Sussex
-          slug: university-of-sussex
-    - name: Tom Bowtell
-      slug: tom-bowtell
-      roleName: Researcher
-      inOrganisation:
-          name: KIT Theatre
-          slug: kit-theatre
+  - name: Elliott Hall
+    slug: elliott-hall
+    roleName: Research Software Engineer
+  - name: Mary Krell
+    slug: mary-krell
+    roleName: Principal investigator
+    inOrganisation:
+      name: University of Sussex
+      slug: university-of-sussex
+  - name: Carina Westling
+    slug: carina-westling
+    roleName: Co-Investigator
+    inOrganisation:
+      name: Bournemouth University
+      slug: bournemouth-university
+  - name: Elliott Hall
+    slug: elliott-hall
+    roleName: Co-Investigator
+    inOrganisation:
+      name: King's College London
+      slug: kings-college-london
+  - name: Tom Bowtell
+    slug: tom-bowtell
+    roleName: Researcher
+    inOrganisation:
+      name: KIT Theatre
+      slug: kit-theatre
+  - name: Carina Westling
+    slug: carina-westling
+    roleName: Researcher
+    inOrganisation:
+      name: Royal Holloway, University of London
+      slug: royal-holloway-university-of-london
 keywords:
   - name: Digital Creativity
     slug: digital-creativity
@@ -70,7 +89,7 @@ urls:
     url: https://kdl.kcl.ac.uk/blog/ghost-hunt-spinners-mill/
 draft: false
 sla:
-  start: null
+  start: 2019-01-01
   end: 2023-12-31
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: Renaissance Skin - Visible Skin
-name: Renaissance Skin - Visible Skin
+title: "RENSKIN: Visibile Skin"
+name: "RENSKIN: Visibile Skin"
 tags:
-    - projects
-alternateName: Visible Skin
+  - projects
+alternateName: RENSKIN
 slug: visible-skin
 foundingDate: 2021-01-14
-dissolutionDate: 2022-01-18
+dissolutionDate: 2022-02-18
 creativeWorkStatus: Post-project
 feature:
   image: /assets/images/projects/visible-skin-online-poster.jpg
@@ -22,47 +22,80 @@ funders:
   - name: FAH King's Culture
     slug: fah-kings-culture
 departments:
-    - name: FAH Department of History
-      slug: fah-department-of-history
-    - name: Wiedemann Lampe
-      slug: wiedemann-lampe
-    - name: FAH King's Culture
-      slug: fah-king-s-culture
+  - name: FAH Department of History
+    slug: fah-department-of-history
+  - name: Wiedemann Lampe
+    slug: wiedemann-lampe
+  - name: FAH King's Culture
+    slug: fah-kings-culture
+  - name: King's College, London
+    slug: kings-college-london
+  - name: A&H
+    slug: ah
 members:
-    - name: Leanne Hammacott
-      slug: leanne-hammacott
-      roleName: Researcher
-      inOrganisation:
-          name: FAH King's Culture
-          slug: fah-king-s-culture
-    - name: Evelyn Welch
-      slug: evelyn-welch
-      roleName: Principal investigator
-      inOrganisation:
-          name: FAH Department of History
-          slug: fah-department-of-history
-    - name: Peter Brathwaite
-      slug: peter-brathwaite
-      roleName: Researcher
-      inOrganisation: null
-    - name: Paul Caton
-      slug: paul-caton
-      roleName: Research Software Analyst
-      inOrganisation: null
-    - name: Tiffany Ong
-      slug: tiffany-ong
-      roleName: Research Software Designer
-      inOrganisation: null
-    - name: Hannah Murphy
-      slug: hannah-murphy
-      roleName: Researcher
-      inOrganisation:
-          name: FAH Department of History
-          slug: fah-department-of-history
-    - name: Geoffroy Noël
-      slug: geoffroy-noel
-      roleName: Research Software Engineer
-      inOrganisation: null
+  - name: Tiffany Ong
+    slug: tiffany-ong
+    roleName: Research Software Designer
+  - name: Ginestra Ferraro
+    slug: ginestra-ferraro
+    roleName: Research Software Designer
+  - name: Paul Caton
+    slug: paul-caton
+    roleName: Research Software Analyst
+  - name: Geoffroy Noël
+    slug: geoffroy-noel
+    roleName: Research Software Engineer
+  - name: Brian Maher
+    slug: brian-maher
+    roleName: Research Software Engineer
+  - name: Evelyn Welch
+    slug: evelyn-welch
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Hannah Murphy
+    slug: hannah-murphy
+    roleName: Co-Investigator
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Leanne Hammacott
+    slug: leanne-hammacott
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Hannah Murphy
+    slug: hannah-murphy
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Peter Brathwaite
+    slug: peter-brathwaite
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Paolo Savoia
+    slug: paolo-savoia
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+  - name: Wiedemann Lampe
+    slug: wiedemann-lampe
+    roleName: Researcher
+    inOrganisation:
+      name: Design Agency
+      slug: design-agency
+  - name: Sarah Cockram
+    slug: sarah-cockram
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
 keywords: []
 urls:
   - name: Project URL

@@ -23,7 +23,7 @@ export const projectsConvertToYamlResolver = async ({
   const slug = getSlug({ project, name })
 
   // Get project start date
-  let projectStartDate = getCustomFieldValue(project, 'Project start date')
+  const projectStartDate = getCustomFieldValue(project, 'Project start date')
   if (!projectStartDate) {
     // console.error(`No project start date found for ${name}, setting to default`);
     // projectStartDate = `1970-01-01-`;
@@ -388,10 +388,21 @@ const getAndConvertDepartments = ({ data }: { data: Task }) => {
   }
 
   const partnersField = data.custom_fields.find((field) => field.name === 'Partner organisation(s)')
-
   if (partnersField && partnersField.value && Array.isArray(partnersField.value)) {
     partnersField.value.forEach((partner) => {
       const found = partnersField.type_config.options.find((opt) => opt.id === partner)
+      if (found) {
+        departments.push({
+          name: found.label,
+          slug: slugify(found.label)
+        })
+      }
+    })
+  }
+  const facultiesField = data.custom_fields.find((field) => field.name === 'Faculty(ies)')
+  if (facultiesField && facultiesField.value && Array.isArray(facultiesField.value)) {
+    facultiesField.value.forEach((partner) => {
+      const found = facultiesField.type_config.options.find((opt) => opt.id === partner)
       if (found) {
         departments.push({
           name: found.label,

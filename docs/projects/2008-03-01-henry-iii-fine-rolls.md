@@ -30,6 +30,8 @@ departments:
     slug: fah-department-of-digital-humanities
   - name: King's College, London
     slug: kings-college-london
+  - name: A&H
+    slug: ah
 members:
   - name: Paul Caton
     slug: paul-caton

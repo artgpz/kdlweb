@@ -31,6 +31,10 @@ departments:
     slug: university-of-brighton
   - name: King's College, London
     slug: kings-college-london
+  - name: Central Directorate
+    slug: central-directorate
+  - name: A&H
+    slug: ah
 members:
   - name: Neil Jakeman
     slug: neil-jakeman

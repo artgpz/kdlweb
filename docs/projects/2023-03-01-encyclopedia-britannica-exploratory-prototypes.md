@@ -7,7 +7,7 @@ alternateName: null
 slug: encyclopedia-britannica-exploratory-prototypes
 foundingDate: 2023-03-01
 dissolutionDate: 2024-03-31
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/encyclopedia-britannica-mohamed-marey-t-ze9v-b4-ej-4-y-unsplash.jpg
   title: An open book, Photo by Mohamed Marey
@@ -30,6 +30,8 @@ departments:
     slug: kings-college-london
   - name: Temple University
     slug: temple-university
+  - name: A&H
+    slug: ah
 members:
   - name: Arianna Ciula
     slug: arianna-ciula
@@ -50,8 +52,8 @@ members:
       name: FAH Department of English
       slug: fah-department-of-english
 sla:
-  start: null
-  end: null
+  start: 2024-04-01
+  end: 2029-03-31
 urls:
   - name: Project URL
     url: https://kingsdigitallab.github.io/eb-pre/

@@ -79,6 +79,10 @@ departments:
     slug: metacell
   - name: BCS
     slug: bcs
+  - name: Central Directorate
+    slug: central-directorate
+  - name: A&H
+    slug: ah
 members:
   - name: Arianna Ciula
     slug: arianna-ciula

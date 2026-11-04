@@ -1,7 +1,8 @@
 ---
 title: Law
 alternateName: null
-tags: [departments]
+tags:
+  - departments
 slug: law
 foundingDate: null
 dissolutionDate: null

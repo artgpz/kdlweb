@@ -7,7 +7,7 @@ alternateName: null
 slug: culture-case
 foundingDate: 2018-01-08
 dissolutionDate: 2019-01-07
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/culture-case-tomb-in-india.jpg
   title: Photo by Ibrahim Rifath
@@ -23,6 +23,8 @@ departments:
     slug: fah-kings-culture
   - name: King's College, London
     slug: kings-college-london
+  - name: A&H
+    slug: ah
 members:
   - name: Arianna Ciula
     slug: arianna-ciula
@@ -88,8 +90,8 @@ urls:
   - name: "Repository: https://github.com/kingsdigitallab/culturecase-django/"
     url: https://github.com/kingsdigitallab/culturecase-django/
 sla:
-  start: null
-  end: null
+  start: 2019-01-08
+  end: 2028-01-14
 draft: false
 ---
 

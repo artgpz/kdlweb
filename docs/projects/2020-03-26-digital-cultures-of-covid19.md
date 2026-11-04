@@ -2,12 +2,12 @@
 title: Digital Methods for Investigating Online Engagement with Coronavirus
 name: Digital Methods for Investigating Online Engagement with Coronavirus
 tags:
-    - projects
-alternateName: "Digital Cultures of #covid19"
+  - projects
+alternateName: null
 slug: digital-cultures-of-covid19
 foundingDate: 2020-03-26
 dissolutionDate: 2022-11-04
-creativeWorkStatus: Post-project
+creativeWorkStatus: Active
 feature:
   image: /assets/images/projects/digital-cultures-engin-akyurt.jpg
   title: Photo by Engin Akyurt
@@ -16,30 +16,36 @@ feature:
   width: 1200
   height: 800
 funders:
-    - name: King's College London
-      slug: kings-college-london
-departments: []
+  - name: King's College London
+    slug: kings-college-london
+  - name: FAH Department of Digital Humanities
+    slug: fah-department-of-digital-humanities
+departments:
+  - name: FAH Department of Digital Humanities
+    slug: fah-department-of-digital-humanities
+  - name: King's College, London
+    slug: kings-college-london
+  - name: A&H
+    slug: ah
 members:
-    - name: Jonathan Gray
-      slug: jonathan-gray
-      roleName: Principal investigator
-      inOrganisation:
-          name: FAH Department of Digital Humanities
-          slug: ddh
-    - name: Liliana Bounegru
-      slug: liliana-bounegru
-      roleName: Co-investigator
-      inOrganisation:
-          name: FAH Department of Digital Humanities
-          slug: ddh
-    - name: Miguel Vieira
-      slug: miguel-vieira
-      roleName: RSE team member
-      inOrganisation: null
-    - name: Brian Maher
-      slug: brian-maher
-      roleName: RSE team member
-      inOrganisation: null
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: Brian Maher
+    slug: brian-maher
+    roleName: Research Software Engineer
+  - name: Jonathan Gray
+    slug: jonathan-gray
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Liliana Bounegru
+    slug: liliana-bounegru
+    roleName: Co-Investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
 keywords: []
 urls:
   - name: PURE URL

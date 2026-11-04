@@ -18,33 +18,29 @@ feature:
   width: 1200
   height: 800
 funders:
-    - name: FAH Department of History
-      slug: fah-department-of-history
-    - name: Harvard and Cambridge Universities Joint Center for History and Economics
-      slug: harvard-and-cambridge-universities-joint-center-for-history-and-economics
+  - name: Harvard and Cambridge Universities Joint Center for History and Economics
+    slug: harvard-and-cambridge-universities-joint-center-for-history-and-economics
 departments:
-    - name: FAH Department of History
-      slug: fah-department-of-history
+  - name: FAH Department of History
+    slug: fah-department-of-history
+  - name: King's College, London
+    slug: kings-college-london
+  - name: A&H
+    slug: ah
 members:
-    - name: Arianna Ciula
-      slug: arianna-ciula
-      roleName: Research Software Analyst
-      inOrganisation: null
-    - name: David Todd
-      slug: david-todd
-      roleName: Principal investigator
-      inOrganisation: null
-    - name: Miguel Vieira
-      slug: miguel-vieira
-      roleName: Research Software Engineer
-      inOrganisation: null
-keywords:
-    - name: Data Visualisation
-      slug: data-visualisation
-    - name: Digital mapping
-      slug: digital-mapping
-    - name: History
-      slug: history
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: David Todd
+    slug: david-todd
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of History
+      slug: fah-department-of-history
+keywords: []
 urls:
   - name: Project URL
     url: https://histecon.fas.harvard.edu/visualizing/egypt/index.html
@@ -56,8 +52,8 @@ urls:
     url: https://miro.com/app/board/o9J_lRs9WpU=/?share_link_id=52435022766
 draft: false
 sla:
-  start: null
-  end: null
+  start: 2020-07-01
+  end: 2022-06-30
 ---
 
 The 'État Civil' -- standing for civil registration of births, deaths and marriages -- exploratory project processes data from the Egyptian consulate of the 'État Civil' to visualise mobility on a continental or global scale and offers insights on patterns of migration and social history.

@@ -1,8 +1,9 @@
 ---
 title: University of Westminster
-tags:
-    - organisations
 alternateName: null
+tags:
+  - organisations
+  - departments
 slug: university-of-westminster
 foundingDate: null
 dissolutionDate: null

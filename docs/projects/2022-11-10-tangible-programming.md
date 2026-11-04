@@ -33,9 +33,6 @@ members:
       roleName: Principal investigator
       inOrganisation: null
 keywords: []
-urls:
-    - name: Project URL
-      url: https://tibbl.netlify.app/
 ---
 
 The TIBBL: Tangible Inclusive Block-Based Language for Widening Access to Programming project seeks to develop an inexpensive, open-source, tangible programming toolkit inclusive of people with visual impairments. A proof of concept for the tool was developed by KDL in 2022 utilising computer vision via the TopCodes JavaScript library. A full prototype of the tool was then developed through an iterative co-design process in partnership with a group of students with mixed visual abilities and their computing teacher.

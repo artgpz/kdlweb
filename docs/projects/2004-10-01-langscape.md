@@ -7,7 +7,7 @@ alternateName: Langscape
 slug: langscape
 foundingDate: 2004-10-01
 dissolutionDate: 2008-09-30
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/landscape-photo-by-manohar-reddy.jpg
   title: Photo by Manohar Reddy
@@ -24,8 +24,12 @@ funders:
 departments:
   - name: FAH Department of History
     slug: fah-department-of-history
+  - name: FAH Department of Digital Humanities
+    slug: fah-department-of-digital-humanities
   - name: King's College, London
     slug: kings-college-london
+  - name: A&H
+    slug: ah
 members:
   - name: Miguel Vieira
     slug: miguel-vieira
@@ -124,8 +128,8 @@ members:
       name: FAH Department of Digital Humanities
       slug: fah-department-of-digital-humanities
 sla:
-  start: null
-  end: 2028-12-31
+  start: 2020-01-01
+  end: 2028-01-07
 urls:
   - name: Project URL
     url: http://www.langscape.org.uk/index.html

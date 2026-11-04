@@ -2,7 +2,7 @@
 title: AI and Story Telling
 name: AI and Story Telling
 tags:
-    - projects
+  - projects
 alternateName: null
 slug: ai-and-story-telling
 foundingDate: 2018-01-01
@@ -20,74 +20,82 @@ feature:
   width: 1200
   height: 800
 funders:
-    - name: Innovation UK
-      slug: innovation-uk
+  - name: Innovate UK
+    slug: innovate-uk
 departments:
-    - name: King's Digital Lab
-      slug: kdl
-    - name: FAH Department of Culture, Media & Creative Industries
-      slug: fah-department-of-culture-media-and-creative-industries
-    - name: Charisma.AI
-      slug: to-play-for
-    - name: Parabolic Theatre
-      slug: parabolic-theatre
+  - name: FAH Department of Culture, Media & Creative Industries
+    slug: fah-department-of-culture-media-creative-industries
+  - name: King's Digital Lab
+    slug: kings-digital-lab
+  - name: King's College, London
+    slug: kings-college-london
+  - name: To Play For
+    slug: to-play-for
+  - name: A&H
+    slug: ah
 members:
-    - name: Elliott Hall
-      slug: elliott-hall
-      roleName: Co-investigator
-      inOrganisation: null
-    - name: " Emily Bailey"
-      slug: emily-bailey
-      roleName: Researcher
-      inOrganisation:
-          name: Charisma.AI
-          slug: to-play-for
-    - name: Oscar Lindström
-      slug: oscar-lindstroem
-      roleName: Researcher
-      inOrganisation:
-          name: Charisma.AI
-          slug: to-play-for
-    - name: " Sarah Atkinson"
-      slug: sarah-atkinson
-      roleName: Co-investigator
-      inOrganisation:
-          name: FAH Department of Culture, Media & Creative Industries
-          slug: fah-department-of-culture-media-and-creative-industries
-    - name: James Smithies
-      slug: james-smithies
-      roleName: RSE team member
-      inOrganisation: null
-    - name: " Ben James"
-      slug: ben-james
-      roleName: Researcher
-      inOrganisation:
-          name: Charisma.AI
-          slug: to-play-for
-    - name: Guy Gadney
-      slug: guy-gadney
-      roleName: Partner
-      inOrganisation:
-          name: Charisma.AI
-          slug: to-play-for
-    - name: " Annette Parry"
-      slug: annette-parry
-      roleName: Researcher
-      inOrganisation:
-          name: Charisma.AI
-          slug: to-play-for
+  - name: James Smithies
+    slug: james-smithies
+    roleName: Principal investigator
+    inOrganisation:
+      name: KDL
+      slug: kdl
+  - name: Elliott Hall
+    slug: elliott-hall
+    roleName: Co-Investigator
+    inOrganisation:
+      name: KDL
+      slug: kdl
+  - name: Sarah Atkinson
+    slug: sarah-atkinson
+    roleName: Co-Investigator
+    inOrganisation:
+      name: FAH Department of Culture, Media & Creative Industries
+      slug: fah-department-of-culture-media-creative-industries
+  - name: Oscar Lindström
+    slug: oscar-lindstrom
+    roleName: Researcher
+    inOrganisation:
+      name: Unknown
+      slug: unknown
+  - name: Guy Gadney
+    slug: guy-gadney
+    roleName: Researcher
+    inOrganisation:
+      name: Unknown
+      slug: unknown
+  - name: Annette Parry
+    slug: annette-parry
+    roleName: Researcher
+    inOrganisation:
+      name: Unknown
+      slug: unknown
+  - name: Ben James
+    slug: ben-james
+    roleName: Researcher
+    inOrganisation:
+      name: Unknown
+      slug: unknown
+  - name: Emily Bailey
+    slug: emily-bailey
+    roleName: Researcher
+    inOrganisation:
+      name: Unknown
+      slug: unknown
 keywords:
-    - name: Media
-      slug: media
-    - name: Computational text analysis
-      slug: computational-text-analysis
-    - name: Digital Creativity
-      slug: digital-creativity
+  - name: Digital Creativity
+    slug: digital-creativity
 urls:
-    - name: Article URL
-      url: https://digitalhumanities.org/dhq/vol/16/2/000628/000628.html
-    - name: Project URL
-      url: https://aiandstorytelling.com/
+  - name: Article URL
+    url: https://digitalhumanities.org/dhq/vol/16/2/000628/000628.html
+  - name: Project URL
+    url: https://aiandstorytelling.com/
+  - name: Partner URL
+    url: https://kclpure.kcl.ac.uk/portal/en/projects/applying-ai-to-storytelling-bringing-computational-research-into-
+draft: false
+sla:
+  start: null
+  end: null
 ---
 
 An exciting fusion of creative writing and artificial intelligence to help writers create new forms of dynamic, interactive stories. An Innovate-funded collaboration between game company Charisma.AI, immersive company Parabolic Theatre, and King's College London, it specifically aimed to understand what the impact of artificially-intelligent memory is on storytelling and narrative structure, and how to transfer the resulting research into industry.

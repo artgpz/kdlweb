@@ -23,8 +23,16 @@ funders:
 departments:
   - name: FAH Department of Languages, Literatures and Cultures
     slug: fah-department-of-languages-literatures-and-cultures
+  - name: French
+    slug: french
   - name: King's College, London
     slug: kings-college-london
+  - name: Cambridge University
+    slug: cambridge-university
+  - name: University College London
+    slug: university-college-london
+  - name: A&H
+    slug: ah
 members:
   - name: Neil Jakeman
     slug: neil-jakeman

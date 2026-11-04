@@ -31,16 +31,20 @@ funders:
 departments:
   - name: The Dickson Poon School of Law
     slug: the-dickson-poon-school-of-law
-  - name: War Studies
-    slug: war-studies
+  - name: SSPP Department of War Studies
+    slug: sspp-department-of-war-studies
   - name: FAH Department of Digital Humanities
     slug: fah-department-of-digital-humanities
-  - name: International Politics
-    slug: international-politics
   - name: University of Nottingham
     slug: university-of-nottingham
   - name: King's College, London
     slug: kings-college-london
+  - name: Law
+    slug: law
+  - name: A&H
+    slug: ah
+  - name: SSPP
+    slug: sspp
 members:
   - name: Neil Jakeman
     slug: neil-jakeman
@@ -67,8 +71,8 @@ members:
     slug: maeve-ryan
     roleName: Principal investigator
     inOrganisation:
-      name: Faculty of Social Science & Public Policy
-      slug: faculty-of-social-science-public-policy
+      name: SSPP Department of War Studies
+      slug: sspp-department-of-war-studies
   - name: Simon Tanner
     slug: simon-tanner
     roleName: Co-Investigator
@@ -85,8 +89,8 @@ members:
     slug: jack-mcdonald
     roleName: Co-Investigator
     inOrganisation:
-      name: Faculty of Social Science & Public Policy
-      slug: faculty-of-social-science-public-policy
+      name: SSPP Department of War Studies
+      slug: sspp-department-of-war-studies
   - name: Rosana Garciandia
     slug: rosana-garciandia
     roleName: Co-Investigator
@@ -97,23 +101,26 @@ members:
     slug: rebekka-friedman
     roleName: Co-Investigator
     inOrganisation:
-      name: Faculty of Social Science & Public Policy
-      slug: faculty-of-social-science-public-policy
+      name: SSPP Department of War Studies
+      slug: sspp-department-of-war-studies
   - name: Jeni Mitchell
     slug: jeni-mitchell
     roleName: Co-Investigator
     inOrganisation:
-      name: Faculty of Social Science & Public Policy
-      slug: faculty-of-social-science-public-policy
+      name: SSPP Department of War Studies
+      slug: sspp-department-of-war-studies
   - name: Leonie Ansems de Vries
     slug: leonie-ansems-de-vries
     roleName: Co-Investigator
     inOrganisation:
-      name: Faculty of Social Science & Public Policy
-      slug: faculty-of-social-science-public-policy
+      name: SSPP Department of War Studies
+      slug: sspp-department-of-war-studies
   - name: Kelsey Carthew
     slug: kelsey-carthew
     roleName: Researcher
+    inOrganisation:
+      name: King's College London
+      slug: kings-college-london
 sla:
   start: null
   end: null

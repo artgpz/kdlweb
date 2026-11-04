@@ -31,6 +31,8 @@ departments:
     slug: newman-institute-uppsala
   - name: King's College, London
     slug: kings-college-london
+  - name: A&H
+    slug: ah
 members:
   - name: Samantha Callaghan
     slug: samantha-callaghan

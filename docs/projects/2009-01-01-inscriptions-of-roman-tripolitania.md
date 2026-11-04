@@ -7,7 +7,7 @@ alternateName: IRT
 slug: inscriptions-of-roman-tripolitania
 foundingDate: 2009-01-01
 dissolutionDate: 2021-12-31
-creativeWorkStatus: Post-project
+creativeWorkStatus: Maintained
 feature:
   image: /assets/images/projects/irt-ward-perkins-1947-ward-perkins-archive-bsr-47-ix-10.jpg
   title: Part of a mosaic panel comprising the left-hand side of a tabella ansata
@@ -24,6 +24,8 @@ departments:
     slug: fah-department-of-classics
   - name: King's College, London
     slug: kings-college-london
+  - name: A&H
+    slug: ah
 members:
   - name: Arianna Ciula
     slug: arianna-ciula
@@ -101,8 +103,8 @@ urls:
   - name: Online exhibition
     url: https://ipervisions.digitalcollections.bsr.ac.uk/irt/
 sla:
-  start: null
-  end: null
+  start: 2017-07-01
+  end: 2027-08-07
 draft: false
 ---
 

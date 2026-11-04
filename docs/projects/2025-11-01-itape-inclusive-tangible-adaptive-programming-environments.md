@@ -19,16 +19,22 @@ feature:
 keywords:
   - name: Digital Creativity
     slug: digital-creativity
+  - name: Digital Futures Institute
+    slug: digital-futures-institute
 funders:
   - name: KCL Digital Futures Institute
     slug: kcl-digital-futures-institute
 departments:
   - name: SSPP Department of Education, Communication & Society
     slug: sspp-department-of-education-communication-society
-  - name: FNMS Department of Informatics
-    slug: fnms-department-of-informatics
+  - name: NMES Department of Informatics
+    slug: nmes-department-of-informatics
   - name: King's College, London
     slug: kings-college-london
+  - name: NMES
+    slug: nmes
+  - name: SSPP
+    slug: sspp
 members:
   - name: Samantha Callaghan
     slug: samantha-callaghan
@@ -43,20 +49,22 @@ members:
     slug: alex-hadwen-bennett
     roleName: Principal investigator
     inOrganisation:
-      name: Faculty of Social Science & Public Policy
-      slug: faculty-of-social-science-public-policy
+      name: SSPP Department of Education, Communication & Society
+      slug: sspp-department-of-education-communication-society
   - name: Timothy Neate
     slug: timothy-neate
     roleName: Principal investigator
     inOrganisation:
-      name: Faculty of Natural, Mathematical & Engineering Sciences
-      slug: faculty-of-natural-mathematical-engineering-sciences
+      name: NMES Department of Informatics
+      slug: nmes-department-of-informatics
 sla:
   start: null
   end: null
 urls:
   - name: Other Project Resource URL
     url: https://tibbl.er.kcl.ac.uk/
+  - name: Project URL
+    url: https://www.kcl.ac.uk/research/tibbl-tangible-inclusive-block-based-language
 ---
 
 This project sought to develop an open-source, tangible programming toolkit inclusive of people with visual impairments. The DFI pilot was the next iteration of TIBBL which looked to develop and extend the [work previously done](https://kdl.kcl.ac.uk/projects/tangible-programming/).

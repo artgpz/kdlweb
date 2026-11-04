@@ -1,8 +1,9 @@
 ---
 title: Jordan Open Source Association
-tags:
-    - organisations
 alternateName: JOSA
+tags:
+  - organisations
+  - departments
 slug: jordan-open-source-association
 foundingDate: null
 dissolutionDate: null

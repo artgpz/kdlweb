@@ -26,18 +26,18 @@ departments:
   - name: Trust for African Rock Art
     slug: trust-for-african-rock-art
 members:
-    - name: Elizabeth Galvin
-      slug: elizabeth-galvin
-      roleName: Principal investigator
-      inOrganisation: null
-    - name: Neil Jakeman
-      slug: neil-jakeman
-      roleName: Research Software Analyst
-      inOrganisation: null
-    - name: Miguel Vieira
-      slug: miguel-vieira
-      roleName: Research Software Engineer
-      inOrganisation: null
+  - name: Neil Jakeman
+    slug: neil-jakeman
+    roleName: Research Software Analyst
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Engineer
+  - name: Elizabeth Galvin
+    slug: elizabeth-galvin
+    roleName: Principal investigator
+    inOrganisation:
+      name: The British Museum
+      slug: the-british-museum
 keywords: []
 urls:
   - name: Project URL

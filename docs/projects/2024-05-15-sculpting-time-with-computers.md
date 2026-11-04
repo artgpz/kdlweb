@@ -16,47 +16,52 @@ feature:
   width: 1200
   height: 800
 funders:
-    - name: KCL A&H
-      slug: kcl-ah
-    - name: KCL DFI
-      slug: kcl-dfi
+  - name: KCL Faculty of Arts and Humanities
+    slug: kcl-faculty-of-arts-and-humanities
+  - name: KCL Digital Futures Institute
+    slug: kcl-digital-futures-institute
 departments:
-    - name: Engineering
-      slug: engineering
-    - name: FAH Department of Digital Humanities
-      slug: fah-department-of-digital-humanities
-    - name: King's College, London
-      slug: kings-college-london
+  - name: NMES Department of Engineering
+    slug: nmes-department-of-engineering
+  - name: FAH Department of Digital Humanities
+    slug: fah-department-of-digital-humanities
+  - name: King's College, London
+    slug: kings-college-london
+  - name: A&H
+    slug: ah
+  - name: NMES
+    slug: nmes
 members:
-    - name: Arianna Ciula
-      slug: arianna-ciula
-      roleName: Research Software Analyst
-    - name: Geoffroy Noel
-      slug: geoffroy-noel
-      roleName: Research Software Engineer
-    - name: Ryan Heuser
-      slug: ryan-heuser
-      roleName: Research Software Engineer
-    - name: Tiffany Ong
-      slug: tiffany-ong
-      roleName: Research Software Designer
-    - name: Daniel Chavez Herras
-      slug: daniel-chavez-herras
-      roleName: Principal investigator
-      inOrganisation:
-          name: FAH Department of Digital Humanities
-          slug: fah-department-of-digital-humanities
-    - name: Joshua Hodes
-      slug: joshua-hodes
-      roleName: Researcher
-      inOrganisation:
-          name: FAH Department of Digital Humanities
-          slug: fah-department-of-digital-humanities
+  - name: Ryan Heuser
+    slug: ryan-heuser
+    roleName: Research Software Engineer
+  - name: Arianna Ciula
+    slug: arianna-ciula
+    roleName: Research Software Analyst
+  - name: Geoffroy Noel
+    slug: geoffroy-noel
+    roleName: Research Software Engineer
+  - name: Daniel Chavez Herras
+    slug: daniel-chavez-herras
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
+  - name: Zoran Cvetkovic
+    slug: zoran-cvetkovic
+    roleName: Co-Investigator
+    inOrganisation:
+      name: NMES Department of Engineering
+      slug: nmes-department-of-engineering
+  - name: Joshua Hodes
+    slug: joshua-hodes
+    roleName: Researcher
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
 keywords:
   - name: Machine Learning and AI
     slug: machine-learning-ai
-  - name: Digital Futures Institute
-    slug: digital-futures-institute
 urls:
   - name: Repository (notebooks)
     url: https://github.com/kingsdigitallab/sculpting-poc/

@@ -34,6 +34,8 @@ departments:
     slug: northern-ireland-screen-commission
   - name: "  \tNorth West Film Archive Manchester Metropolitan University"
     slug: north-west-film-archive-manchester-metropolitan-university
+  - name: A&H
+    slug: ah
 members:
   - name: Arianna Ciula
     slug: arianna-ciula

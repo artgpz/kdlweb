@@ -19,17 +19,22 @@ funders:
   - name: FAH Department of Digital Humanities
     slug: fah-department-of-digital-humanities
 departments:
-    - name: FAH Department of Digital Humanities
-      slug: ddh
+  - name: FAH Department of Digital Humanities
+    slug: fah-department-of-digital-humanities
+  - name: King's College, London
+    slug: kings-college-london
+  - name: A&H
+    slug: ah
 members:
-    - name: Jonathan Gray
-      slug: jonathan-gray
-      roleName: Principal investigator
-      inOrganisation: null
-    - name: Miguel Vieira
-      slug: miguel-vieira
-      roleName: RSE team member
-      inOrganisation: null
+  - name: Miguel Vieira
+    slug: miguel-vieira
+    roleName: Research Software Designer
+  - name: Jonathan Gray
+    slug: jonathan-gray
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Digital Humanities
+      slug: fah-department-of-digital-humanities
 keywords: []
 urls:
   - name: Project URL

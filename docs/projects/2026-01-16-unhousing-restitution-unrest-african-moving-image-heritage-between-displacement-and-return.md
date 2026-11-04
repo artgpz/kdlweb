@@ -34,6 +34,8 @@ departments:
     slug: kings-college-london
   - name: University of Liverpool
     slug: university-of-liverpool
+  - name: A&H
+    slug: ah
 members:
   - name: Samantha Callaghan
     slug: samantha-callaghan

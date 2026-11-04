@@ -27,6 +27,10 @@ departments:
     slug: fah-department-of-history
   - name: King's College, London
     slug: kings-college-london
+  - name: University of Glasgow
+    slug: university-of-glasgow
+  - name: A&H
+    slug: ah
 members:
   - name: Neil Jakeman
     slug: neil-jakeman

@@ -19,26 +19,28 @@ funders:
   - name: National Army Museum
     slug: national-army-museum
 departments:
-    - name: Defence Studies
-      slug: defence-studies
-    - name: King's College, London
-      slug: kings-college-london
+  - name: SSPP Department of Defence Studies
+    slug: sspp-department-of-defence-studies
+  - name: King's College, London
+    slug: kings-college-london
+  - name: SSPP
+    slug: sspp
 members:
-    - name: Neil Jakeman
-      slug: neil-jakeman
-      roleName: Research Software Analyst
-    - name: Mary Chester-Kadwell
-      slug: mary-chester-kadwell
-      roleName: Research Software Engineer
-    - name: Zihao Lu
-      slug: zihao-lu
-      roleName: Research Software Designer
-    - name: Jonathan Fennell
-      slug: jonathan-fennell
-      roleName: Principal investigator
-      inOrganisation:
-          name: Faculty of Social Science & Public Policy
-          slug: faculty-of-social-science-public-policy
+  - name: Neil Jakeman
+    slug: neil-jakeman
+    roleName: Research Software Analyst
+  - name: Mary Chester-Kadwell
+    slug: mary-chester-kadwell
+    roleName: Research Software Engineer
+  - name: Zihao Lu
+    slug: zihao-lu
+    roleName: Research Software Designer
+  - name: Jonathan Fennell
+    slug: jonathan-fennell
+    roleName: Principal investigator
+    inOrganisation:
+      name: SSPP Department of Defence Studies
+      slug: sspp-department-of-defence-studies
 keywords:
   - name: Machine Learning and AI
     slug: machine-learning-ai
