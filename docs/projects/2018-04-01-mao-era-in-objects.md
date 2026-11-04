@@ -23,7 +23,7 @@ departments:
     slug: fah-department-of-history
   - name: Oxford University
     slug: oxford-university
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: A&H
     slug: ah
@@ -40,6 +40,12 @@ members:
   - name: Brian Maher
     slug: brian-maher
     roleName: Research Software Engineer
+  - name: Jennifer Altehenger
+    slug: jennifer-altehenger
+    roleName: Principal investigator
+    inOrganisation:
+      name: University of Oxford
+      slug: university-of-oxford
   - name: Denise Ho
     slug: denise-ho
     roleName: Co-Investigator

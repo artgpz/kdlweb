@@ -30,7 +30,7 @@ departments:
     slug: fah-department-of-film-studies
   - name: Oxford University
     slug: oxford-university
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: University of Liverpool
     slug: university-of-liverpool
@@ -40,6 +40,12 @@ members:
   - name: Samantha Callaghan
     slug: samantha-callaghan
     roleName: Research Software Analyst
+  - name: Erica Carter
+    slug: erica-carter
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Film Studies
+      slug: fah-department-of-film-studies
 sla:
   start: null
   end: null

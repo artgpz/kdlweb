@@ -36,7 +36,7 @@ departments:
     slug: science-gallery-london
   - name: The Alan Turing Institute
     slug: the-alan-turing-institute
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Transform Justice
     slug: transform-justice

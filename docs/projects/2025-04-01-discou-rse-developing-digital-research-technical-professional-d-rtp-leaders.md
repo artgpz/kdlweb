@@ -49,7 +49,7 @@ departments:
     slug: alcesflight
   - name: CCP in Wave Structure Interaction (Deborah Greaves, Plymouth)
     slug: ccp-in-wave-structure-interaction-deborah-greaves-plymouth
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Dreaming Spires
     slug: dreaming-spires
@@ -87,6 +87,12 @@ members:
   - name: Arianna Ciula
     slug: arianna-ciula
     roleName: Co-Investigator
+  - name: Jonathan Cooper
+    slug: jonathan-cooper
+    roleName: Principal investigator
+    inOrganisation:
+      name: University College London
+      slug: university-college-london
   - name: Kirsty Pringle
     slug: kirsty-pringle
     roleName: Co-Investigator

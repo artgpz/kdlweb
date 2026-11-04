@@ -21,7 +21,7 @@ funders:
 departments:
   - name: FAH Department of Music
     slug: fah-department-of-music
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: A&H
     slug: ah
@@ -29,6 +29,12 @@ members:
   - name: Neil Jakeman
     slug: neil-jakeman
     roleName: Research Software Analyst
+  - name: Emma Dillon
+    slug: emma-dillon
+    roleName: Principal investigator
+    inOrganisation:
+      name: FAH Department of Music
+      slug: fah-department-of-music
   - name: Fiona Barsoum
     slug: fiona-barsoum
     roleName: Researcher
