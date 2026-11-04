@@ -25,28 +25,28 @@ jobs:
               with:
                   token: ${{ secrets.PAT }}
 
-            - name: Create or update PR from content into pnpm
+            - name: Create or update PR from content into main
               env:
                   GH_TOKEN: ${{ secrets.PAT }}
               run: |
-                  AHEAD=$(gh api "repos/$GITHUB_REPOSITORY/compare/pnpm...content" \
+                  AHEAD=$(gh api "repos/$GITHUB_REPOSITORY/compare/main...content" \
                       --jq '.ahead_by // empty')
                   if [ -z "$AHEAD" ] || [ "$AHEAD" = "0" ]; then
-                      echo "No changes on 'content' ahead of 'pnpm' — nothing to merge."
+                      echo "No changes on 'content' ahead of 'main' — nothing to merge."
                       exit 0
                   fi
 
-                  PR_NUMBER=$(gh pr list --base pnpm --head content --state open \
+                  PR_NUMBER=$(gh pr list --base main --head content --state open \
                       --json number --jq '.[0].number // empty')
                   if [ -n "$PR_NUMBER" ]; then
                       echo "Appending to existing PR #$PR_NUMBER"
                       gh pr comment "$PR_NUMBER" --body \
-                          "Deployment requested again via Pages CMS — 'content' is now $AHEAD commit(s) ahead of 'pnpm'."
+                          "Deployment requested again via Pages CMS — 'content' is now $AHEAD commit(s) ahead of 'main'."
                       exit 0
                   fi
 
                   gh pr create \
-                      --base pnpm \
+                      --base main \
                       --head content \
-                      --title "Merge content into pnpm" \
-                      --body "Triggered via Pages CMS. 'content' is $AHEAD commit(s) ahead of 'pnpm'."
+                      --title "Merge content into main" \
+                      --body "Triggered via Pages CMS. 'content' is $AHEAD commit(s) ahead of 'main'."
