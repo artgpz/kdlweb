@@ -29,7 +29,7 @@ departments:
     slug: kcl-arc
   - name: University of Brighton
     slug: university-of-brighton
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Central Directorate
     slug: central-directorate

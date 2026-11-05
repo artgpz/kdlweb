@@ -28,7 +28,7 @@ departments:
     slug: yorkshire-film-archive
   - name: National Library of Scotland
     slug: national-library-of-scotland
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Northern Ireland Screen Commission
     slug: northern-ireland-screen-commission

@@ -32,7 +32,7 @@ departments:
     slug: oxford-university
   - name: Time Partners	Ltd
     slug: time-partners-ltd
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Alter Equity
     slug: alter-equity

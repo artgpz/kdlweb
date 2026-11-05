@@ -25,7 +25,7 @@ funders:
 departments:
   - name: FAH Department of History
     slug: fah-department-of-history
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: A&H
     slug: ah

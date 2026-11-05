@@ -21,7 +21,7 @@ departments:
     slug: fah-department-of-history
   - name: University of Kent
     slug: university-of-kent
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: A&H
     slug: ah

@@ -26,7 +26,7 @@ funders:
 departments:
   - name: FAH Department of Digital Humanities
     slug: fah-department-of-digital-humanities
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Temple University
     slug: temple-university

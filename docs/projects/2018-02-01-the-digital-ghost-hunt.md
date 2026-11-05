@@ -27,7 +27,7 @@ departments:
     slug: university-of-sussex
   - name: Royal Holloway University London
     slug: royal-holloway-university-london
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Bournemouth University
     slug: bournemouth-university

@@ -25,7 +25,7 @@ departments:
     slug: fah-department-of-languages-literatures-and-cultures
   - name: French
     slug: french
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Cambridge University
     slug: cambridge-university

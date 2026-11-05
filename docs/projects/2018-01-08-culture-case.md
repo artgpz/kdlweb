@@ -21,7 +21,7 @@ funders:
 departments:
   - name: FAH King's Culture
     slug: fah-kings-culture
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: A&H
     slug: ah

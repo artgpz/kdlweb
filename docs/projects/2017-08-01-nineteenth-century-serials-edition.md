@@ -33,7 +33,7 @@ departments:
     slug: birkbeck
   - name: University of Leeds
     slug: university-of-leeds
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: A&H
     slug: ah

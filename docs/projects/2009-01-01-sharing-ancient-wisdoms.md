@@ -29,7 +29,7 @@ departments:
     slug: university-of-vienna
   - name: Newman Institute Uppsala
     slug: newman-institute-uppsala
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: A&H
     slug: ah

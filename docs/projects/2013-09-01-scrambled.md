@@ -24,7 +24,7 @@ funders:
 departments:
   - name: FAH Department of English
     slug: fah-department-of-english
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Courtauld Institute of Art
     slug: courtauld-institute-of-art

@@ -21,7 +21,7 @@ funders:
 departments:
   - name: King's Digital Lab
     slug: kings-digital-lab
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: A&H
     slug: ah

@@ -21,7 +21,7 @@ funders:
 departments:
   - name: SSPP Department of Defence Studies
     slug: sspp-department-of-defence-studies
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: SSPP
     slug: sspp

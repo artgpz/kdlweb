@@ -1,5 +1,5 @@
 ---
-title: King's College, London
+title: King's College London
 alternateName: null
 tags:
   - departments

@@ -22,7 +22,7 @@ departments:
     slug: fah-department-of-culture-media-creative-industries
   - name: School of Neuroscience
     slug: school-of-neuroscience
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: A&H
     slug: ah

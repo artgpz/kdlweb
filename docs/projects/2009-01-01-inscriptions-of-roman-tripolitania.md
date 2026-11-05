@@ -22,7 +22,7 @@ funders:
 departments:
   - name: FAH Department of Classics
     slug: fah-department-of-classics
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: A&H
     slug: ah
