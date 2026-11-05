@@ -21,7 +21,7 @@ funders:
 departments:
   - name: FAH Department of Music
     slug: fah-department-of-music
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: A&H
     slug: ah

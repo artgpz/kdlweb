@@ -30,7 +30,7 @@ departments:
     slug: fah-department-of-film-studies
   - name: Oxford University
     slug: oxford-university
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: University of Liverpool
     slug: university-of-liverpool

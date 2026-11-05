@@ -29,7 +29,7 @@ departments:
     slug: sspp-department-of-education-communication-society
   - name: NMES Department of Informatics
     slug: nmes-department-of-informatics
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: NMES
     slug: nmes

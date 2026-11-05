@@ -40,7 +40,7 @@ departments:
     slug: fah-department-of-interdisciplinary-humanities
   - name: IoPPN Department of Psychology
     slug: ioppn-department-of-psychology
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Florence Nightingale Faculty of Nursing, Midwifery & Palliative Care
     slug: florence-nightingale-faculty-of-nursing-midwifery-palliative-care

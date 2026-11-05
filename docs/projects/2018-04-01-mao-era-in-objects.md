@@ -23,7 +23,7 @@ departments:
     slug: fah-department-of-history
   - name: Oxford University
     slug: oxford-university
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: A&H
     slug: ah

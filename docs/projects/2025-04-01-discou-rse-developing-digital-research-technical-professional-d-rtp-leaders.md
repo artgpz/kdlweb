@@ -49,7 +49,7 @@ departments:
     slug: alcesflight
   - name: CCP in Wave Structure Interaction (Deborah Greaves, Plymouth)
     slug: ccp-in-wave-structure-interaction-deborah-greaves-plymouth
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Dreaming Spires
     slug: dreaming-spires

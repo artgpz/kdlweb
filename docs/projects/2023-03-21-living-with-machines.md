@@ -28,7 +28,7 @@ departments:
     slug: fah-department-of-digital-humanities
   - name: The Alan Turing Institute
     slug: the-alan-turing-institute
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: British Library
     slug: british-library
@@ -92,6 +92,8 @@ urls:
     url: https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.195
   - name: Language of Mechanisation chapter book
     url: https://read.uolpress.co.uk/read/analysing-the-language-of-mechanisation/section/b2da82aa-d87b-4b37-8913-c0966fc5028a
+  - name: Project URL
+    url: https://kdl.kcl.ac.uk/projects/living-with-machines/
 draft: false
 ---
 

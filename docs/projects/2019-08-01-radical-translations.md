@@ -23,7 +23,7 @@ funders:
 departments:
   - name: FAH Department of Languages, Literatures and Cultures
     slug: fah-department-of-languages-literatures-and-cultures
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: University of Milano-Bicocca
     slug: university-of-milano-bicocca
