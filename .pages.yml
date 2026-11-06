@@ -114,7 +114,7 @@ content:
             type: rich-text
 
     - name: faqs
-      label: FAQ
+      label: FAQs
       type: collection
       path: docs/faqs
       format: yaml-frontmatter
@@ -354,10 +354,9 @@ content:
                         type: string
                       - name: slug
                         label: Slug
-                        type:
-                            string
+                        type: string
 
-                            # - name: funders
+          # - name: funders
           #   label: Funders
           #   type: reference
           #   options:
