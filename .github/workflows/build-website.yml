@@ -53,7 +53,7 @@ jobs:
             - name: Build frontend
               run: |
                   pnpm run build --pathprefix $REPO_NAME
-                  pnpx -y pagefind --site $REPO_NAME
+                  pnpx -y pagefind --site $REPO_NAME/_site
 
             - name: Test frontend
               run: pnpm run test
