@@ -16,7 +16,10 @@ memberOf:
       organisation:
           name: FAH Department of Classics
           slug: fah-department-of-classics
-      roleName: Researcher
+feature:
+    image: /assets/images/people/charlotte-roueché.jpg
+    description: Photo of Professor Charlotte Roueché
+externalUrl: ""
 ---
 
 Honorary Research Fellow - [Biography](https://www.kcl.ac.uk/people/professor-charlotte-roueche)

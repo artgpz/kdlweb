@@ -17,6 +17,10 @@ memberOf:
           name: FAH Department of Digital Humanities
           slug: ddh
       roleName: Research Software Engineer
+feature:
+    image: /assets/images/people/miguel-vieira.jpg
+    description: Photo of Miguel Vieira
+externalUrl: ""
 ---
 
 Miguel was a Principal Research Software Engineer in KDL, where he worked from 2015 until 2026. He currently collaborates with the Lab as a Visiting Fellow.

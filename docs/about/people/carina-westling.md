@@ -11,9 +11,13 @@ memberOf:
           name: Royal Holloway, University of London
           slug: royal-holloway
       roleName: Researcher
+feature:
+    image: /assets/images/people/carina-westling.jpg
+    description: Photo of Carina Westling
+externalUrl: ""
 ---
 
-Carina worked as a Project Manager in KDL from September 2016 until autumn 2017, and subsequently collaborated with the Lab as a Visiting Fellow. 
+Carina worked as a Project Manager in KDL from September 2016 until autumn 2017, and subsequently collaborated with the Lab as a Visiting Fellow.
 
 Carina researches interaction and experience design with a focus on the infrastructures of interactive systems. She holds a PhD in Media and Cultural Studies from the University of Sussex, for which she undertook ethnographies of Punchdrunk’s interactive work in theatre and blended media, including their making cultures, live and digital audiences, and developed a methodology for critical analysis of interactive systems.
 
@@ -23,4 +27,4 @@ Carina’s research interests are focused on digital entropy and infrastructures
 
 ---
 
-In addition to more extensive engagement with the projects listed below, Carina’s work as a project manager was integral to all of KDL's active projects. She was involved with all projects developed during her time as a project manager at KDL. 
+In addition to more extensive engagement with the projects listed below, Carina’s work as a project manager was integral to all of KDL's active projects. She was involved with all projects developed during her time as a project manager at KDL.

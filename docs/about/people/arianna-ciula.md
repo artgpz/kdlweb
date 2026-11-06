@@ -17,6 +17,10 @@ memberOf:
           name: King's Digital Lab
           slug: kdl
       roleName: Co-investigator
+feature:
+    image: /assets/images/people/arianna-ciula.jpg
+    description: Photo of Arianna Ciula
+externalUrl: ""
 ---
 
 Arianna has over 20 years’ experience in collaborative Digital Humanities (DH) research, and 15 years’ experience in research management, and digital research infrastructures (inclusive of research policy strategy and implementation). She is an active member of the Research Software Engineers (RSE) and DH national and international communities; she researches and advocates for a holistic understanding of digital infrastructures and of modelling processes of cultural-historical objects and phenomena for the application of computational methods.

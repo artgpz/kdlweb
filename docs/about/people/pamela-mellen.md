@@ -11,6 +11,10 @@ memberOf:
           name: King's Digital Lab
           slug: kdl
       roleName: RSE team member
+feature:
+    image: /assets/images/people/pamela-mellen.jpg
+    description: Photo of Pamela Mellen
+externalUrl: ""
 ---
 
 Pamela Mellen oversees the Lab's business functions and is deeply involved in managing the Lab's strategic and continuous improvement goals. She also manages key elements of KDL projects, coordinating between the KDL development team and our range of external partners.
