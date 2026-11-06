@@ -64,6 +64,8 @@ urls:
     url: https://zenodo.org/records/20667275
   - name: GitHub Repository URL
     url: https://github.com/kingsdigitallab/nfcs-poc
+  - name: Other Project Resource URL
+    url: https://doi.org/10.5281/zenodo.18350211
 ---
 
 This project on scoping Arts and Humanities (A&H) federation infrastructure contributes to the community pillar of the [NFCS NetworkPlus project](https://nfcs-networkplus.ac.uk/about/). Its aim is to engage with the A&H communities and stakeholders interested in federation and produce validated requirements for federation based on existing approaches, needs and user stories. It will build on existing insights and efforts from the A&H communities through investigation, surveying the community and community-facing events.
