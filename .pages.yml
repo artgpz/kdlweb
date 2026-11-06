@@ -197,6 +197,10 @@ content:
           - name: subtitle
             label: Subtitle
             type: string
+          - name: draft
+            label: Draft
+            type: boolean
+            default: true
           - name: excerpt
             label: Excerpt
             type: string
@@ -234,10 +238,6 @@ content:
             options:
                 path: /assets/images/blog
                 rename: safe
-          - name: draft
-            label: Draft
-            type: boolean
-            default: true
 
     - name: projects
       label: Projects
@@ -255,6 +255,10 @@ content:
             label: false
             hidden: true
             type: string
+          - name: draft
+            label: Draft
+            type: boolean
+            default: true
           - name: tags
             label: Tags
             type: string
@@ -423,10 +427,6 @@ content:
                 - name: end
                   label: End
                   type: date
-          - name: draft
-            label: Draft
-            type: boolean
-            default: true
 settings:
     content:
         merge: true
