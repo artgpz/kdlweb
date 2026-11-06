@@ -133,6 +133,52 @@ content:
             label: Content
             type: rich-text
 
+    - name: people
+      label: People
+      type: collection
+      path: docs/about/people
+      format: yaml-frontmatter
+      fields:
+          - name: title
+            label: Title
+            type: string
+          - name: slug
+            label: false
+            hidden: true
+            type: string
+          - name: jobTitle
+            label: Job title
+            type: string
+            hidden: true
+          - name: tags
+            label: Tags
+            type: string
+            list: true
+          - name: memberOf
+            label: Member of
+            type: object
+            list: true
+            fields:
+                - name: startDate
+                  label: Start date
+                  type: date
+                - name: endDate
+                  label: End date
+                  type: date
+                - name: organisation
+                  label: Organisation
+                  type: object
+                  fields:
+                      - name: name
+                        label: Name
+                        type: string
+                      - name: slug
+                        label: Slug
+                        type: string
+          - name: body
+            label: Content
+            type: rich-text
+
     - name: blog
       label: Blog
       type: collection
@@ -272,7 +318,7 @@ content:
                   label: Name
                   type: string
                 - name: slug
-                  label:
+                  label: Slug
                   type: string
           - name: departments
             label: Departments
