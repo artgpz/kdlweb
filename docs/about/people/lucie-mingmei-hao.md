@@ -11,6 +11,10 @@ memberOf:
           name: King's Digital Lab
           slug: kdl
       roleName: Research Software Designer
+feature:
+    image: /assets/images/people/lucie-mingmei-hao.jpg
+    description: Photo of Lucie Mingmei Hao
+externalUrl: ""
 ---
 
 Lucie was a designer at KDL from August 2023-March 2024. She has an interdisciplinary background with expertise in academic research, human-computer interaction, frontend and web technologies, UI/UX. She is keen to draw connections between both digital media and innovative technologies. she also has practical experience in industry-focused media projects.

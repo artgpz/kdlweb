@@ -25,7 +25,7 @@ departments:
     slug: nmes-department-of-engineering
   - name: FAH Department of Digital Humanities
     slug: fah-department-of-digital-humanities
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: A&H
     slug: ah

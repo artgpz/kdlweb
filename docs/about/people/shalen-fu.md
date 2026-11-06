@@ -5,6 +5,10 @@ jobTitle: null
 tags:
     - people
 memberOf: []
+feature:
+    image: /assets/images/people/shalen-fu.png
+    description: Photo of Shalen Fu
+externalUrl: ""
 ---
 
 Shalen worked at KDL from 2022-2023, managing the Lab’s project portfolio and ensuring continuous improvement of the Lab’s project delivery processes.

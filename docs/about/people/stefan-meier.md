@@ -11,6 +11,10 @@ memberOf:
           name: King's Digital Lab
           slug: kdl
       roleName: Research Software Engineer
+feature:
+    image: /assets/images/people/stefan-meier.jpg
+    description: Photo of Stefan Meier
+externalUrl: ""
 ---
 
 Stefan Meier was a Senior Research Software Engineer in the Lab, where he worked from 2025 until 2026.

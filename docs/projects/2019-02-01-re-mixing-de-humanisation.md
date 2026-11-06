@@ -29,7 +29,7 @@ departments:
     slug: kings-digital-lab
   - name: SSPP Department of Geography
     slug: sspp-department-of-geography
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Migration Museum
     slug: migration-museum

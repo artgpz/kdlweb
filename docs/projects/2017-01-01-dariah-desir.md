@@ -44,7 +44,7 @@ departments:
     slug: university-of-glasgow
   - name: Ghent University
     slug: ghent-university
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: SIB Swiss Institute of Bioinformatics
     slug: sib-swiss-institute-of-bioinformatics

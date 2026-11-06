@@ -11,6 +11,10 @@ memberOf:
           name: King's Digital Lab
           slug: kdl
       roleName: Research Software Engineer
+feature:
+    image: /assets/images/people/elliott-hall.jpg
+    description: Photo of Elliott Hall
+externalUrl: ""
 ---
 
 Elliott was a Senior Research Software Engineer in the Lab, where he worked from 2015 until 2023.

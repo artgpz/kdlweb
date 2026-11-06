@@ -17,6 +17,10 @@ memberOf:
           name: FAH Department of Digital Humanities
           slug: ddh
       roleName: RSE team member
+feature:
+    image: /assets/images/people/harold-short.jpg
+    description: Photo of Professor Harold Short
+externalUrl: ""
 ---
 
 Harold Short is Emeritus Professor of King’s College London, where he founded and directed the Centre for Computing in the Humanities (later Department of Digital Humanities) until retirement in 2010. He was involved in the development of three MA programmes: Digital Humanities, Digital Culture and Society and Digital Asset Management, and, with Willard McCarty, of the world's first PhD programme in Digital Humanities, launched in 2005. He also played a lead role as Co-Investigator or Technical Research Director in over 20 large-scale inter-disciplinary research projects.

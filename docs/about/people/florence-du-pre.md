@@ -5,9 +5,13 @@ jobTitle: null
 tags:
     - people
 memberOf: []
+feature:
+    image: /assets/images/people/florence-du-pre.jpg
+    description: Photo of Florence du Pré
+externalUrl: ""
 ---
 
-Florence was a Senior Research Software Project Manager in the Lab, where she worked from 2019 until 2022. 
+Florence was a Senior Research Software Project Manager in the Lab, where she worked from 2019 until 2022.
 
 Her role involved the management of KDL’s project portfolio and ensuring continuous improvement of the Lab’s project delivery processes.
 
@@ -17,4 +21,4 @@ She holds professional qualifications for ITIL (Information Technology Infrastru
 
 ---
 
-In addition to more extensive engagement with the projects listed below, Florence’s work as a project manager was integral to all of KDL's active projects. She was involved with all projects developed during her time as a project manager at KDL. 
+In addition to more extensive engagement with the projects listed below, Florence’s work as a project manager was integral to all of KDL's active projects. She was involved with all projects developed during her time as a project manager at KDL.

@@ -27,7 +27,7 @@ departments:
     slug: fah-department-of-culture-media-creative-industries
   - name: King's Digital Lab
     slug: kings-digital-lab
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: To Play For
     slug: to-play-for

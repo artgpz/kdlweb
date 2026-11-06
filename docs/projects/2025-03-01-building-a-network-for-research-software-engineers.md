@@ -17,7 +17,7 @@ departments:
     slug: kcl-arc
   - name: Humboldt University Berlin
     slug: humboldt-university-berlin
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: Central Directorate
     slug: central-directorate

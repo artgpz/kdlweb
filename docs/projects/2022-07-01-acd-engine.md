@@ -22,7 +22,7 @@ funders:
 departments:
   - name: FAH Department of Digital Humanities
     slug: fah-department-of-digital-humanities
-  - name: King's College, London
+  - name: King's College London
     slug: kings-college-london
   - name: University of Melbourne
     slug: university-of-melbourne

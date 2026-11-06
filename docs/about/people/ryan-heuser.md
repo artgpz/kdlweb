@@ -11,9 +11,13 @@ memberOf:
           name: King's Digital Lab
           slug: kdl
       roleName: RSE team member
+feature:
+    image: /assets/images/people/ryan-heuser.jpg
+    description: Photo of Ryan Heuser
+externalUrl: ""
 ---
 
-Ryan was a Senior Research Software Engineer in the Lab from March-August 2024. 
+Ryan was a Senior Research Software Engineer in the Lab from March-August 2024.
 
 Ryan is a literary historian and computational humanist with fifteen years of experience in researching and teaching in the digital humanities (DH). His research and pedagogy span topics from the history and theory of DH to its methodological groundings in data science and visualization, natural language processing, network theory, machine learning, and large language models. His work leverages computational methods developed within computer science, computational linguistics, and subfields of DH often called ‘cultural analytics’ or ‘computational humanities’, in order to provide new digital perspectives on language, art, and culture at scales ranging from the close to the distant. Ryan’s own research focuses on computational approaches to prosody and rhythm, literary and intellectual history, and the history and impact of artificial intelligence on language. Some of his latest work on computational intellectual history appears in a new book from Cambridge University Press, Explorations in the Digital History of Ideas, published November 2023 (ed. Peter de Bolla).
 
