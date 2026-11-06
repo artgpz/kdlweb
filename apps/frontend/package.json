@@ -9,7 +9,7 @@
 		"dev": "eleventy --serve",
 		"debug": "DEBUG=Eleventy* npm run dev",
 		"index": "npx -y pagefind --site _site",
-		"test:e2e": "playwright install && playwright test",
+		"test:e2e": "playwright install --with-deps firefox && playwright test",
 		"test": "pnpm run test:e2e"
 	},
 	"author": "King's Digital Lab",
