@@ -1,26 +1,3 @@
-actions:
-    - name: update-content
-      label: Update content
-      workflow: update-content.yml
-      confirm:
-          title: Update content
-          message: This will update content of projects, organisations and people with the data from ClickUp from the existing list of projects. If you want to get a recently created project run sync projects first.
-          button: Update content
-    - name: sync-projects
-      label: Sync project IDs
-      workflow: sync-projects.yml
-      confirm:
-          title: Sync projects IDs?
-          message: This will generate an index of all projects in ClickUp (aprox 20 mins), which then can be used to create and/or update data by running the update data action.
-          button: Sync projects IDs
-
-    - name: request-deployment
-      label: Request deployment to production
-      workflow: request-deployment.yml
-      confirm:
-          title: Request deployment to production
-          message: This will submit your content changes for an RSE's to checkbefore deploying to production. You will still be able to make changes if you spot any issues but but please make sure you're happy with the changes in the dev website before making a request.
-          button: Request
 media:
     - name: images
       label: Images
