@@ -124,6 +124,7 @@ content:
             type: string
           - name: order
             label: Order
+            description: This is the order of which they'll be shown in the FAQs page, "What does working with KDL involve?" should always be 0 as the css megafile has hardcoded article 0 to render the diagram.
             type: number
           - name: tags
             label: Tags
