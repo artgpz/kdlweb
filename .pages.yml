@@ -318,7 +318,7 @@ content:
                   label: Name
                   type: string
                 - name: slug
-                  label:
+                  label: Slug
                   type: string
           - name: departments
             label: Departments
