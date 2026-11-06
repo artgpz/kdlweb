@@ -12,8 +12,8 @@ import markdownIt from "markdown-it";
 import markdownItFootnote from "markdown-it-footnote";
 import Nunjucks from "nunjucks";
 import path, { resolve } from "node:path";
-import { execSync } from "node:child_process";
-import { fileURLToPath } from "node:url";
+// import { execSync } from "node:child_process";
+// import { fileURLToPath } from "node:url";
 import sass from "sass";
 import dotenv from "dotenv";
 import seoConfig from "./src/_data/config.js";
@@ -35,13 +35,21 @@ export default (eleventyConfig) => {
 	eleventyConfig.setTemplateFormats(["html", "njk", "md"]);
 	eleventyConfig.addPassthroughCopy({
 		[`${kdlComponentsPath}/kdl/assets/stylesheets`]: "/assets/stylesheets",
-		"../node_modules/reveal.js/dist": "assets/reveal/",
-		"../node_modules/reveal.js/dist/plugin": "assets/reveal/plugin",
-		"../../docs/assets/images": "assets/images",
-		"../../docs/assets/videos": "assets/videos",
+
+		[`${resolve(import.meta.dirname, "node_modules/reveal.js/dist")}`]: "assets/reveal/",
+		[`${resolve(import.meta.dirname, "node_modules/reveal.js/dist/plugin")}`]: "assets/reveal/plugin",
+		[`${resolve(import.meta.dirname, "../../docs/assets/images")}`]: "assets/images",
+		[`${resolve(import.meta.dirname, "../../docs/assets/videos")}`]: "assets/videos",
 		"./src/assets/fonts": "assets/fonts",
 		"./src/assets/icons": "assets/icons",
 		"./src/assets/stylesheets": "assets/stylesheets",
+		// "../node_modules/reveal.js/dist": "assets/reveal/",
+		// "../node_modules/reveal.js/dist/plugin": "assets/reveal/plugin",
+		// "../../docs/assets/images": "assets/images",
+		// "../../docs/assets/videos": "assets/videos",
+		// "./src/assets/fonts": "assets/fonts",
+		// "./src/assets/icons": "assets/icons",
+		// "./src/assets/stylesheets": "assets/stylesheets",
 		public: "/",
 	});
 
@@ -100,25 +108,25 @@ export default (eleventyConfig) => {
 			return data.eleventyExcludeFromCollections;
 		};
 	});
-	let pageCheckDone = false;
+	// let pageCheckDone = false;
 
-	eleventyConfig.on("eleventy.before", ({ runMode }) => {
-		if (runMode === "serve" || runMode === "watch") {
-			process.env.BUILD_DRAFTS = true;
-		}
-	});
+	// eleventyConfig.on("eleventy.before", ({ runMode }) => {
+	// 	if (runMode === "serve" || runMode === "watch") {
+	// 		process.env.BUILD_DRAFTS = true;
+	// 	}
+	// });
 
-	eleventyConfig.on("eleventy.after", ({ runMode }) => {
-		if (runMode === "serve" && !pageCheckDone) {
-			pageCheckDone = true;
-			const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-			try {
-				execSync("bash scripts/page-check.sh", { cwd: repoRoot, stdio: "inherit" });
-			} catch {
-				// informational only
-			}
-		}
-	});
+	// eleventyConfig.on("eleventy.after", ({ runMode }) => {
+	// 	if (runMode === "serve" && !pageCheckDone) {
+	// 		pageCheckDone = true;
+	// 		const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+	// 		try {
+	// 			execSync("bash scripts/page-check.sh", { cwd: repoRoot, stdio: "inherit" });
+	// 		} catch {
+	// 			// informational only
+	// 		}
+	// 	}
+	// });
 
 	eleventyConfig.addFilter("toLocaleDate", kdlFilters.toLocaleDate);
 	eleventyConfig.addFilter("filter", kdlFilters.filter);
