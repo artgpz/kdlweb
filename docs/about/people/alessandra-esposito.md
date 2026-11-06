@@ -3,20 +3,17 @@ title: Alessandra Esposito
 slug: alessandra-esposito
 jobTitle: Research Software Project Manager
 tags:
-    - people
+  - people
 memberOf:
-    - startDate: null
-      endDate: null
-      organisation:
-          name: King's Digital Lab
-          slug: kdl
-      roleName: Research Software Project Manager
+  - startDate: 2026-11-06
+    endDate: 2026-11-06
+    organisation:
+      name: King's Digital Lab
+      slug: kdl
 feature:
-    image: /assets/images/people/alessandra-esposito.jpg
-    description: Photo of Alessandra Esposito
-externalUrl: ""
+  image: /assets/images/alessandra.jpg
+  description: Photo of Alessandra Esposito
 ---
-
 Alessandra joined King's Digital Lab (KDL) in 2019 as a Research Associate on the AHRC/Newton-funded [MaDiH (مديح): Mapping Digital Cultural Heritage in Jordan project](https://kdl.kcl.ac.uk/projects/madih/) and returned in 2023 as Research Software Project Manager.
 In her current role, she manages internally and externally funded digital research projects, working with the Solution Development Team (SDT), researchers, and institutional partners to support the delivery of sustainable digital scholarship. She has been involved with all projects developed during her time as Project Manager.
 
