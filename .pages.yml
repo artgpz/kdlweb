@@ -124,6 +124,7 @@ content:
             type: string
           - name: order
             label: Order
+            description: This is the order of which they'll be shown in the FAQs page, "What does working with KDL involve?" should always be 0 as the css megafile has hardcoded article 0 to render the diagram.
             type: number
           - name: tags
             label: Tags
@@ -175,6 +176,20 @@ content:
                       - name: slug
                         label: Slug
                         type: string
+          - name: feature
+            label: Feature
+            type: object
+            fields:
+                - name: image
+                  label: Image
+                  type: image
+                  options:
+                      path: /assets/images/people
+                      rename: safe
+                - name: description
+                  label: Description
+                  type: rich-text
+
           - name: body
             label: Content
             type: rich-text
@@ -196,6 +211,10 @@ content:
           - name: subtitle
             label: Subtitle
             type: string
+          - name: draft
+            label: Draft
+            type: boolean
+            default: true
           - name: excerpt
             label: Excerpt
             type: string
@@ -233,10 +252,6 @@ content:
             options:
                 path: /assets/images/blog
                 rename: safe
-          - name: draft
-            label: Draft
-            type: boolean
-            default: true
 
     - name: projects
       label: Projects
@@ -254,6 +269,10 @@ content:
             label: false
             hidden: true
             type: string
+          - name: draft
+            label: Draft
+            type: boolean
+            default: true
           - name: tags
             label: Tags
             type: string
@@ -422,10 +441,6 @@ content:
                 - name: end
                   label: End
                   type: date
-          - name: draft
-            label: Draft
-            type: boolean
-            default: true
 settings:
     content:
         merge: true

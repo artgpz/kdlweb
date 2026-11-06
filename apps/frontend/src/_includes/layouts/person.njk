@@ -13,10 +13,10 @@ layout: layouts/agent.njk
 {% endif %}
 
 <section>
-	{% if member %}
-		{% if member.feature %}
-			<img src="{{ member.feature.image }}" alt="{{ member.feature.description }}" />
-		{% endif %}
+	{% if feature %}
+		{# {% if member.feature %} #}
+		<img src="{{ feature.image }}" alt="{{ feature.description }}" />
+		{# {% endif %} #}
 	{% endif %}
 	{% if content %}
 		<div class="description">

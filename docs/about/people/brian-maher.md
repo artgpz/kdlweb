@@ -11,9 +11,13 @@ memberOf:
           name: King's Digital Lab
           slug: kdl
       roleName: Research Software Engineer
+feature:
+    image: /assets/images/people/brian-maher.jpg
+    description: Photo of Brian Maher
+externalUrl: ""
 ---
 
-Brian was a Senior Research Software Engineer & Research Software Systems Manager in KDL, where he worked from 2017 until 2023. He currently collaborates with the Lab as a Visiting Fellow.  
+Brian was a Senior Research Software Engineer & Research Software Systems Manager in KDL, where he worked from 2017 until 2023. He currently collaborates with the Lab as a Visiting Fellow.
 
 After completing his MSc in Bioinformatics at KCL, Brian joined the Department of Digital Humanities in 2013 as a Research Developer working on two projects - “The Art of Making” and “The Making of Charlemagne’s Europe”.
 
