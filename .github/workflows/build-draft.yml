@@ -56,6 +56,7 @@ jobs:
             - name: Build frontend
               run: |
                   pnpm run build --pathprefix $REPO_NAME
+                  pnpx -y pagefind --site $REPO_NAME
 
             - name: Save image cache
               uses: actions/cache/save@v6
