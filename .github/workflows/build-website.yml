@@ -3,7 +3,7 @@ name: Build and test website
 on:
     pull_request:
         branches:
-            - pnpm
+            - develop
 
 concurrency:
     group: ${{ github.workflow }}-${{ github.ref }}
