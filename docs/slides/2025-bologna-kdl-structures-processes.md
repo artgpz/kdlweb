@@ -40,11 +40,8 @@ Arianna Ciula
 ### Sistema socio-tecnico multilivello
 
 <small>[Ciula e Smithies 2023](https://doi.org/10.2307/j.ctv2wk727j.9)</small>
-<img
-    src="/assets/images/slides/bologna-2025-fig_1.jpg"
-  height="570"
-  alt="layers of socio-technical system"
-  />
+
+![Layers of socio-technical system](/assets/images/slides/bologna-2025-fig_1.jpg)
 
 <aside class="notes">
 
@@ -81,7 +78,9 @@ Arianna Ciula
 ## Dati e _project lifecycle_
 
 <div class="r-stack">
-  <img
+
+<img
+    eleventy:ignore
     class="fragment fade-out"
     data-fragment-index="0"
     src="/assets/images/slides/sdlc.png"
@@ -90,6 +89,7 @@ Arianna Ciula
 />
 
 <img
+  eleventy:ignore
   class="fragment"
   data-fragment-index="0"
   src="/assets/images/slides/bologna-2025-sdlc-data.png"

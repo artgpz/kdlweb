@@ -75,6 +75,7 @@ Arianna Ciula, Miguel Vieira, Rosa Mucignat, Sanja Perovic
     src="/assets/images/slides/radicaltranslations-knows-network.svg"
     height="600"
     alt=""
+    eleventy:ignore
   />
   <img
     class="fragment"
@@ -82,6 +83,7 @@ Arianna Ciula, Miguel Vieira, Rosa Mucignat, Sanja Perovic
     src="/assets/images/slides/radicaltranslations-network-interface.png"
     height="600"
     alt=""
+    eleventy:ignore
   />
 </div>
 
@@ -109,7 +111,7 @@ Arianna Ciula, Miguel Vieira, Rosa Mucignat, Sanja Perovic
 
 ### Abstracts complex personal trajectories
 
-<img src="/assets/images/slides/radicaltranslations-thomas-paine.svg" height="500" alt="" />
+<img src="/assets/images/slides/radicaltranslations-thomas-paine.svg" height="500" alt="" eleventy:ignore/>
 
 <aside class="notes">
 
@@ -137,6 +139,7 @@ Arianna Ciula, Miguel Vieira, Rosa Mucignat, Sanja Perovic
     src="/assets/images/slides/radicaltranslations-knows-network-before.svg"
     alt=""
     height="500"
+    eleventy:ignore
   />
   <img
     class="fragment"
@@ -144,6 +147,7 @@ Arianna Ciula, Miguel Vieira, Rosa Mucignat, Sanja Perovic
     src="/assets/images/slides/radicaltranslations-knows-network-after.svg"
     height="500"
     alt=""
+    eleventy:ignore
   />
 </div>
 
@@ -175,6 +179,7 @@ Arianna Ciula, Miguel Vieira, Rosa Mucignat, Sanja Perovic
     src="/assets/images/slides/radicaltranslations-basedin-translated-network.svg"
     height="500"
     alt=""
+    eleventy:ignore
   />
 
 <aside class="notes">
@@ -244,6 +249,7 @@ Arianna Ciula, Miguel Vieira, Rosa Mucignat, Sanja Perovic
     src="/assets/images/slides/radicaltranslations-research-countries.svg"
     height="500"
     alt=""
+    eleventy:ignore
   />
   <img
     class="fragment"
@@ -251,6 +257,7 @@ Arianna Ciula, Miguel Vieira, Rosa Mucignat, Sanja Perovic
     src="/assets/images/slides/radicaltranslations-knows-network-annotated.svg"
     height="500"
     alt=""
+    eleventy:ignore
   />
 </div>
 

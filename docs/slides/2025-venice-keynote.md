@@ -148,9 +148,7 @@ Inherited over 100 completed projects with no funding
 
 DRI in the Arts & Humanities, in a UK University and with a specific business model - how to collaborate with us and how do we collaborate?
 
-<img src="/assets/images/slides/venice-infrastructure.jpg"
-    alt="KDL SDLC cycle"
-  style="width:600px">
+![KDL SDLC cycle](/assets/images/slides/venice-infrastructure.jpg)
 
 <small>Emmanuel Lafont / BBC</small>
 
@@ -170,9 +168,7 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 [Questionnaire](https://kdl.kcl.ac.uk/solutions/resources/guidelines-project-partners/) and [FAQ](https://kdl.kcl.ac.uk/faqs/)
 
-<img src="/assets/images/slides/sdlc.png"
-    alt="KDL SDLC cycle"
-  style="width:800px">
+![KDL SDLC cycle](/assets/images/slides/sdlc.png)
 
 <aside class="notes">
 
@@ -191,7 +187,7 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 <img src="/assets/images/slides/path-lkshay.png"
     alt="KDL SDLC cycle"
-  style="width:300px">
+  style="width:300px" eleventy:ignore>
 
 <small>Lkshay Jain on @pexels</small>
 
@@ -235,6 +231,7 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
     src="/assets/images/slides/crossreads-requirements.png"
     style="width:300px"
     alt="CROSSREADS requirements"
+    eleventy:ignore
 />
 
 <img
@@ -242,6 +239,7 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
   data-fragment-index="0"
   src="/assets/images/slides/crossreads-requirements1.jpg"
   alt="CROSSREADS requirements table view"
+  eleventy:ignore
 />
 
 </div>
@@ -258,11 +256,7 @@ DRI in the Arts & Humanities, in a UK University and with a specific business mo
 
 [Inscription example](https://kingsdigitallab.github.io/corpus-building/inscription/ISic002945) ([public](https://corpus-building.kdl.kcl.ac.uk/inscription/ISic002945))
 
-<img class="fragment"
-    src="/assets/images/slides/crossreads-petrography.png"
-    alt="Petrography analysis workflow"
-  style="width:700px"
-/>
+![Petrography analysis workflow](/assets/images/slides/crossreads-petrography.png)
 
 <aside class="notes">
 
